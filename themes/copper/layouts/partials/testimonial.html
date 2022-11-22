@@ -64,3 +64,30 @@
 {{ end }}
 {{ end }}
 <!-- end of testimonials-carousel -->
+
+
+<!-- start of brand-carousel -->
+{{ if $data.homepage.clients_logo_slider.enable }}
+{{ with $data.homepage.clients_logo_slider }}
+<section class="section-padding overflow-hidden">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-30">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" data-aos="fade-left">
+        <div class="brand-carousel">
+          {{ range .logos }}
+          <div class="brand-item d-flex align-items-center justify-content-center">
+            <img class="img-fluid" src="{{ . |absURL}}" alt=""></div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of brand-carousel -->

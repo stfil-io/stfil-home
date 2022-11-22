@@ -43,21 +43,21 @@
       </div>
       <div class="col-lg-2 col-md col-sm-6">
         <div class="pl-0 pl-md-3 mt-5 mt-md-0">
-          <h5 class="font-weight-600 mb-20">{{ i18n "quick_links"}}</h5>
-          <ul class="list-unstyled footer-links">
-            {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md col-sm-6">
-        <div class="pl-0 pl-md-3 mt-5 mt-md-0">
           <h5 class="font-weight-600 mb-20">{{i18n "social_links"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Params.social }}
             <li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
             {{end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md col-sm-6">
+        <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+          <h5 class="font-weight-600 mb-20">{{ i18n "quick_links"}}</h5>
+          <ul class="list-unstyled footer-links">
+            {{ range site.Menus.footer }}
+            <li><a href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
+            {{ end }}
           </ul>
         </div>
       </div>
