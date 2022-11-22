@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 title = "STFIL - 一个为 Filecoin 构建流动性质押的去中心化自治的组织"
 theme = "copper"
 # post pagination
