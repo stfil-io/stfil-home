@@ -30,8 +30,8 @@
         </div>
       </div>
       <div class="col-xl-5 col-lg-6 order-lg-0">
-        <h2 class="h1 mb-20">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
+        <h2 class="h1 mb-20">{{ .title | markdownify }}</h2>
 
         {{if .form.enable }}
         {{with .form }}
@@ -106,12 +106,6 @@
 <section class="section-padding"
          style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify}}</p>
-      </div>
-    </div>
     <div class="row justify-content-center">
       <div class="has-colored-text growth-rate-counter">
         {{ range .funfacts }}
