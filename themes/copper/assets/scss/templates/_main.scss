@@ -550,6 +550,10 @@
     width: 90px;
   }
 
+  .block-lg {
+    width: 220px;
+  }
+
   .block,
   .block-sm {
     @include breakAt(lg-device) {

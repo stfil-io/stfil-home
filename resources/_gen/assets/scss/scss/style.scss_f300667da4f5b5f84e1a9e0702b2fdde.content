@@ -2136,6 +2136,9 @@ a.text-black-400:hover {
 .growth-rate-counter .block-sm {
   width: 90px; }
 
+.growth-rate-counter .block-lg {
+  width: 220px; }
+
 @media (max-width: 991px) {
   .growth-rate-counter .block,
   .growth-rate-counter .block-sm {

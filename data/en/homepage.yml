@@ -12,16 +12,16 @@ banner:
     form_acttion : "#"
     button_label : "Request Demo"
   button:
-    enable : false
+    enable : true
     icon : "images/brands/google.png"
-    label : "Sign Up With Google"
+    label : "Assets Stake"
     link : "#"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
 ########################## How it works #########################
 homepage_tab:
-  enable : true
+  enable : false
   title : "How **it Works**"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
   tablist:
@@ -126,21 +126,25 @@ workflow:
 
 ############################## Achivement ##############################
 achivement:
-  enable : false
-  title : "Average yearly growth rate **across our clients We able to achive**"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
+  enable : true
+  title : "平台数据"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:
-  - name : "Years Of <br> Experience"
+  - name : "FIL质押量"
     count : "24"
     extension : "+"
 
-  - name : "More Real <br> Active users"
+  - name : "参与质押人数"
     count : "10"
     extension : "M+"
 
-  - name : "Employees <br> Work Here"
+  - name : "累计奖励收益"
     count : "3000"
     extension : "+"
+
+  - name: "存储提供商数量"
+    count: "3000"
+    extension: "+"
 
   services:
   - name : "Fully Secure And Hacking Free"
@@ -247,3 +251,8 @@ call_to_action:
     enable : true
     label : "Get Started With Us"
     link : "contact"
+
+
+subscription:
+  enable: true
+  mailchimp_form_action: "#"

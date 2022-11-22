@@ -56,11 +56,13 @@
 
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{.link | absLangURL}}"
-          class="btn btn-outline-secondary d-flex align-items-center justify-content-center">
-          {{with .icon}} <img class="mr-2" src="{{ . }}">{{end}} {{.label}}</a>
-
-        <p class="content has-underdot-link text-black-700 mt-15">{{ .content | markdownify }}</p>
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary has-icon mt-4">{{.label}}
+            <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                  <path
+                          d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
+                          fill="currentColor" /></svg></span>
+          </a>
         {{ end }}
         {{ end }}
       </div>
@@ -97,6 +99,35 @@
 <!-- end of videoModal -->
 {{ end }}
 {{ end }}
+
+<!-- start of growth-rate -->
+{{ if $data.homepage.achivement.enable }}
+{{ with $data.homepage.achivement }}
+<section class="section-padding"
+         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="has-colored-text growth-rate-counter">
+        {{ range .funfacts }}
+        <div class="d-inline-block block-lg mr-30 mt-30 text-center">
+          <h1 class="has-text-color font-weight-bold">
+            <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}</h1>
+          <p class="mt-10">{{ .name | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of growth-rate -->
 
 <!-- start of how-it-works tab -->
 {{ if $data.homepage.homepage_tab.enable }}
@@ -299,48 +330,6 @@
 {{ end }}
 <!-- end of horizontal-accordion -->
 
-<!-- start of growth-rate -->
-{{ if $data.homepage.achivement.enable }}
-{{ with $data.homepage.achivement }}
-<section class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
-         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-10">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h2 class="section-title">{{ .title | markdownify }}</h2>
-            <p class="border-bottom pb-30 mr-0 mr-lg-5">{{ .content | markdownify }}</p>
-            <div class="has-colored-text growth-rate-counter">
-              {{ range .funfacts }}
-              <div class="d-inline-block block-sm mr-30 mt-30">
-                <h2 class="has-text-color font-weight-bold">
-                  <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}</h2>
-                <p class="mt-10">{{ .name | markdownify }}</p>
-              </div>
-              {{ end }}
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 mt-lg-0">
-            <div class="row colored-icon-box">
-              {{ range $i, $e:= .services }}
-              <div class="col-sm-6" data-aos="fade-up" data-aos-delay="{{mul $i 100}}">
-                <div class="icon-box text-center shadow px-3 px-md-5 px-lg-2 py-5 mb-30">
-                  <i class="{{ .icon }} icon"></i>
-                  <h4 class="font-weight-bold text-black-200">{{ .name | markdownify }}</h4>
-                </div>
-              </div>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- end of growth-rate -->
 
 {{ if $data.homepage.about_us.enable }}
 {{ with $data.homepage.about_us }}
@@ -379,5 +368,8 @@
 <!-- end section -->
 
 {{partial "testimonial.html" . }}
+
+
+
 
 {{ end }}

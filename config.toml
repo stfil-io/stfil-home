@@ -61,6 +61,11 @@ contact_form_action = "#" # contact form works with https://formspree.io
 enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
+# Preloader
+[params.subscription]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
 ############################# social site ########################
 [[params.social]]
 name = "Slack"
