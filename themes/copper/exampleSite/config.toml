@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "http://localhost:1313/"
+baseURL = "http://demo.themefisher.com/copper-hugo/"
 title = "Copper Hugo - Software and SAAS landing template"
-theme = "copper"
+theme = "copper-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -60,7 +60,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 [params.preloader]
 enable = true
 preloader = "" # use jpg, png, svg or gif format.
-
+  
 ############################# social site ########################
 [[params.social]]
 name = "facebook"
@@ -136,27 +136,27 @@ hasChildren = true
   parent = "Pages"
   name = "Pricing"
   URL = "pricing"
-
+  
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "Pricing 2"
   URL = "pricing-2"
-
+  
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "How It Works"
   URL = "how-it-works"
-
+  
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "Testimonial"
   URL = "testimonial"
-
+  
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "Faq"
   URL = "faq"
-
+  
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "Changelog"
@@ -235,27 +235,27 @@ hasChildren = true
   parent = "Pages"
   name = "Pricing"
   URL = "pricing"
-
+  
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Pricing 2"
   URL = "pricing-2"
-
+  
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "How It Works"
   URL = "how-it-works"
-
+  
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Testimonial"
   URL = "testimonial"
-
+  
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Faq"
   URL = "faq"
-
+  
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Changelog"
