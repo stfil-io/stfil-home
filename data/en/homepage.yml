@@ -1,8 +1,9 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  title : "**Liquidity for Filecoin staked assets**"
-  content : "社区所有、去中心化、无需信任的流动性质押协议"
+  desc : "旨在为社区所有、去中心化、无需信任并与 Filecoin 中的质押兼容"
+  title : "**流动性的质押**"
+  content : "构建在Filecoin之上的流动性质押协议，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
   image : "images/screenshots/banner-shot.png"
   video:
     enable : false
@@ -14,7 +15,7 @@ banner:
   button:
     enable : true
     icon : "images/brands/google.png"
-    label : "Assets Stake"
+    label : "Get Stake"
     link : "#"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 

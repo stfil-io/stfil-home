@@ -30,8 +30,9 @@
         </div>
       </div>
       <div class="col-xl-5 col-lg-6 order-lg-0">
+        <h3 class="h3 mb-20">{{ .desc | markdownify }}</h3>
+        <h3 class="h2 mb-20">{{ .title | markdownify }}</h3>
         <p>{{ .content | markdownify }}</p>
-        <h2 class="h1 mb-20">{{ .title | markdownify }}</h2>
 
         {{if .form.enable }}
         {{with .form }}
