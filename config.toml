@@ -75,12 +75,12 @@ link = "#"
 [[params.social]]
 name = "GitHub"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/stfil-io/"
 
 [[params.social]]
-name = "Discourse"
+name = "Forum"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://forum.stfil.io/"
 
 
 ################################### English language #####################################
@@ -98,12 +98,12 @@ copyright = "©2022 STFIL All rights reserved."
 ############### English navigation ################
 # main menu
 [[Languages.en.menu.main]]
-name = "Agreement"
+name = "Protocol"
 URL = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Govern"
+name = "Governance"
 URL = "about"
 weight = 2
 

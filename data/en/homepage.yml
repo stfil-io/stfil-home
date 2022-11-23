@@ -79,20 +79,20 @@ working:
       icon : "ti-lock"
       content : "Allow holders (assets) to deposit their FIL assets into smart contracts with current pledges to receive the rewards of pledges in real time."
 
-    - name : "**No need to trust**"
+    - name : "**Trust-free**"
       icon : "ti-magnet"
       content : "Smart contracts are entirely responsible for holding and transferring money. For the sake of transparency, they are completely open source for analysis and fully audited by the best audit team in the industry."
 
-    - name : "**Quality storage provider（Premium）**"
+    - name : "**Premium**"
       icon : "ti-link"
-      content : "Select storage providers that have more professional hardware devices, more professional equipment rooms, more professional O&M engineers, and more stable power equipment to improve the service quality of the entire network and jointly build a robust, stable, and experience-friendly distributed storage network."
+      content : "Screen high-quality storage providers, improve the service quality of the entire network, and jointly create a robust, stable, and experienced distributed storage network."
 
 
     - name : "**stFIL**"
       icon : "ti-magnet"
       content : "A one-to-one exchange for FIL is maintained at all times, representing a claim on the pledged FIL. And instead of being locked into us, stFIL accumulates pledge rewards wherever it is earned."
 
-    - name : "**Defi**"
+    - name : "**DeFi**"
       icon : "ti-link"
       content : "Allow the holder to earn pledge income while also being able to sell, trade, and borrow your pledged assets on the DeFi to maximize capital efficiency."
 
@@ -213,7 +213,7 @@ testimonial:
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
   enable : true
-  title: "合作伙伴"
+  title: "Partners"
   logos:
     - "images/brands/01-colored.png"
     - "images/brands/02-colored.png"
