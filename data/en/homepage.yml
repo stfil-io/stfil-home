@@ -104,9 +104,40 @@ working:
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "Managed by the community"
-  image : "images/screenshots/03.png"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  title : "Everything goes to the community"
+  image : "images/screenshots/05.png"
+  content : "STFIL DAO is a decentralized, community-led autonomous system where users participate in governance by holding **FDO** tokens."
+  item:
+    - name: "Community of co-founders"
+      icon: "ti-link"
+      content: "Both developers and users can make suggestions for the development of the STFIL DAO through the community platform. The best suggestions are made by community developers contributing code to a proposal that is voted on by FDO token holders."
+      button:
+        - enable: true
+          label: "Governance voting"
+          link: "#"
+
+    - name: "Risk government"
+      icon: "ti-money"
+      content: "The risk governance of STFIL DAO is run by the community, with the purpose of reducing protocol risks and blocking potential external threats. By upgrading the agreement, market monitoring and other means, we will do our best to provide security for the deposit and loan market and user assets."
+      button:
+        - enable: true
+          label: "Twitter"
+          link: "#"
+        - enable: true
+          label: "Forum"
+          link: "#"
+
+
+############################## Workflow ################################
+storageProvider:
+  enable : true
+  title : "Join us"
+  image : "images/screenshots/05.png"
+  content : "Power the infrastructure of Web3 Become a high-quality storage provider, we will provide you with sufficient stake assets and get more returns."
+  button:
+    - enable: true
+      label: "Read the Docs"
+      link: "#"
 
 
 ############################## Achivement ##############################
@@ -169,13 +200,13 @@ milestone:
 flexibility:
   enable : true
   title : "Security"
-  content : "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
+  content : "The STFIL DAO contract code has passed a rigorous security audit, and we are calling for your assistance in finding bugs or vulnerabilities to further improve security, with a reward of up to $50,000."
   item:
-    - name : "审计"
+    - name : "Audit"
       icon: "ti-link"
       content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
 
-    - name : "Bug赏金计划"
+    - name : "Bug bounty program"
       icon: "ti-money"
       content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
 

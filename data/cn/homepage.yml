@@ -104,9 +104,55 @@ working:
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "由社区管理"
-  image : "images/screenshots/03.png"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  title : "一切交由社区"
+  image : "images/screenshots/05.png"
+  content : "STFIL DAO 是由社区主导的去中心化自治系统，用户通过持有 **FDO** 代币参与治理。"
+  item:
+    - name: "共建者社区"
+      icon: "ti-link"
+      content: "无论是开发者或是使用者，都可通过社区平台提出 STFIL DAO 的发展建议。其中优质的建议会由社区开发者贡献代码，形成提案，由 FDO 代币持有者投票执行。"
+      button:
+        - enable: true
+          label: "投票治理"
+          link: "#"
+
+    - name: "风险治理"
+      icon: "ti-money"
+      content: "STFIL DAO 的风险治理由社区运行，目的在于降低协议风险，阻挡外部潜在威胁。通过升级协议，市场监控等手段，尽全力为存借市场及用户资产提供安全保障。"
+      button:
+        - enable: true
+          label: "Twitter"
+          link: "#"
+        - enable: true
+          label: "Forum"
+          link: "#"
+
+
+############################## Workflow ################################
+storageProvider:
+  enable : true
+  title : "成为存储提供商"
+  image : "images/screenshots/05.png"
+  content : "成为一个高质量的存储提供商，我们将为您提供足够的股权资产，并获得更多的回报。"
+  button:
+    - enable: true
+      label: "阅读文档"
+      link: "#"
+
+
+################ Flexibility ####################
+flexibility:
+  enable : true
+  title : "安全"
+  content : "STFIL DAO 合约代码通过了严格的安全审计，同时我们呼吁大家协助发现错误或者漏洞以进一步提高安全性，奖励金额高达 50,000 美元。"
+  item:
+    - name : "审计"
+      icon: "ti-link"
+      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
+
+    - name : "Bug赏金计划"
+      icon: "ti-money"
+      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
 
 
 ############################## Achivement ##############################
@@ -164,20 +210,6 @@ milestone:
   title : "Changelog"
   description : "this is meta description"
 
-
-################ Flexibility ####################
-flexibility:
-  enable : true
-  title : "安全"
-  content : "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
-  item:
-    - name : "审计"
-      icon: "ti-link"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
-
-    - name : "Bug赏金计划"
-      icon: "ti-money"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
 
 ############################# Testimonial ############################
 testimonial:
