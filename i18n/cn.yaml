@@ -1,14 +1,14 @@
 - id: quick_links
-  translation: Quick Links
+  translation: 链接
 
 - id: social_links
-  translation: Social Links
+  translation: 社交网站
 
 - id: you_email_addr
-  translation: Your email address
+  translation: 请输入你的邮箱
 
 - id: subscribe
-  translation: Lets Subscribe Your Email
+  translation: 让我们订阅你的电子邮件
 
 - id: home
   translation: Home
@@ -17,37 +17,37 @@
   translation: All Together
 
 - id: name
-  translation: Your Name
+  translation: 你的名字
 
 - id: mail
-  translation: Working Mail
+  translation: 工作邮件
 
 - id: website
-  translation: Company Website
+  translation: 公司网站
 
 - id: message
-  translation: Anything else?
+  translation: 还有别的事吗?
 
 - id: submit
-  translation: Submit Now
+  translation: 提交
 
 - id: monthly
-  translation: Billed Monthly
+  translation: 按月计费
 
 - id: yearly
-  translation: Billed Annually
+  translation: 按年计费
 
 - id: month
-  translation: Month
+  translation: 月
 
 - id: year
-  translation: Year
+  translation: 年
 
 - id: view_job
-  translation: View Listing
+  translation: 查看清单
 
 - id: apply
-  translation: Apply for Job
+  translation: 申请工作
 
 - id: first_name
   translation: First Name
@@ -62,7 +62,7 @@
   translation: Mins Read
 
 - id: cv
-  translation: Resume/CV
+  translation: 简历/简历
 
 - id: recent_post
-  translation: Recent Articles
+  translation: 最近的文章

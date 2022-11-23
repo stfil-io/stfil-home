@@ -88,8 +88,8 @@ link = "#"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
-footer_content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam eratnonumy onsetetur"
+weight = 2
+footer_content = "STFIL is a liquidity pledge protocol built on top of Filecoin that is designed to be community-owned, decentralized, and trust-free, allowing users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
 # copyright
 copyright = "©2022 STFIL All rights reserved."
 
@@ -98,22 +98,22 @@ copyright = "©2022 STFIL All rights reserved."
 ############### English navigation ################
 # main menu
 [[Languages.en.menu.main]]
-name = "协议"
+name = "Agreement"
 URL = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "治理"
+name = "Govern"
 URL = "about"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "文档"
+name = "Docs"
 URL = "service"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "常见问题"
+name = "Faq"
 URL = "faq"
 weight = 4
 
@@ -133,101 +133,54 @@ name = "Privacy Policy"
 URL = "privacy-policy"
 weight = 3
 
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-footer_content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam eratnonumy onsetetur"
+
+
+################################### Chinese language #####################################
+[Languages.cn]
+languageName = "Cn"
+languageCode = "zh-CN"
+contentDir = "content/chinese"
+weight = 1
+footer_content = "STFIL 是一个构建在Filecoin之上的流动性质押协议，旨在为社区所有、去中心化、无需信任，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "©2022 STFIL All rights reserved."
 
 
-############### English navigation ################
+
+############### Chinese navigation ################
 # main menu
-[[Languages.fr.menu.main]]
-name = "Home"
+[[Languages.cn.menu.main]]
+name = "协议"
 URL = "/"
 weight = 1
 
-[[Languages.fr.menu.main]]
-name = "About"
+[[Languages.cn.menu.main]]
+name = "治理"
 URL = "about"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "Service"
+[[Languages.cn.menu.main]]
+name = "文档"
 URL = "service"
 weight = 3
 
-[[Languages.fr.menu.main]]
-name = "Team"
-URL = "team"
+[[Languages.cn.menu.main]]
+name = "常见问题"
+URL = "faq"
 weight = 4
 
-[[Languages.fr.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 5
-
-[[Languages.fr.menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "Pages"
-weight = 7
-hasChildren = true
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Career"
-  URL = "career"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Pricing 2"
-  URL = "pricing-2"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "How It Works"
-  URL = "how-it-works"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Testimonial"
-  URL = "testimonial"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Faq"
-  URL = "faq"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Changelog"
-  URL = "changelog"
-
 # Footer menu
-[[Languages.fr.menu.footer]]
-name = "Faq"
+[[Languages.cn.menu.footer]]
+name = "常见问题"
 URL = "faq"
 weight = 1
 
-[[Languages.fr.menu.footer]]
-name = "Terms & Conditions"
+[[Languages.cn.menu.footer]]
+name = "条款和条件"
 URL = "terms-conditions"
 weight = 2
 
-[[Languages.fr.menu.footer]]
-name = "Privacy Policy"
+[[Languages.cn.menu.footer]]
+name = "隐私权政策"
 URL = "privacy-policy"
 weight = 3

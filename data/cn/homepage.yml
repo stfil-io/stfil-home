@@ -1,9 +1,9 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  desc : "Designed to be community-owned, decentralized, trust-free, and compatible with pledges in Filecoin"
-  title : "**Liquidity for staked assets**"
-  content : "Liquidity pledge protocol, built on top of Filecoin, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
+  desc : "旨在为社区所有、去中心化、无需信任并与 Filecoin 中的质押兼容"
+  title : "**流动性的质押**"
+  content : "构建在Filecoin之上的流动性质押协议，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
   image : "images/screenshots/banner-shot.png"
   video:
     enable : false
@@ -72,39 +72,39 @@ homepage_tab:
 
 working:
   enable : true
-  title : "How It Works"
-  content : "Improve capital efficiency through DeFI based on liquidity pledge."
+  title : "工作机制"
+  content : "以流动性质押为基础，通过DeFI提高资本效率。"
   item:
-    - name : "**Pledge**"
+    - name : "质押"
       icon : "ti-lock"
-      content : "Allow holders (assets) to deposit their FIL assets into smart contracts with current pledges to receive the rewards of pledges in real time."
+      content : "允许持有者（Asset）将他们的 FIL资产存入流动质押的智能合约，以实时的获得质押带来的奖励。"
 
-    - name : "**No need to trust**"
+    - name : "无需信任"
       icon : "ti-magnet"
-      content : "Smart contracts are entirely responsible for holding and transferring money. For the sake of transparency, they are completely open source for analysis and fully audited by the best audit team in the industry."
+      content : "完全由智能合约负责持有和转移资金。为了透明起见，它们是完全开源的供大家分析，并由行业最好的审计团队进行全面审计。"
 
-    - name : "**Quality storage provider（Premium）**"
+    - name : "优质的存储提供商（Premium）"
       icon : "ti-link"
-      content : "Select storage providers that have more professional hardware devices, more professional equipment rooms, more professional O&M engineers, and more stable power equipment to improve the service quality of the entire network and jointly build a robust, stable, and experience-friendly distributed storage network."
+      content : "筛选具备更专业硬件设备，更专业的机房场地，更专业的运维工程师，更稳定的电力设备的存储提供商，提升整个网络的服务质量，共同打造强健、稳定、体验好的分布式存储网络。"
 
 
-    - name : "**stFIL**"
+    - name : "stFIL"
       icon : "ti-magnet"
-      content : "A one-to-one exchange for FIL is maintained at all times, representing a claim on the pledged FIL. And instead of being locked into us, stFIL accumulates pledge rewards wherever it is earned."
+      content : "无论在何时，始终保持对FIL的1比1兑换，代表对质押的 FIL 的索取权。并且不用被锁定在我们这里，无论在何处获得，stFIL 都会累积质押奖励。"
 
-    - name : "**Defi**"
+    - name : "Defi"
       icon : "ti-link"
-      content : "Allow the holder to earn pledge income while also being able to sell, trade, and borrow your pledged assets on the DeFi to maximize capital efficiency."
+      content : "允许持有者赚取质押收益，同时还能够在 DeFi 上出售、交易、借贷您的质押资产，以最大化的提高资本效率。"
 
-    - name : "**Community**"
+    - name : "社区"
       icon : "ti-lock"
-      content : "STFIL DAO is a decentralized, autonomous organization that builds liquidity pledges for Filecoin, following a proposal process in which any participant in the STFIL ecosystem has a vote on proposals to promote a diverse and self-sustaining ecosystem."
+      content : "STFIL DAO 是一个为 Filecoin 构建流动性质押的去中心化自治的组织，遵循提案流程，任何 STFIL 生态的参与者都有对提案的投票权，以促进多样化和自我维持的生态系统。"
 
 
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "Managed by the community"
+  title : "由社区管理"
   image : "images/screenshots/03.png"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
 
@@ -115,19 +115,19 @@ achivement:
   title : "平台数据"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:
-    - name : "**FIL STAKED**"
+    - name : "FIL质押量"
       count : "253642"
       extension : "FIL"
 
-    - name : "**Stakers**"
+    - name : "参与质押人数"
       count : "19265"
       extension : ""
 
-    - name : "**Total rewards paid**"
+    - name : "累计奖励收益"
       count : "8642"
       extension : "FIL"
 
-    - name: "**Storage Providers**"
+    - name: "存储提供商数量"
       count: "25"
       extension: ""
 
@@ -168,7 +168,7 @@ milestone:
 ################ Flexibility ####################
 flexibility:
   enable : true
-  title : "Security"
+  title : "安全"
   content : "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
   item:
     - name : "审计"
@@ -231,7 +231,7 @@ clients_logo_slider:
 ############################# Call to action ############################
 call_to_action:
   enable : true
-  title : "Subscribe To Our Mailing List"
+  title : "订阅我们的邮件列表"
   button:
     enable : true
     label : "Get Started With Us"
