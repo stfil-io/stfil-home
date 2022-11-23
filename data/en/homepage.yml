@@ -105,6 +105,7 @@ working:
 workflow:
   enable : true
   title : "Community First"
+  addrsText: "FDO addresses"
   image : "images/screenshots/05.png"
   smImage: "images/screenshots/06.png"
   content : "STFIL DAO is a decentralized and community-governed system where users participate in governance by holding FDO tokens."

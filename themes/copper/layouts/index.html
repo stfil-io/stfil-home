@@ -262,15 +262,18 @@
         <p>{{ .content | markdownify }}</p>
       </div>
       <div class="col-lg-4 text-right col-sm-12 row flex-row align-content-center justify-content-center align-content-center mt-2">
-        <div class="col-lg-12 col-6 p-0 row align-items-center justify-content-end">
-          <h3 class="font-weight-bold mr-3 ">持有FDO地址数</h3>
+        <div class="col-lg-12 col-6 p-0 row align-items-center fdo-address-text">
+          <h5 class=" ">{{ .addrsText | markdownify }}</h5>
         </div>
         <div class="col-lg-12 col-6 p-0 row align-items-center justify-content-end align-content-center">
-          <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="font-size: 2rem;">450860<svg
-                  width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
-            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-          </svg></a>
+          <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="font-size: 2rem;display: flex; align-content: center;align-items: center;">450860
+            <svg
+                    style="width: 30px; height: 30px; background-color: #FF3158;color: white; margin-left: 8px;transform: rotate(90deg)"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+              <path id="Layer" fill="currentColor"
+                    d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z" />
+            </svg>
+            </a>
         </div>
       </div>
     </div>
@@ -327,7 +330,7 @@
 <!-- start of horizontal-accordion -->
 {{ if $data.homepage.flexibility.enable }}
 {{ with $data.homepage.flexibility }}
-<section class="section-padding pt-100"
+<section class="section-padding"
          style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
   <div class="container">
     <div class="row justify-content-center">

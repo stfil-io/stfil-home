@@ -106,6 +106,7 @@ workflow:
   enable : true
   title : "一切交由社区"
   image : "images/screenshots/05.png"
+  addrsText : "持有FDO地址数"
   smImage: "images/screenshots/06.png"
   content : "STFIL DAO 是由社区主导的去中心化自治系统，用户通过持有 **FDO** 代币参与治理。"
   item:
