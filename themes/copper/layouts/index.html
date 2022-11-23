@@ -279,7 +279,7 @@
     </div>
     <div class="has-shapes">
       <picture>
-        <source media="(max-width: 500px)" srcset="{{ .smImage | absURL }}">
+        <source media="(max-width: 520px)" srcset="{{ .smImage | absURL }}">
         <img class="img-fluid py-4 my-2" src="{{ .image | absURL }}">
       </picture>
       <div class="shape-1 shape-sm bg-yellow rounded-circle"></div>
@@ -389,7 +389,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 col-md-9 text-center">
-        <h2 class="section-title font-weight-bold">{{ .title | markdownify }}</h2>
+        <h2 class="section-title font-weight-bold text-primary">{{ .title | markdownify }}</h2>
       </div>
       <div class="col-lg-6 col-md-9 text-center mb-40 mt-4">
         <p>{{ .content | markdownify }}</p>

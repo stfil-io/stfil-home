@@ -962,11 +962,13 @@ $max: 121; // maximum value (+)1
 
 .fdo-address-text {
 	justify-content: end;
+	text-align: right;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 420px){
 	.fdo-address-text {
 		justify-content: start;
+		text-align: left;
 	}
 }
 

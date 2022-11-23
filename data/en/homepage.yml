@@ -133,7 +133,7 @@ workflow:
 ############################## Workflow ################################
 storageProvider:
   enable : true
-  title : "Join us"
+  title : "Join us，Power the infrastructure of Web3"
   image : "images/screenshots/05.png"
   smImage : "images/screenshots/06.png"
   content : "Become a high-quality storage provider, we will provide you with sufficient stake assets and get more returns."
