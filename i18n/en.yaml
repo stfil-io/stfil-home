@@ -1,6 +1,12 @@
 - id: quick_links
   translation: Quick Links
 
+- id: title
+  translation: STFIL - Liquidity for Filecoin staked assets
+
+- id: quick_learn
+  translation: Learn
+
 - id: social_links
   translation: Social Links
 

@@ -1,6 +1,12 @@
 - id: quick_links
   translation: 链接
 
+- id: title
+  translation: STFIL - Filecoin 质押资产的流动性
+
+- id: quick_learn
+  translation: 学习
+
 - id: social_links
   translation: 社交网站
 

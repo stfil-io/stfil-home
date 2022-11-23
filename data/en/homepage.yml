@@ -1,7 +1,7 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  desc : "Designed to be community-owned, decentralized, trust-free, and compatible with pledges in Filecoin"
+  desc : "Designed to be community-owned, decentralized, trust-free, and compatible with stake in Filecoin"
   title : "**Liquidity for staked assets**"
   content : "Liquidity pledge protocol, built on top of Filecoin, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
   image : "images/screenshots/banner-shot.png"
@@ -75,9 +75,9 @@ working:
   title : "How It Works"
   content : "Improve capital efficiency through DeFI based on liquidity pledge."
   item:
-    - name : "**Pledge**"
+    - name : "**Stake**"
       icon : "ti-lock"
-      content : "Allow holders (assets) to deposit their FIL assets into smart contracts with current pledges to receive the rewards of pledges in real time."
+      content : "Allow holders (assets) to deposit their FIL assets into smart contracts with current stake to receive the rewards of stake in real time."
 
     - name : "**Trust-free**"
       icon : "ti-magnet"
@@ -98,7 +98,7 @@ working:
 
     - name : "**Community**"
       icon : "ti-lock"
-      content : "STFIL DAO is a decentralized, autonomous organization that builds liquidity pledges for Filecoin, following a proposal process in which any participant in the STFIL ecosystem has a vote on proposals to promote a diverse and self-sustaining ecosystem."
+      content : "STFIL DAO is a decentralized, autonomous organization that builds liquidity stake for Filecoin, following a proposal process in which any participant in the STFIL ecosystem has a vote on proposals to promote a diverse and self-sustaining ecosystem."
 
 
 ############################## Workflow ################################
@@ -115,7 +115,7 @@ achivement:
   title : "平台数据"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:
-    - name : "**FIL STAKED**"
+    - name : "**Total Staked**"
       count : "253642"
       extension : "FIL"
 

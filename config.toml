@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "STFIL - 一个为 Filecoin 构建流动性质押的去中心化自治的组织"
+title = "STFIL - Filecoin 质押资产的流动性"
 theme = "copper"
 # post pagination
 paginate = "6"
@@ -68,11 +68,6 @@ preloader = "" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
-name = "Slack"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
 name = "GitHub"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/stfil-io/"
@@ -82,6 +77,10 @@ name = "Forum"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://forum.stfil.io/"
 
+[[params.social]]
+name = "Twitter"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
 
 ################################### English language #####################################
 [Languages.en]
@@ -109,7 +108,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 name = "Docs"
-URL = "service"
+URL = "https://docs.stfil.io/"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -119,21 +118,30 @@ weight = 4
 
 # Footer menu
 [[Languages.en.menu.footer]]
-name = "Faq"
-URL = "faq"
-weight = 1
-
-[[Languages.en.menu.footer]]
 name = "Terms & Conditions"
 URL = "terms-conditions"
-weight = 2
+weight = 1
 
 [[Languages.en.menu.footer]]
 name = "Privacy Policy"
 URL = "privacy-policy"
+weight = 2
+
+# Footer menu
+[[Languages.en.menu.footer_learn]]
+name = "Introduction"
+URL = "terms-conditions"
+weight = 1
+
+[[Languages.en.menu.footer_learn]]
+name = "Guides"
+URL = "privacy-policy"
+weight = 2
+
+[[Languages.en.menu.footer_learn]]
+name = "Developers"
+URL = "privacy-policy"
 weight = 3
-
-
 
 ################################### Chinese language #####################################
 [Languages.cn]
@@ -161,7 +169,7 @@ weight = 2
 
 [[Languages.cn.menu.main]]
 name = "文档"
-URL = "service"
+URL = "https://docs.stfil.io/"
 weight = 3
 
 [[Languages.cn.menu.main]]
@@ -171,16 +179,27 @@ weight = 4
 
 # Footer menu
 [[Languages.cn.menu.footer]]
-name = "常见问题"
-URL = "faq"
+name = "条款和条件"
+URL = "terms-conditions"
 weight = 1
 
 [[Languages.cn.menu.footer]]
-name = "条款和条件"
-URL = "terms-conditions"
+name = "隐私权政策"
+URL = "privacy-policy"
 weight = 2
 
-[[Languages.cn.menu.footer]]
-name = "隐私权政策"
+# Footer menu
+[[Languages.cn.menu.footer_learn]]
+name = "简介"
+URL = "terms-conditions"
+weight = 1
+
+[[Languages.cn.menu.footer_learn]]
+name = "指南"
+URL = "privacy-policy"
+weight = 2
+
+[[Languages.cn.menu.footer_learn]]
+name = "开发者"
 URL = "privacy-policy"
 weight = 3
