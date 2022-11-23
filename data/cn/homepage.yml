@@ -106,6 +106,7 @@ workflow:
   enable : true
   title : "一切交由社区"
   image : "images/screenshots/05.png"
+  smImage: "images/screenshots/06.png"
   content : "STFIL DAO 是由社区主导的去中心化自治系统，用户通过持有 **FDO** 代币参与治理。"
   item:
     - name: "共建者社区"
@@ -133,6 +134,7 @@ storageProvider:
   enable : true
   title : "成为存储提供商"
   image : "images/screenshots/05.png"
+  smImage: "images/screenshots/06.png"
   content : "成为一个高质量的存储提供商，我们将为您提供足够的股权资产，并获得更多的回报。"
   button:
     - enable: true
@@ -148,12 +150,19 @@ flexibility:
   item:
     - name : "审计"
       icon: "ti-link"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
+      content : "为了透明起见，智能合约是开源的供大家分析。此外，在将智能合约部署到主网之前，它们将由业界最专业审计团队进行全面审计。"
+      button:
+        - enable: true
+          label: "了解更多"
+          link: "#"
 
     - name : "Bug赏金计划"
       icon: "ti-money"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
-
+      content : "STFIL DAO 系统的安全性是我们团队的重中之重。在专业审计的基础上，我们实施了一个赏金计划来识别协议基础设施和智能合约中的错误和漏洞。"
+      button:
+        - enable: true
+          label: "赚取奖金"
+          link: "#"
 
 ############################## Achivement ##############################
 achivement:

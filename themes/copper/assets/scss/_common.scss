@@ -959,3 +959,13 @@ $max: 121; // maximum value (+)1
 		font-size: 100%;
 	}
 }
+
+@media screen and (max-width: 1024px){
+	.dao-img {
+		background: url(images/screenshots/06.png) no-repeat 50%;
+	}
+}
+
+.dao-img {
+	background: url(images/screenshots/05.png) no-repeat 50%;
+}

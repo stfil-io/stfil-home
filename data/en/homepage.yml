@@ -104,21 +104,22 @@ working:
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "Everything goes to the community"
+  title : "Community First"
   image : "images/screenshots/05.png"
-  content : "STFIL DAO is a decentralized, community-led autonomous system where users participate in governance by holding **FDO** tokens."
+  smImage: "images/screenshots/06.png"
+  content : "STFIL DAO is a decentralized and community-governed system where users participate in governance by holding FDO tokens."
   item:
-    - name: "Community of co-founders"
+    - name: "Build Community Together"
       icon: "ti-link"
-      content: "Both developers and users can make suggestions for the development of the STFIL DAO through the community platform. The best suggestions are made by community developers contributing code to a proposal that is voted on by FDO token holders."
+      content: "Both users and developers are welcome to offer suggestions for the development of STFIL DAO. Developers contribute codes to construct proposals, which JST holders vote on."
       button:
         - enable: true
           label: "Governance voting"
           link: "#"
 
-    - name: "Risk government"
+    - name: "Risk Governance"
       icon: "ti-money"
-      content: "The risk governance of STFIL DAO is run by the community, with the purpose of reducing protocol risks and blocking potential external threats. By upgrading the agreement, market monitoring and other means, we will do our best to provide security for the deposit and loan market and user assets."
+      content: "STFIL DAO's risk governance is overseen by the community, with the goal of mitigating protocol risks and defending against any potential external attacks. It safeguards supply and borrow markets as well as user assets by upgrading protocols and monitoring markets."
       button:
         - enable: true
           label: "Twitter"
@@ -133,7 +134,8 @@ storageProvider:
   enable : true
   title : "Join us"
   image : "images/screenshots/05.png"
-  content : "Power the infrastructure of Web3 Become a high-quality storage provider, we will provide you with sufficient stake assets and get more returns."
+  smImage : "images/screenshots/06.png"
+  content : "Become a high-quality storage provider, we will provide you with sufficient stake assets and get more returns."
   button:
     - enable: true
       label: "Read the Docs"
@@ -202,13 +204,21 @@ flexibility:
   title : "Security"
   content : "The STFIL DAO contract code has passed a rigorous security audit, and we are calling for your assistance in finding bugs or vulnerabilities to further improve security, with a reward of up to $50,000."
   item:
-    - name : "Audit"
+    - name : "Audits"
       icon: "ti-link"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
+      content : "For the sake of transparency, smart contracts are open source for analysis. In addition, smart contracts will be fully audited by the most professional audit team in the industry before they are deployed to the main network."
+      button:
+        - enable: true
+          label: "Learn more"
+          link: "#"
 
-    - name : "Bug bounty program"
+    - name : "Bug Bounty"
       icon: "ti-money"
-      content : "Lorem ipsum dolor sit amet, adipiscing purus nc, ornare sem egestas sit purus felis arcu. Vitae, turpis tortor faucibus ac suspendisse. Habit building inessential steps choose habit Good Things Start building something."
+      content : "The security of the STFIL DAO system is a top priority for our team. Based on professional audits, we implemented a bounty program to identify errors and vulnerabilities in protocol infrastructure and smart contracts."
+      button:
+        - enable: true
+          label: "Earn bonus"
+          link: "#"
 
 ############################# Testimonial ############################
 testimonial:

@@ -257,25 +257,43 @@
 <section class="section-padding">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-12 col-md-12 text-left">
+      <div class="col-lg-8 col-md-12 text-left">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
       </div>
+      <div class="col-lg-4 text-right col-sm-12 row flex-row align-content-center justify-content-center align-content-center mt-2">
+        <div class="col-lg-12 col-6 p-0 row align-items-center justify-content-end">
+          <h3 class="font-weight-bold mr-3 ">持有FDO地址数</h3>
+        </div>
+        <div class="col-lg-12 col-6 p-0 row align-items-center justify-content-end align-content-center">
+          <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="font-size: 2rem;">450860<svg
+                  width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+          </svg></a>
+        </div>
+      </div>
     </div>
     <div class="has-shapes">
-      <img class="img-fluid py-4 my-2" src="{{ .image | absURL }}">
+      <picture>
+        <source media="(max-width: 500px)" srcset="{{ .smImage | absURL }}">
+        <img class="img-fluid py-4 my-2" src="{{ .image | absURL }}">
+      </picture>
       <div class="shape-1 shape-sm bg-yellow rounded-circle"></div>
       <div class="shape-2 shape-xs-2 bg-cyan rounded-circle"></div>
     </div>
     <div class="has-colored-text row justify-content-center colored-icon-box">
       {{ range $i,$e:= .item }}
       <div class="col-md-6 col-sm-6 mb-30">
-        <div class="bg-white icon-box shadow rounded p-30" data-aos="fade-up" data-aos-delay="50">
-          <div class="d-flex justify-content-between mb-2 mb-lg-3">
+        <div class="bg-white icon-box shadow rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;">
+          <div class="d-flex justify-content-between">
             <h5 class="text-black-500"></h5>
+            <div class="has-text-color h2">
+              <i class="{{ .icon }}"></i>
+            </div>
           </div>
           <h3 class="mb-2 mb-lg-4 font-weight-600">{{ .name | markdownify }}</h3>
-          <div class="accordion-panel">
+          <div class="accordion-panel" style="min-height: 112px;">
             <p>{{ .content | markdownify }}</p>
           </div>
           <div class="mt-5">
@@ -309,7 +327,7 @@
 <!-- start of horizontal-accordion -->
 {{ if $data.homepage.flexibility.enable }}
 {{ with $data.homepage.flexibility }}
-<section class="section-padding pt-100 testimonials-section has-shapes"
+<section class="section-padding pt-100"
          style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
   <div class="container">
     <div class="row justify-content-center">
@@ -321,7 +339,7 @@
     <div class="has-colored-text row justify-content-center">
       {{ range $i,$e:= .item }}
       <div class="col-md-5 col-sm-6 mb-30">
-        <div class="bg-white shadow rounded p-30" data-aos="fade-up" data-aos-delay="50">
+        <div class="bg-white shadow rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;">
           <div class="d-flex justify-content-between mb-2 mb-lg-3">
             <h5 class="text-black-500"></h5>
             <div class="has-text-color h2">
@@ -329,8 +347,19 @@
             </div>
           </div>
           <h3 class="mb-2 mb-lg-4 font-weight-600">{{ .name | markdownify }}</h3>
-          <div class="accordion-panel">
+          <div class="accordion-panel" style="min-height: 132px;">
             <p>{{ .content | markdownify }}</p>
+          </div>
+          <div class="mt-5">
+            {{ range .button }}
+            {{ if .enable }}
+            <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold mr-4">{{ .label}}<svg
+                    width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+            </svg></a>
+            {{ end }}
+            {{ end }}
           </div>
         </div>
       </div>
