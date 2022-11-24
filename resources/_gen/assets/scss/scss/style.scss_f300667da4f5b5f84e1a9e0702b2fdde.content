@@ -1457,7 +1457,7 @@ a.text-black-400:hover {
   justify-content: end;
   text-align: right; }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1000px) {
   .fdo-address-text {
     justify-content: start;
     text-align: left; } }
