@@ -119,12 +119,12 @@ weight = 4
 # Footer menu
 [[Languages.en.menu.footer]]
 name = "Terms & Conditions"
-URL = "terms-conditions"
+URL = "terms"
 weight = 1
 
 [[Languages.en.menu.footer]]
 name = "Privacy Policy"
-URL = "privacy-policy"
+URL = "privacy"
 weight = 2
 
 # Footer menu
@@ -180,12 +180,12 @@ weight = 4
 # Footer menu
 [[Languages.cn.menu.footer]]
 name = "条款和条件"
-URL = "terms-conditions"
+URL = "terms"
 weight = 1
 
 [[Languages.cn.menu.footer]]
 name = "隐私权政策"
-URL = "privacy-policy"
+URL = "privacy"
 weight = 2
 
 # Footer menu
