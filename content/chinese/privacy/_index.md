@@ -4,11 +4,11 @@ date: 2020-03-14T15:40:24+06:00
 draft : false
 ---
 
-## Lido Privacy Notice
+## STFIL Privacy Notice
 
 ### Introduction
 
-This Privacy Notice (the “Privacy Notice”) explains how DeFi handles the personal data of individuals – the“Data Subjects” or the “Data Subject”, or “you”, “your”, in connection with accessing and using the website and any services available at https://lido.fi (together referred to as the “Services”).
+This Privacy Notice (the “Privacy Notice”) explains how DeFi handles the personal data of individuals – the“Data Subjects” or the “Data Subject”, or “you”, “your”, in connection with accessing and using the website and any services available at https://stfil.io (together referred to as the “Services”).
 
 DeFi located at: Address: Genesis Building, 5th Floor, Genesis Close, PO Box 446, Cayman Islands, KY1 1106 (the “Company” or“we”, “our”, “us”) is the controller for your personal data within the scope of this Privacy Notice. The Company decides “why” and “how” your personal data is processed in connection with the Services.
 
@@ -22,7 +22,7 @@ When providing the Services, the Company may process certain personal data for t
 |  ----  | ----  | ----  |
 |  Communicating with you regarding your inquiries, questions or support tickets  | Email address, subject of inquiry and its content, attachments and any other information you voluntarily provide to us | Our legitimate interests / contractual obligations |
 | Sending email newsletters  | Email address | Your consent |
-| Provides access to users of the website to a decentralized protocol, known as “Lido”  | Wallet addresses, transaction and balance information | Our contractual obligations (terms of use) |
+| Provides access to users of the website to a decentralized protocol, known as “STFIL”  | Wallet addresses, transaction and balance information | Our contractual obligations (terms of use) |
 | Analyzing our website visitors’ actions to improve our Services  | See section “Cookies and Automatically Collected Data” | Your consent |
 
 
@@ -106,6 +106,6 @@ We take information security very seriously. We work hard to protect the persona
 
 ### Contacts and Requests; Changes to the Privacy Notice
 
-Please send all your requests and queries in connection with your rights and freedoms relating to the personal data protection and processing conducted by the Company as part of providing the website and rendering the Services to you to: info@lido.fi.
+Please send all your requests and queries in connection with your rights and freedoms relating to the personal data protection and processing conducted by the Company as part of providing the website and rendering the Services to you to: contacts@stfil.io.
 
 Changes to the Privacy Notice will be displayed in the form of the updated document published on the website. We also can arrange the updates introduced to the Privacy Notice by archiving the previous versions of the document accessible in the electronic form on the website.
