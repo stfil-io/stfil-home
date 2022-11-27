@@ -1,9 +1,9 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  desc : "旨在为社区所有、去中心化、无需信任并与 Filecoin 中的质押兼容"
-  title : "**流动性的质押**"
-  content : "构建在Filecoin之上的流动性质押协议，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
+  desc : "去中心化的、社区所有的、无需信任并与 Filecoin 中的质押兼容"
+  title : "**流动性质押**"
+  content : "构建在Filecoin上的流动性质押协议，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
   image : "images/screenshots/banner-shot.png"
   video:
     enable : false
@@ -77,22 +77,22 @@ working:
   item:
     - name : "质押"
       icon : "ti-lock"
-      content : "允许持有者（Asset）将他们的 FIL资产存入流动质押的智能合约，以实时的获得质押带来的奖励。"
+      content : "允许 Assets 将他们的 FIL资产存入流动质押的智能合约，以实时的获得质押带来的奖励。"
 
     - name : "无需信任"
       icon : "ti-magnet"
       content : "完全由智能合约负责持有和转移资金。为了透明起见，它们是完全开源的供大家分析，并由行业最好的审计团队进行全面审计。"
 
-    - name : "优质的存储提供商（Premium）"
+    - name : "优质的存储提供商"
       icon : "ti-link"
       content : "筛选具备更专业硬件设备，更专业的机房场地，更专业的运维工程师，更稳定的电力设备的存储提供商，提升整个网络的服务质量，共同打造强健、稳定、体验好的分布式存储网络。"
 
 
     - name : "stFIL"
       icon : "ti-magnet"
-      content : "无论在何时，始终保持对FIL的1比1兑换，代表对质押的 FIL 的索取权。并且不用被锁定在我们这里，无论在何处获得，stFIL 都会累积质押奖励。"
+      content : "无论在何时，始终保持对FIL的1:1兑换，代表对质押的 FIL 的索取权。并且不用被锁定在我们这里，无论在何处获得，stFIL 都会累积质押奖励。"
 
-    - name : "Defi"
+    - name : "DeFi"
       icon : "ti-link"
       content : "允许持有者赚取质押收益，同时还能够在 DeFi 上出售、交易、借贷您的质押资产，以最大化的提高资本效率。"
 

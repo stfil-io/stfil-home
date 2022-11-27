@@ -1,9 +1,9 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  desc : "Designed to be community-owned, decentralized, trust-free, and compatible with stake in Filecoin"
+  desc : "Decentralized, community owned, trust-less and compatible with staking in Filecoin"
   title : "**Liquidity for staked assets**"
-  content : "Liquidity pledge protocol, built on top of Filecoin, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
+  content : "Liquidity stake protocol, built on top of Filecoin, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
   image : "images/screenshots/banner-shot.png"
   video:
     enable : false
@@ -72,14 +72,14 @@ homepage_tab:
 
 working:
   enable : true
-  title : "How It Works"
-  content : "Improve capital efficiency through DeFI based on liquidity pledge."
+  title : "How **It Works**"
+  content : "Improve capital efficiency through DeFI based on liquidity for stake assets."
   item:
     - name : "**Stake**"
       icon : "ti-lock"
-      content : "Allow holders (assets) to deposit their FIL assets into smart contracts with current stake to receive the rewards of stake in real time."
+      content : "Allow assets to deposit their FIL assets into smart contracts with current stake to receive the rewards of stake in real time."
 
-    - name : "**Trust-free**"
+    - name : "**Trust-less**"
       icon : "ti-magnet"
       content : "Smart contracts are entirely responsible for holding and transferring money. For the sake of transparency, they are completely open source for analysis and fully audited by the best audit team in the industry."
 
@@ -90,11 +90,11 @@ working:
 
     - name : "**stFIL**"
       icon : "ti-magnet"
-      content : "A one-to-one exchange for FIL is maintained at all times, representing a claim on the pledged FIL. And instead of being locked into us, stFIL accumulates pledge rewards wherever it is earned."
+      content : "At any time, always maintain a 1:1 exchange of FIL, representing the right to claim the staked FIL. And instead of being locked into us, stFIL accumulates staking rewards wherever it is earned."."
 
     - name : "**DeFi**"
       icon : "ti-link"
-      content : "Allow the holder to earn pledge income while also being able to sell, trade, and borrow your pledged assets on the DeFi to maximize capital efficiency."
+      content : "Allow the assets to earn staked income while also being able to sell, trade, and borrow your staked assets on the DeFi to maximize capital efficiency."
 
     - name : "**Community**"
       icon : "ti-lock"
@@ -112,7 +112,7 @@ workflow:
   item:
     - name: "Build Community Together"
       icon: "ti-link"
-      content: "Both users and developers are welcome to offer suggestions for the development of STFIL DAO. Developers contribute codes to construct proposals, which JST holders vote on."
+      content: "Both users and developers are welcome to offer suggestions for the development of STFIL DAO. Developers contribute codes to construct proposals, which FDO holders vote on."
       button:
         - enable: true
           label: "Governance voting"

@@ -149,7 +149,7 @@ languageName = "Cn"
 languageCode = "zh-CN"
 contentDir = "content/chinese"
 weight = 1
-footer_content = "STFIL 是一个构建在Filecoin之上的流动性质押协议，旨在为社区所有、去中心化、无需信任，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
+footer_content = "STFIL 是一个构建在Filecoin上的流动性质押协议，旨在为社区所有、去中心化、无需信任，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
 # copyright
 copyright = "©2022 STFIL All rights reserved."
 
