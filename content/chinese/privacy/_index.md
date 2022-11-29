@@ -4,108 +4,108 @@ date: 2020-03-14T15:40:24+06:00
 draft : false
 ---
 
-## STFIL Privacy Notice
+## STFIL 私隐公告
 
-### Introduction
+### 简介
 
-This Privacy Notice (the “Privacy Notice”) explains how DeFi handles the personal data of individuals – the“Data Subjects” or the “Data Subject”, or “you”, “your”, in connection with accessing and using the website and any services available at https://stfil.io (together referred to as the “Services”).
+本私隐通知(下称“私隐通知”)解释DeFi如何处理个人(“数据主体”或“数据主体”或“您”)在访问和使用本网站及https://stfil.io提供的任何服务(统称“服务”)方面的个人数据。
 
-DeFi located at: Address: Genesis Building, 5th Floor, Genesis Close, PO Box 446, Cayman Islands, KY1 1106 (the “Company” or“we”, “our”, “us”) is the controller for your personal data within the scope of this Privacy Notice. The Company decides “why” and “how” your personal data is processed in connection with the Services.
+DeFi(“公司”或“我们”、“我们的”、“我们”)是本隐私通知范围内您的个人数据的控制者。本公司决定“为什么”和“如何”处理您的个人数据与服务有关。
 
-If you are interested in how we use cookies and you can change your cookies choice, please go to section “Cookies and Automatically Collected Data”
+如果您对我们如何使用cookie感兴趣，并且您可以更改您的cookie选择，请访问“cookie和自动收集的数据”部分。
 
-### Categories of Personal Data Collected, Purposes of and Bases for the Processing
+### 收集的个人资料类别、处理资料的目的及依据
 
-When providing the Services, the Company may process certain personal data for the following purposes:
+在提供服务时，本公司可出于以下目的处理某些个人数据:
 
-|  Purpose of processing   | Personal data  | Legal ground (basis)  |
-|  ----  | ----  | ----  |
-|  Communicating with you regarding your inquiries, questions or support tickets  | Email address, subject of inquiry and its content, attachments and any other information you voluntarily provide to us | Our legitimate interests / contractual obligations |
-| Sending email newsletters  | Email address | Your consent |
-| Provides access to users of the website to a decentralized protocol, known as “STFIL”  | Wallet addresses, transaction and balance information | Our contractual obligations (terms of use) |
-| Analyzing our website visitors’ actions to improve our Services  | See section “Cookies and Automatically Collected Data” | Your consent |
+|  目的   | 个人数据                                                   | 法律依据(依据)                                  |
+|  ----  |--------------------------------------------|-------------------------------------------|
+|  与您沟通您的询问，问题或支持票  | 您自愿提供给我们的电子邮件地址、查询主题及其内容、附件和任何其他信息                     | 我们的合法利益/合同义务                              |
+| 发送电子邮件通讯  | 邮箱地址 | 您的同意|
+| 为网站用户提供访问去中心“STFIL”化协议的权限  | 钱包地址，交易和余额信息  | 我们的合同义务(使用条款) |
+| 分析网站访客的行为，以改善我们的服务  | 参见“Cookies和自动收集的数据”部分。 | 您的同意                              |
 
 
-We collect your personal data directly from you or from other parties whom you have authorized such collection. We do not process special categories of personal data about you unless you voluntarily provide such data to us.
+我们会直接向您或您已授权的其他人士收集您的个人资料。我们不会处理有关您的特殊类别的个人数据，除非您自愿向我们提供此类数据。
 
-If you would like to learn more about the definitions used throughout this document such as the “legal grounds”, “legitimate interests” or “, please visit the Information Commissioner’s Office’s website.
+如欲进一步了解本文件所使用的“法律依据”、“合法权益”或“”等定义，请浏览资讯专员办事处网页。
 
-Cookies and Automatically Collected Data
+Cookies和自动收集的数据
 
-As you navigate through and interact with our website and the Services, we may ask your consent to use cookies, which are small files placed on the hard drive of your computer or mobile device, and web beacons, which are small electronic files located on pages of the website, to collect certain information about your equipment, browsing actions, and patterns.
+当您浏览我们的网站和“服务”并与之互动时，我们可能会征得您的同意，使用cookie(放置在您的计算机或移动设备硬盘驱动器上的小文件)和web信标(位于网站页面上的小电子文件)来收集有关您的设备、浏览行为和模式的某些信息。
 
 The data automatically collected from cookies and web beacons may include information from your web browser (such as browser type and browser language) and details of your visits to our website, including traffic data, location data and logs, page views, length of visit and website navigation paths as well as information about your device and internet connection, including your IP address and how you interact with the Services. We collect this data in order to help us improve our website and the Services.
 
-The information we collect automatically may also include statistical and performance information arising from your use of our Services and website. This type of data will only be used by us in an aggregated and anonymized manner.
+从cookies和网页信标自动收集的数据可能包括来自您的网页浏览器的信息(如浏览器类型和浏览器语言)和您访问我们网站的详细信息，包括流量数据、位置数据和日志、页面浏览量、访问时长和网站导航路径，以及有关您的设备和互联网连接的信息，包括您的IP地址和您与“服务”的交互方式。我们收集这些数据是为了帮助我们改进我们的网站和服务。
 
-You can disable/delete the cookies set by our website - please find the appropriate instructions by following these links on how to implement the deletion in different browsers:
+你可以禁用/删除本网站设置的cookies -请按以下连结查阅有关如何在不同浏览器中删除cookies的指引:
 
-- For Google Chrome browser please refer to this instructions
-- For Firefox browser please look up here
-- For Safari browser please visit
-- For Internet Explorer browser please refer to
+- 对于谷歌Chrome浏览器，请参考本说明
+- Firefox浏览器请查看这里
+- Safari浏览器请访问
+- 如使用internetexplorer浏览器，请参阅
 
 
-### Personal Data of Children
+### 儿童的个人资料
 
-If you are a resident of the US and you are under the age of 13, please do not submit any personal data through the website. If you have reason to believe that a child under the age of 13 has provided personal data to us through the Services, please contact us, and we will endeavour to delete that information from our databases.
+如果您是13岁以下的美国居民，请不要通过网站提交任何个人数据。如果您有理由相信有13岁以下的儿童通过本服务向我们提供了个人资料，请与我们联系，我们将尽力从数据库中删除该等资料。
 
-If you are a resident of the European Economic Area and you are under the age of 16, please do not submit any personal data through the Services and the website. We do not collect or process Personal Information pertaining to a child, where a child under the GDPR is defined as an individual below the age of 16 years old.
+如果您是欧洲经济区的居民并且您的年龄在16岁以下，请不要通过本服务和本网站提交任何个人数据。我们不收集或处理与儿童有关的个人信息(GDPR下的儿童定义为16岁以下的个人)。
 
-### Your Rights With Regard to the Personal Data Processing
+### 您在处理个人资料方面的权利
 
-In connection with the accessing, browsing of the website and using the Services, you shall be entitled to exercise certain rights laid down by the GDPR and outlined herein below, however exercise of some of those rights may not be possible in relation to the website and Services taking account of the Services’ nature, manner, form and other applicable circumstances. In some cases we may ask you to provide us additional evidence and information confirming your identity.
+在访问、浏览网站和使用服务方面，您将有权行使GDPR规定的并在下文概述的某些权利，但考虑到服务的性质、方式、形式和其他适用情况，其中一些权利在网站和服务方面可能无法行使。在某些情况下，我们可能会要求您提供额外的证据和信息来确认您的身份。
 
-Right to Access: you may request all personal data being processed about you by sending the right to access request to us.
+查阅权利:你可向我们发出查阅权利要求，要求我们处理你的所有个人资料。
 
-**Right to Rectification:** exercise of the given right directly depends on the data category concerned: if it concerns online identifiers obtained by the Company automatically, then their rectification isn’t possible, but such categories of personal data as email address may be rectified by sending us the respective request.
+**纠正权:** 行使上述权利直接取决于有关的资料类别:如涉及本公司自动获得的网上识别码，则无法予以纠正，但电邮地址等类别的个人资料可通过向本公司发出有关要求予以纠正。
 
-**Right to Erasure (Right to be Forgotten):** you can send us the request to delete the personal data we are currently processing about you.
+**抹除权(被遗忘权):** 您可以向我们发送删除我们目前正在处理的有关您的个人数据的请求。
 
-**Restriction of Processing:** you shall be entitled to request restriction of processing from us if you contest the personal data accuracy or object to processing of the personal data for direct marketing.
+**加工的限制:** 如果您质疑个人资料的准确性，或反对为直接营销而处理个人资料，您有权向我们要求限制处理。
 
-**Objection to Processing:** under certain circumstances you may exercise this right with respect to the personal data we process about you.
+**反对处理:** 在某些情况下，您可以就我们处理的有关您的个人数据行使这一权利。
 
-**Right to Data Portability:** under certain circumstances you may exercise this right respect to the personal data we process about you. Please be aware the Services may not provide for the technical ability for us to to help you exercise this right.
+**数据可携权:** 在某些情况下，您可以对我们处理的有关您的个人数据行使这一权利。请注意，“服务”可能不会为我们提供帮助您行使此项权利的技术能力。
 
-**Consent Withdrawal Right:** you shall be entitled to withdraw consent to the processing of the personal data to which you provided your consent. In particular, you can change your cookie choices by using our cookie consent tool built in the website. You can exercise your right to withdraw consent by unsubscribing from our email newsletter.
+**同意撤回权:** 您有权撤回对处理你所同意的个人资料的同意。特别是，您可以通过使用我们网站内置的cookie同意工具来更改您的cookie选择。您可以通过取消订阅我们的电子邮件通讯来行使撤回同意的权利。
 
-**Automated Decision-Making, Profiling:** neither is being carried out by the Company as for now, your consent will be sought before carrying out any such activities.
+**自动决策，分析:** 就目前而言，本公司没有进行任何此类活动，在进行任何此类活动之前，将征求您的同意。
 
-You shall have the right to lodge a complaint with a competent data protection supervisory authority.
+您有权向主管数据保护监管机构投诉。
 
-### Personal Data Storage Period or Criteria for Such Storage
+### 个人资料储存期限或储存准则
 
-Your Personal data will be stored till:
+您的个人资料将保存至:
 
-- they are necessary to render you the Services;
-- your consent is no longer valid;
-- your personal data have been deleted following your data deletion request;
-- we have received the court order or a lawful authority’s request mandating to permanently delete all the personal data we have obtained about you; or
-- In other circumstances prescribed by applicable laws.
+-他们是为您提供服务所必需的;
+-你的同意已不再有效;
+-根据你的删除资料要求，你的个人资料已被删除;
+-我们已收到法院命令或合法当局的要求，要求我们永久删除我们所获得的有关你的所有个人资料;或
+-适用法律规定的其他情形。
 
-In any event, we will not store your personal data for periods longer than it is necessary for the purposes of the processing.
+在任何情况下，我们不会储存您的个人资料的时间超过处理所需的时间。
 
-### Personal Data Recipients and Transfer of Personal Data
+### 个人资料的接收人和个人资料的转移
 
-For the purposes of rendering the Services to you and operating the website, the Company may share your personal data with certain categories of recipients and under circumstances mentioned below:
+为向您提供服务及运营本网站，本公司可能会在以下情况下与某些类别的收件人共享您的个人数据:
 
-1. providers, consultants, advisors, vendors and partners acting as data processors (meaning they process your personal data on our behalf and according to your instructions), which may supply hosting services, web analytics services, email marketing and automation services to run and operate the website, maintain, deliver and improve the Services. With all such parties we enter into data processing agreements required to be concluded by the applicable laws between controllers and processors to protect and secure the personal data by using appropriate technical and organizational measures;
+1. 作为数据处理器的供应商、顾问、和合作伙伴(他们代表我们并根据您的指示处理您的个人数据)，他们可能提供托管服务、网络分析服务、电子邮件营销和自动化服务，以运行和操作网站、维护、交付和改进服务。我们与所有此类当事人签订适用法律要求的数据处理协议，控制者和处理者之间通过使用适当的技术和组织措施来保护和保护个人数据;
 
-2. only in strict compliance with the applicable provisions, the Company also may share the personal data with governmental authorities upon their decision, receipt of court orders mandating the Company to disclose the personal data. In any such case, the Company will strive to disclose only a portion of the personal data which is definitely required to be disclosed, while continuing to treat the rest of the data in confidence;
+2. 只有在严格遵守适用规定的情况下，公司也可以在政府当局决定、收到法院命令要求公司披露个人数据时，与政府当局分享个人数据。在任何情况下，本公司将尽力只披露明确要求披露的部分个人资料，同时继续对其余资料保密;
 
-3. with any other third parties, if we have been explicitly requested to do so by you and as long as it doesn’t infringe the applicable laws.
+3.如果您明确要求我们这样做，并且不违反适用的法律，则可以与任何其他第三方合作。
 
-Transfers to third countries, shall be made subject to appropriate safeguards, namely standard contractual clauses adopted by a supervisory authority and approved by the Commission. Copy of the foregoing appropriate safeguards may be obtained by you upon a prior written request sent. We may instruct you on further steps to be taken with a purpose of obtaining such a copy, including your obligation to assume confidentiality commitments in connection with being disclosed the Company’s proprietary and personal information of third parties as well as terms of their relationships with the Company.
+向第三国家的转让应受适当保障措施的制约，即由监督当局通过并经委员会核准的标准合同条款。贵方可在事先发出书面要求后，获得上述适当保障措施的副本。我们可指示您为获取该等副本而采取的进一步措施，包括您就披露第三方的本公司专有和个人信息以及第三方与本公司关系的条款承担保密承诺的义务。
 
-Keep in mind that the use of services based on public blockchains intended to immutably record transactions across wide networks of computer systems. Many blockchains are open to forensic analysis which can lead to deanonymization and the unintentional revelation of personal data, in particular when blockchain data is combined with other data. Because blockchains are decentralized or third-party networks which are not controlled or operated by us, we are not able to erase, modify, or alter personal data from such networks.
+请记住，基于公共区块链的服务的使用旨在在广泛的计算机系统网络中永久记录交易。许多区块链对法医分析开放，这可能导致去匿名化和无意中泄露个人数据，特别是当区块链数据与其他数据结合时。因为区块链是去中心化的或第三方网络，不受我们的控制或操作，我们无法从此类网络中删除、修改或更改个人数据。
 
-### Security of Processing
+### 处理的安全性
 
-We take information security very seriously. We work hard to protect the personal data you give us from loss, misuse, or unauthorized access. We utilize a variety of safeguards to protect the personal data submitted to us, both during transmission and once it is received.
+我们非常重视信息安全。我们努力保护您提供给我们的个人资料不被丢失、滥用或未经授权的访问。无论是在传输过程中还是在收到数据后我们都将采用各种安全措施来保护提交给我们的个人数据。
 
-### Contacts and Requests; Changes to the Privacy Notice
+### 联系方式和请求;对隐私通知的更改
 
-Please send all your requests and queries in connection with your rights and freedoms relating to the personal data protection and processing conducted by the Company as part of providing the website and rendering the Services to you to: contacts@stfil.io.
+请将您所有与本公司个人数据保护和处理相关的权利和自由有关的请求和查询，作为提供网站和向您提供服务的一部分，发送至:contacts@stfil.io。
 
-Changes to the Privacy Notice will be displayed in the form of the updated document published on the website. We also can arrange the updates introduced to the Privacy Notice by archiving the previous versions of the document accessible in the electronic form on the website.
+“私隐通知”的更改将以更新文件的形式在网站上公布。我们亦可将该文件的以前版本存档，以便安排私隐通知的更新，该文件可在本网站以电子形式查阅。

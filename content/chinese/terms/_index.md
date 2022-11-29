@@ -4,114 +4,113 @@ date: 2020-03-14T15:40:24+06:00
 draft : false
 ---
 
-## Terms of Use
+## 使用条款
 
-> You are prohibited from accessing, using or otherwise receiving any benefits of the Interface or our other offerings and services if you fail to satisfy the eligibility requirements set forth in Section 1 hereof or if you otherwise breach or violate any of the terms and conditions set forth herein. The eligibility requirements mandate, among other things, that you not reside in or be a citizen of a Restricted Territory (as defined below), that you are not a Sanctioned List Person (as defined below) and that you do not intend to transact in or with any Restricted Territory or Sanctions List Person If you fail to meet the eligibility requirements set forth i n Section 1 or are otherwise not in strict compliance with these Terms, then you must not attempt to access or use the Interface or any of our other offerings or services. Use of a virtual private network (e.g., a VPN) or other means by restricted persons to access or use the Interface is prohibited and may subject you to legal liability for fraudulent use of the Interface.
+> 如果您未能满足本协议第1条规定的资格要求，或者您违反本协议中规定的任何条款和条件，您将被禁止访问、使用或以其他方式获得本接口或我们的其他产品和服务的任何便利。除其他事项外，资格要求 要求您不在受限地区(定义见下文)居住或成为受限地区的公民，您不是受制裁地区(定义见下文)人员，且您不打算在任何受限地区或受制裁名单人员进行交易，或与任何受制裁地区或受制裁名单人员进行交易。如果您未能满足第1节规定的资格要求或在其他方面没有严格遵守本条款，则您不得试图访问或使用“接口”或我们的任何其他产品或服务。禁止受限制人员使用虚拟专用网络(如VPN)或其他方式访问或使用接口，并可能使您因欺骗使用接口而承担法律责任。
 
-Welcome to https://lido.fi, a website-hosted user interface (the “Interface”) made available by DeFi (“we”, “our”, or “us”). The Interface provides access to a decentralized protocol, known as “Lido,” which allows users to stake ether and receive in return stETH tokens in a number corresponding to the staked ether (the “Protocol”).
+欢迎访问https://stfil.io，一个由DeFi(“我们”，“我们的”或“我们”)提供的网站托管用户界面(“界面”)。该接口提供对名为“STFIL”的去中心化协议的访问，该协议允许用户对以太币进行下注，并返回与下注的Fil对应的数字的stFil令牌(“协议”)。
 
-These Terms of Use and any terms and conditions incorporated herein by reference (collectively, the “Terms”) govern your access to and use of the Interface. You must read the Terms carefully. By accessing, browsing or otherwise using the Interface, or by acknowledging agreement to the Terms on the Interface, you agree that you have read, understood and accepted all of the Terms and our Privacy Policy (the “Privacy Policy”), which is incorporated by reference into the Terms. THE TERMS CONTAIN IMPORTANT INFORMATION, INCLUDING A BINDING ARBITRATION PROVISION AND A CLASS ACTION WAIVER, BOTH OF WHICH IMPACT YOUR RIGHTS AS TO HOW DISPUTES ARE RESOLVED.
+本使用条款以及本使用条款中引用的任何条款和条件(统称为“条款”)规范您对接口的访问和使用。您必须仔细阅读本条款。通过访问、浏览或以其他方式使用本界面，或确认同意本界面上的条款，即表示您已阅读、理解并接受所有本条款和我们的隐私政策(“隐私政策”)，并通过引用纳入本条款。这些条款包含了重要的信息，包括有约束力的仲裁条款和集体诉讼弃权，这两者都影响您对如何解决纠纷的权利。
 
-We may change, amend, or revise the Terms from time to time and at any time, in our sole discretion. When we make changes, we will make the updated Terms available on the Interface and update the “Last Updated” date at the beginning of the Terms accordingly. Please check the Terms periodically for changes. Any changes to the Terms will be applicable as of the date that they are made, and your continued access to or use of the Interface after the Terms have been updated will constitute your binding acceptance of such updates. If you do not agree to the revised Terms, then you should not continue to access or use the Interface.
+我们可随时自行决定更改、修订或修订条款。当我们作出更改时，我们将在界面上提供更新后的条款，并相应地更新条款开头的“最后更新”日期。请定期检查条款如有更改。本条款的任何更改将自其作出之日起生效，您在本条款更新后继续访问或使用本接口将构成您对该等更新的具有约束力的接受。如果您不同意修改后的条款，则不应继续访问或使用本界面。
 
-#### 1. Eligibility
+#### 1. 资格
 
-In order to use the Interface, you must satisfy the following eligibility requirements. You hereby represent and warrant, to and for the benefit of us and each of our officers, directors, supervisors, shareholders, members, investors, employees, agents, service providers and affiliates that you satisfy all of the eligibility requirements as of each date that you make any use or receive any benefits of the Interface.
+为了使用该接口，您必须满足以下资格要求。您在此向我们以及我们的每一位管理人员、董事、监事、股东、成员、投资者、雇员、代理、服务提供商和关联公司声明并保证，自您使用或接收接口的任何利益的每一天起，您都满足所有资格要求。
 
-1.1&nbsp;&nbsp;&nbsp;&nbsp;you are of legal age in the jurisdiction in which you reside and you have legal capacity to enter into the Terms and be bound by them;
+1.1&nbsp;&nbsp;&nbsp;&nbsp;在您居住的司法管辖区，您已达到法定年龄，您具有签订本条款并受其约束的法律能力;
 
-1.2&nbsp;&nbsp;&nbsp;&nbsp;if you accept the Terms on behalf of a legal entity, you must have the legal authority to accept the Terms on that entity’s behalf, in which case “you” as used herein (except as used in this paragraph) will mean that entity;
+1.2&nbsp;&nbsp;&nbsp;&nbsp;如果您代表一家法人实体接受本条款，则您必须拥有代表该法人实体接受本条款的法律权力，在这种情况下，此处使用的“您”(本段中使用的除外)指的是该实体;
 
-1.3&nbsp;&nbsp;&nbsp;&nbsp;(i) you are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Belarus, Burundi, Crimea and Sevastopol, Cuba, Democratic Republic of Congo, Iran, Iraq, Libya, North Korea, Somalia, Sudan, Syria, Venezuela, Zimbabwe or any other country to which the United States, the United Kingdom, the Cayman Islands, the European Union or any of its member states or the United Nations or any of its member states (collectively, the “Major Jurisdictions”) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the “Restricted Territories”); (ii) you are not, and do not directly or indirectly own or control, and have not received any assets from, any blockchain address that is, listed on any sanctions list or equivalent maintained by any of the Major (such sanctions-listed persons, collectively, “Sanctions Lists Persons”); and (iii) you do not intend to transact in or with any Restricted Territories or Sanctions List Persons; and
+1.3&nbsp;&nbsp;&nbsp;&nbsp;(i)您不是白俄罗斯、布隆迪、克里米亚和塞瓦斯托波尔、古巴、刚果民主共和国、伊朗、伊拉克、利比亚、朝鲜、索马里、苏丹、叙利亚、委内瑞拉、津巴布韦或美国、英国、开曼群岛、欧盟或其任何成员国或联合国或其任何成员国(合起来，“主要司法管辖区”)禁运货物或实施类似制裁(该等禁运或受制裁地区，统称“限制地区”);(ii)您不是，也不直接或间接拥有或控制，也没有从任何主要公司(该等制裁名单上的人员统称为“制裁名单上的人员”)所保持的任何制裁名单上的任何区块链地址接收任何资产;以及(iii)您不打算在任何限制地区或制裁名单上的人员内或与之进行交易;
 
-1.4&nbsp;&nbsp;&nbsp;&nbsp;you are not a Restricted Person; and
+1.4&nbsp;&nbsp;&nbsp;&nbsp;您不是受限制人士;
 
-1.5&nbsp;&nbsp;&nbsp;&nbsp;your use of the Interface is not prohibited by and does not otherwise violate or facilitate the violation of any applicable laws or regulations, or contribute to or facilitate any illegal activity.
+1.5&nbsp;&nbsp;&nbsp;&nbsp;您对接口的使用不被禁止，也不违反或促进违反任何适用的法律或法规，或促成或促进任何非法活动。
 
 
-#### 2. Access to the Interface
-We reserve the right to disable access to the Interface at any time, with or without cause or good reason. Our grounds for terminating access to the Interface may include, but are not limited to, any breach of the Terms, including without limitation, if we, in our sole discretion, believe that you, at any time, fail to satisfy the eligibility requirements set forth in the Terms. Further, we reserve the right to limit or restrict access to the Interface by any person or entity, or within any geographic area or legal jurisdiction, at any time and in our sole discretion. We will not be liable to you for any losses or damages you may suffer as a result of or in connection with the Interface being inaccessible to you at any time or for any reason.
+#### 2. 接口访问
+我们保留在任何时候禁用对接口的访问的权利，无论是否有理由或充分的理由。我们终止访问接口的理由可能包括但不限于，任何违反条款的行为，包括但不限于，如果我们凭自己的判断认为您在任何时候未能满足条款中规定的资格要求。此外，我们保留在任何时间由我们自行决定限制或限制任何个人或实体，或在任何地理区域或法律管辖范围内访问接口的权利。对于因您在任何时间或任何原因无法访问本接口而导致或与此相关的任何损失或损害，我们不对您负责。
 
-#### 3. Proprietary Rights
-3.1&nbsp;&nbsp;&nbsp;&nbsp;We own all intellectual property and other rights in the Interface and its contents, including, but not limited to, software, text, images, trademarks, service marks, copyrights, patents, and designs. Unless expressly authorized by us, you may not copy, modify, adapt, rent, license, sell, publish, distribute, or otherwise permit any third party to access or use the Interface or any of its contents. Accessing or using the Interface does not constitute a grant to you of any proprietary intellectual property or other rights in the Interface or its contents.
+#### 3. 专有权利
+3.1&nbsp;&nbsp;&nbsp;&nbsp;我们拥有本界面及其内容的所有知识产权和其他权利，包括但不限于软件、文字、图像、商标、服务标志、版权、专利和外观设计。除非得到我们的明确授权，否则您不得复制、修改、改编、租赁、许可、出售、出版、分发或以其他方式允许任何第三方访问或使用本接口或其任何内容。访问或使用本界面并不构成授予您本界面或其内容中的任何专有知识产权或其他权利。
 
-3.2&nbsp;&nbsp;&nbsp;&nbsp;You will retain ownership of all intellectual property and other rights in any information and materials you submit through the Interface. However, by uploading such information or materials, you grant us a worldwide, royalty-free, irrevocable license to use, copy, distribute, publish and send this data in any manner in accordance with applicable laws and regulations.
+3.2&nbsp;&nbsp;&nbsp;&nbsp;您将保留通过本界面提交的任何信息和材料的所有知识产权和其他权利。但是，通过上传这些信息或材料，您授予我们一种全球范围的、免版税的、不可撤销的许可，允许我们按照适用的法律和法规以任何方式使用、复制、分发、发布和发送这些数据。
 
-3.3&nbsp;&nbsp;&nbsp;&nbsp;You may choose to submit comments, bug reports, ideas or other feedback about the Interface, including, without limitation, about how to improve the Interface (collectively, “Feedback”). By submitting any Feedback, you agree that we are free to use such Feedback at our discretion and without additional compensation to you, and to disclose such Feedback to third parties (whether on a non-confidential basis, or otherwise). If necessary under applicable law, then you hereby grant us a perpetual, irrevocable, non-exclusive, transferable, worldwide license under all rights necessary for us to incorporate and use your Feedback for any purpose.
+3.3&nbsp;&nbsp;&nbsp;&nbsp;您可以选择提交关于界面的评论、bug报告、想法或其他反馈，包括但不限于如何改进界面(统称为“反馈”)。通过提交任何反馈，您同意我们可自由酌情使用该等反馈，且无需向您支付额外补偿，并可向第三方披露该等反馈(无论是在非保密的基础上，还是其他情况下)。在适用法律规定的必要情况下，您在此授予我们永久的、不可撤销的、非排他性的、可转让的、全球范围内的许可，允许我们将您的反馈用于任何目的。
 
-3.4&nbsp;&nbsp;&nbsp;&nbsp;If (i) you satisfy all of the eligibility requirements set forth in the Terms, and (ii) your access to and use of the Interface complies with the Terms, you hereby are granted a single, personal, limited license to access and use the Interface. This license is non-exclusive, non-transferable, and freely revocable by us at any time without notice or cause in our sole discretion. Use of the Interface for any purpose not expressly permitted by the Terms is strictly prohibited. Unlike the Interface, the Protocol is comprised entirely of open-source software running on the public Ethereum blockchain and is not our proprietary property.
+3.4&nbsp;&nbsp;&nbsp;&nbsp;如果(i)您满足条款中规定的所有资格要求，并且(ii)您对接口的访问和使用符合条款，您在此被授予访问和使用接口的单一的、个人的、有限的许可。本许可是非排他性的、不可转让的，并可由我们自行决定在任何时候自由撤销，无需通知或理由。严禁将本接口用于本条款未明确允许的任何目的。与接口不同，协议完全由运行在公共Filecoin区块链上的开源软件组成，不是我们的专有财产。
 
-#### 4. Prohibited Activity
-You agree not to engage in, or attempt to engage in, any of the following categories of prohibited activity in relation to your access or use of the Interface:
+#### 4. 被禁止的活动
+您同意不参与或试图参与与您访问或使用本界面有关的下列任何一类被禁止的活动:
 
-4.1&nbsp;&nbsp;&nbsp;&nbsp;Activity that breaches the Terms;
+4.1&nbsp;&nbsp;&nbsp;&nbsp;违反本条款的行为;
 
-4.2&nbsp;&nbsp;&nbsp;&nbsp;Activity that infringes on or violates any copyright, trademark, service mark, patent, right of publicity, right of privacy, or other proprietary or intellectual property rights under the law.
+4.2&nbsp;&nbsp;&nbsp;&nbsp;侵犯或侵犯任何版权、商标、服务标志、专利、宣传权、隐私权或其他法律规定的专有或知识产权的活动。
 
-4.3&nbsp;&nbsp;&nbsp;&nbsp;Activity that seeks to interfere with or compromise the integrity, security, or proper functioning of any computer, server, network, personal device, or other information technology system, including, but not limited to, the deployment of viruses and denial of service attacks.
+4.3&nbsp;&nbsp;&nbsp;&nbsp;试图干扰或破坏任何计算机、服务器、网络、个人设备或其他信息技术系统的完整性、安全性或正常功能的活动，包括但不限于部署病毒和拒绝服务攻击。
 
-4.4&nbsp;&nbsp;&nbsp;&nbsp;Activity that seeks to defraud us or any other person or entity, including, but not limited to, providing any false, inaccurate, or misleading information in order to unlawfully obtain the property of another.
+4.4&nbsp;&nbsp;&nbsp;&nbsp;旨在欺骗我们或任何其他人或实体的活动，包括但不限于提供任何虚假、不准确或误导性信息，以非法获取他人的财产。
 
-4.5&nbsp;&nbsp;&nbsp;&nbsp;Activity that violates any applicable law, rule, or regulation concerning the integrity of trading markets, including, but not limited to, the manipulative tactics commonly known as spoofing and wash trading.
+4.5&nbsp;&nbsp;&nbsp;&nbsp;违反任何有关交易市场完整性的适用法律、规则或法规的活动，包括但不限于通常被称为欺骗和虚假交易的操纵策略。
 
-4.6&nbsp;&nbsp;&nbsp;&nbsp;Activity that violates any applicable law, rule, or regulation of any Major Jurisdiction.
+4.6&nbsp;&nbsp;&nbsp;&nbsp;违反任何主要司法管辖区的任何适用法律、规则或条例的活动。
 
-4.7&nbsp;&nbsp;&nbsp;&nbsp;Activity that disguises or interferes in any way with the IP address of the computer you are using to access or use the Interface or that otherwise prevents us from correctly identifying the IP address of the computer you are using to access the Interface.
+4.7&nbsp;&nbsp;&nbsp;&nbsp;以任何方式伪装或干扰您用于访问或使用该接口的计算机的IP地址的活动，或以其他方式阻止我们正确识别您用于访问该接口的计算机的IP地址的活动。
 
-4.8&nbsp;&nbsp;&nbsp;&nbsp;Activity that transmits, exchanges, or is otherwise supported by the direct or indirect proceeds of criminal or fraudulent activity.
+4.8&nbsp;&nbsp;&nbsp;&nbsp;通过犯罪或欺诈活动的直接或间接收益进行传输、交换或以其他方式支持的活动。
 
-4.9&nbsp;&nbsp;&nbsp;&nbsp;Activity that contributes to or facilitates any of the foregoing activities.
+4.9&nbsp;&nbsp;&nbsp;&nbsp;帮助或促进上述任何活动的活动。
 
-#### 5. No Professional Advice or Fiduciary Duties
+#### 5. 没有专业建议或受托责任
 
-5.1&nbsp;&nbsp;&nbsp;&nbsp;All information provided in connection with your access and use of the Interface is for informational purposes only and should not be construed as professional advice. You should not take, or refrain from taking, any action based on any information contained in the Interface or any other information that we make available at any time, including, without limitation, blog posts, articles, links to third-party content, news feeds, tutorials, tweets and videos. Before you make any financial, legal, or other decisions involving the Interface, you should seek independent professional advice from an individual who is licensed and qualified in the area for which such advice would be appropriate.
+5.1&nbsp;&nbsp;&nbsp;&nbsp;所有有关您访问和使用本界面的信息仅供参考之用，不应被理解为专业意见。您不应根据本界面所包含的任何信息或我们随时提供的任何其他信息(包括但不限于博客文章、文章、第三方内容链接、新闻提要、教程、推特和视频)采取或避免采取任何行动。在您做出任何涉及接口的财务、法律或其他决定之前，您应该向在该领域有执照和资格的个人寻求独立的专业意见。
 
-5.2&nbsp;&nbsp;&nbsp;&nbsp;The Terms are not intended to, and do not, create or impose any fiduciary duties on us. To the fullest extent permitted by law, you acknowledge and agree that we owe no fiduciary duties or liabilities to you or any other party, and that to the extent any such duties or liabilities may exist at law or in equity, those duties and liabilities are hereby irrevocably disclaimed, waived, and eliminated. You further agree that the only duties and obligations that we owe you are those set forth expressly in the Terms.
+5.2&nbsp;&nbsp;&nbsp;&nbsp;本条款无意也不会对我们产生或施加任何信托责任。在法律允许的最大范围内，您承认并同意我们不对您或任何其他方承担信托义务或责任，并且在法律或衡平法上可能存在的任何该等义务或责任的范围内，在此不可撤销地放弃、消除该等义务和责任。您进一步同意，我们对您的唯一责任和义务是条款中明确规定的那些。
 
-#### 6. No Warranties
+#### 6. 没有保证
 
-The Interface is provided on an “AS IS” and “AS AVAILABLE” basis. To the fullest extent permitted by law, we disclaim any representations and warranties of any kind, whether express, implied, or statutory, including, but not limited to, the warranties of merchantability and fitness for a particular purpose. You acknowledge and agree that your access and use of the Interface is at your own risk. We do not represent or warrant that access to the Interface will be continuous, uninterrupted, timely, or secure; that the information contained in the Interface will be accurate, reliable, complete, or current; or that the Interface will be free from errors, defects, viruses, or other harmful elements. No advice, information, or statement that we make should be treated as creating any warranty concerning the Interface. We do not endorse, guarantee, or assume responsibility for any advertisements, offers, or statements made by third parties concerning the Interface.
+接口是在“AS is”和“AS AVAILABLE”的基础上提供的。在法律允许的最大限度内，我们拒绝任何形式的明示、暗示或法定的陈述和保证，包括但不限于适销性和适合于某一特定目的的保证。您承认并同意您访问和使用本界面的风险由您自行承担。我们不声明或保证对接口的访问将是持续、不间断、及时或安全的;接口中所包含的信息将是准确、可靠、完整或最新的;或者接口没有错误、缺陷、病毒或其他有害因素。我们所做的任何建议、信息或声明都不应被视为创建任何有关接口的保证。我们不对第三方就本界面所作的任何广告、报价或声明背书、保证或承担责任。
 
-#### 7. Compliance Obligations
+#### 7. 合规义务
 
-The Interface may not be available or appropriate for use in all jurisdictions. By accessing or using the Interface, you agree that you are solely and entirely responsible for compliance with all laws and regulations that may apply to you. You further agree that we have no obligation to inform you of any potential liabilities or violations of law or regulation that may arise in connection with your access and use of the Interface and that we are not liable in any respect for any failure by you to comply with any applicable laws or regulations.
+该接口可能不适用于所有司法管辖区。通过访问或使用本界面，您同意您完全负责遵守可能适用于您的所有法律和法规。您进一步同意，我们没有义务告知您任何与您访问和使用界面相关的潜在责任或违反法律或法规的行为，我们也不对您未能遵守任何适用的法律或法规的任何方面负责。
 
-#### 8. Assumption of Risk
+#### 8. 风险承担
 
-By accessing and using the Interface, you represent that you understand (a) the Interface facilitates access to the Protocol, the use of which has many inherent risks, and (b) the cryptographic and blockchain-based systems have inherent risks to which you are exposed when using the Interface. You further represent that you have a working knowledge of the usage and intricacies of blockchain-based digital assets, including, without limitation, ERC-20 token standard available on the Ethereum blockchain. You further understand that the markets for these blockchain-based digital assets are highly volatile due to factors that include, but are not limited to, adoption, speculation, technology, security, and regulation. You acknowledge that the cost and speed of transacting with blockchain-based systems, such as Ethereum, are variable and may increase or decrease, respectively, drastically at any time. You hereby acknowledge and agree that we are not responsible for any of these variables or risks associated with the Protocol and cannot be held liable for any resulting losses that you experience while accessing or using the Interface. Accordingly, you understand and agree to assume full responsibility for all of the risks of accessing and using the Interface to interact with the Protocol.
+通过访问和使用该接口，您表示您理解(a)该接口有助于访问协议，使用该协议存在许多固有风险，(b)在使用该接口时，加密和基于区块链的系统存在您所面临的固有风险。您进一步表示，您对基于区块链的数字资产的使用和复杂性有工作知识，包括但不限于Filecoin区块链上可用的FRC-46令牌标准。您进一步了解到，这些基于区块链的数字资产的市场由于包括但不限于采用、投机、技术、安全和监管等因素而高度波动。你承认，使用基于区块链的系统(如Filecoin)进行交易的成本和速度是可变的，可能在任何时候分别大幅增加或减少。您在此承认并同意，我们不对与本协议相关的任何变量或风险负责，也不对您在访问或使用本接口时所遭受的任何损失负责。因此，您理解并同意为访问和使用接口与协议交互的所有风险承担全部责任。
 
-#### 9. Third-Party Resources and Promotions
+#### 9. 第三方资源及推广
 
-The Interface may contain references or links to third-party resources, including, but not limited to, information, materials, products, or services, that we do not own or control. In addition, third parties may offer promotions related to your access and use of the Interface. We do not endorse or assume any responsibility for any such resources or promotions. If you access any such resources or participate in any such promotions, you do so at your own risk, and you understand that the Terms do not apply to your dealings or relationships with any third parties. You expressly relieve us of any and all liability arising from your use of any such resources or participation in any such promotions.
+本接口可能包含对第三方资源的引用或链接，包括但不限于我们不拥有或控制的信息、材料、产品或服务。此外，第三方可能会提供与您访问和使用本界面相关的促销活动。我们不对任何此类资源或促销活动背书或承担任何责任。如果您访问任何此类资源或参与任何此类促销活动，您需自行承担风险，并且您明白本条款不适用于您与任何第三方的交易或关系。您明确免除我们因您使用任何此类资源或参与任何此类促销活动而产生的任何及所有责任。
 
-#### 10. Release of Claims
+#### 10. 索偿解除
 
-You expressly agree that you assume all risks in connection with your access to and use of the Interface. Additionally, you expressly waive and release us from any and all liability, claims, causes of action, or damages arising from or in any way relating to your access to and use of the Interface.
+您明确同意您承担与访问和使用本接口有关的所有风险。此外，您明确放弃并免除我们因访问和使用本界面而产生的或以任何方式与之相关的任何和所有责任、索赔、诉讼原因或损害赔偿。
 
-#### 11. Indemnity
+#### 11. 赔偿
 
-You agree to hold harmless, release, defend, and indemnify us and our officers, directors, employees, contractors, agents, affiliates, and subsidiaries from and against all claims, damages, obligations, losses, liabilities, costs, and expenses arising from: (a) your access to and use of the Interface; (b) your violation of the Terms, the rights of any third party, or any other applicable law, rule, or regulation; and (c) any other party’s access to and use of the Interface with your assistance or using any device or account that you own or control.
+您同意使我们和我们的管理人员、董事、员工、承包商、代理、联属公司和子公司免受以下原因引起的所有索赔、损害赔偿、义务、损失、责任、成本和费用的伤害、释放、保护和赔偿:(a)您访问和使用接口;(b)您违反本条款、任何第三方的权利或任何其他适用的法律、规则或法规;以及(c)任何其他方在您的协助下或使用您拥有或控制的任何设备或帐户访问和使用接口的权利。
 
-#### 12. Limitation of Liability
+#### 12. 责任限制
 
-Under no circumstances shall we or any of our officers, directors, employees, contractors, agents, affiliates, or subsidiaries be liable to you for any indirect, punitive, incidental, special, consequential, or exemplary damages, including (but not limited to) damages for loss of profits, goodwill, use, data, or other intangible property, arising out of or relating to any access to or use of the Interface, nor will we be responsible for any damage, loss, or injury resulting from hacking, tampering, or other unauthorized access to or use of the Interface, or from any access to or use of any information obtained by any unauthorized access to or use of the Interface. We assume no liability or responsibility for any: (a) errors, mistakes, or inaccuracies of content; (b) personal injury or property damage, of any nature whatsoever, resulting from any access to or use of the Interface; (c) unauthorized access to or use of any secure server or database in our control, or the use of any information or data stored therein; (d) interruption or cessation of function related to the Interface; (e) bugs, viruses, trojan horses, or the like that may be transmitted to or through the Interface; (f) errors or omissions in, or loss or damage incurred as a result of, the use of any content made available through the Interface; and (g) the defamatory, offensive, or illegal conduct of any third party. Under no circumstances shall we or any of our officers, directors, employees, contractors, agents, affiliates, or subsidiaries be liable to you for any claims, proceedings, liabilities, obligations, damages, losses, or costs in an amount exceeding the greater of (i) the amount you paid to us in exchange for access to and use of the Interface, or (ii) $100.00. This limitation of liability applies regardless of whether the alleged liability is based on contract, tort, negligence, strict liability, or any other basis, and even if we have been advised of the possibility of such liability. Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of certain liabilities and damages. Accordingly, some of the disclaimers and limitations set forth in the Terms may not apply to you. This limitation of liability shall apply to the fullest extent permitted by law.
+您同意使我们和我们的管理人员、董事、员工、承包商、代理、联属公司和子公司免受以下原因引起的所有索赔、损害赔偿、义务、损失、责任、成本和费用的伤害、释放、保护和赔偿的权利:(a)您访问和使用接口;(b)您违反本条款、任何第三方的权利或任何其他适用的法律、规则或法规;以及(c)任何其他方在您的协助下或使用您拥有或控制的任何设备或帐户访问和使用接口。
 
-#### 13. Dispute Resolution
+#### 13. 争议解决
 
-We will use our best efforts to resolve any potential disputes through informal, good faith negotiations. If a potential dispute arises, you must first contact us by sending an email to info@lido.fi so that we can attempt to resolve it without resorting to formal dispute resolution. If we are not able to reach an informal resolution within sixty days of your email, then you and we both agree to resolve the potential dispute according to the process set forth below. Any claim or controversy arising out of or relating to the Interface, the Terms, or any other acts or omissions for which you may contend that we are liable, including (but not limited to) any claim or controversy as to arbitrability (each, a “Dispute”), shall be finally and exclusively settled by arbitration administered by the London Court of International Arbitration under the LCIA Arbitration Rules in force at the time of the filing for arbitration of any Dispute. You understand that you are required to resolve all Disputes by binding arbitration. The arbitration shall be held on a confidential basis before a single arbitrator and shall be conducted in English. Unless we agree otherwise, the arbitrator may not consolidate your claims with those of any other party. Any judgment on the award rendered by the arbitrator may be entered in any court of the Cayman Islands or other court of competent jurisdiction consented to in writing by us. You further agree that the Interface shall be deemed to be based solely in the Cayman Islands and that, although the Interface may be available in other jurisdictions, its availability does not give rise to general or specific personal jurisdiction in any forum outside the Cayman Islands.
+我们将尽最大努力通过非正式的、真诚的谈判解决任何潜在的争端。如果出现潜在的争议，您必须首先通过发送电子邮件到contacts@stfil.io与我们联系，以便我们可以尝试解决它，而不诉诸于正式的争议解决方案。如果我们不能在收到你的邮件后的60天内达成非正式的解决方案，那么你我双方同意按照下面列出的流程解决潜在的争议。任何由接口、条款或您可能认为我方应负责任的任何其他行为或不作为引起的或与之相关的索赔或争议，包括(但不限于)任何关于可仲裁性的索赔或争议(各称为“争议”)，均应根据任何争议申请仲裁时新加坡仲裁规则，由新加坡仲裁法院执行仲裁，最终并独家解决。你方明白你方必须通过有约束力的仲裁来解决所有争议。仲裁应在保密的基础上进行，由一名仲裁员主持，用英语进行。除非我们另有约定，仲裁员不得将贵方的索赔与任何其他方的索赔合并。仲裁员作出的任何裁决均可在新加坡的任何法院或我方书面同意的其他有管辖权的法院进行。你方进一步同意，“接口”应被视为仅以新加坡为基地，并且，尽管“接口”可在其他司法管辖区使用，但其使用不导致在新加坡以外的任何论坛产生一般或具体的属人管辖权。
 
-#### 14. Class Action and Jury Trial Waiver
+#### 14. 集体诉讼和陪审团审判弃权
 
-You must bring any and all Disputes against us in your individual capacity and not as a plaintiff in or member of any purported class action, collective action, private attorney general action, or other representative proceeding. This provision applies to class arbitration. You and we both agree to waive the right to demand a trial by jury.
-
-#### 15. Governing Law
+您必须以个人身份向我们提起任何及所有争议，而不是作为任何所谓的集体诉讼、集体诉讼、私人总检察长诉讼或其他代表诉讼的原告或成员。本规定适用于集体仲裁。你和我们都同意放弃要求陪审团审判的权利。
+#### 15. 适用法律
 
 You agree that the laws of the Cayman Islands, without regard to principles of conflict of laws, govern the Terms and any Dispute between you and us.
 
-#### 16. Entire Agreement
+#### 16. 全部协议
 
-The Terms, including the Privacy Policy, constitute the entire agreement between you and us with respect to the subject matter hereof, including the Interface. The Terms, including the Privacy Policy, supersede any and all prior or contemporaneous written and oral agreements, communications and other understandings relating to the subject matter of the Terms.
+本条款，包括隐私政策，构成您与我们之间关于本协议标的(包括接口)的完整协议。本条款(包括隐私政策)取代与本条款主题相关的任何和所有先前或同时的书面和口头协议、通信和其他谅解。
 
-#### 17. Privacy Policy
+#### 17. 隐私政策
 
-The Privacy Policy describes the ways we collect, use, store and disclose your personal information. You agree to the collection, use, storage, and disclosure of your data in accordance with the Privacy Policy.
+本隐私政策描述了我们收集、使用、存储和披露您的个人信息的方式。您同意根据本隐私政策收集、使用、存储和披露您的数据。
