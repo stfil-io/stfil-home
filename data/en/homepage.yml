@@ -87,10 +87,9 @@ working:
       icon : "ti-link"
       content : "Screen high-quality storage providers, improve the service quality of the entire network, and jointly create a robust, stable, and experienced distributed storage network."
 
-
     - name : "**stFIL**"
       icon : "ti-magnet"
-      content : "At any time, always maintain a 1:1 exchange of FIL, representing the right to claim the staked FIL. And instead of being locked into us, stFIL accumulates staking rewards wherever it is earned."."
+      content : "At any time, always maintain a 1:1 exchange of FIL, representing the right to claim the staked FIL. And instead of being locked into us, stFIL accumulates staking rewards wherever it is earned."
 
     - name : "**DeFi**"
       icon : "ti-link"
