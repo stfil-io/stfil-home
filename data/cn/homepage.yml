@@ -173,7 +173,7 @@ achivement:
   funfacts:
     - name : "FIL质押量"
       count : "253642"
-      extension : "fil"
+      extension : "FIL"
 
     - name : "参与质押人数"
       count : "19265"
@@ -181,7 +181,7 @@ achivement:
 
     - name : "累计奖励收益"
       count : "8642"
-      extension : "fil"
+      extension : "FIL"
 
     - name: "存储提供商数量"
       count: "25"

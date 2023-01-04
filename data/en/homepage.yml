@@ -150,7 +150,7 @@ achivement:
   funfacts:
     - name : "**Total Staked**"
       count : "253642"
-      extension : "fil"
+      extension : "FIL"
 
     - name : "**Stakers**"
       count : "19265"
@@ -158,7 +158,7 @@ achivement:
 
     - name : "**Total rewards paid**"
       count : "8642"
-      extension : "fil"
+      extension : "FIL"
 
     - name: "**Storage Providers**"
       count: "25"

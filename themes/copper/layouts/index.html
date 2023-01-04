@@ -277,13 +277,12 @@
           <div class="mt-4">
             {{ range .button }}
             {{ if .enable }}
-              <div class="mr-2 flex-row align-content-center align-items-center" style="display: inline-block;background-color: #CACCFF5C;border-radius: 4px;padding: 3px 11px;">
-                <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold fw-medium fs-16" style="line-height: 1;color: #6752F1 !important;">{{ .label}}
-                  <span style="margin-left: 2px;">
-                    <img src="/images/icons/more.png" alt="" style="width: 8px;height: 12px;">
-                  </span>
-                </a>
-              </div>
+
+            <a href="{{ .link }}" class="btn btn-link text-primary p-0 fw-medium fs-16 mr-4">{{ .label}}<svg
+                    width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+            </svg></a>
             {{ end }}
             {{ end }}
           </div>
