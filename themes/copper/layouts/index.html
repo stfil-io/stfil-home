@@ -9,11 +9,11 @@
   <div class="container h-100">
     <div class="d-block d-lg-flex no-gutters align-items-center h-100">
       <div class="col-12 order-lg-0 text-center">
-        <h3 class="h1 mb-20">{{ .title | markdownify }}</h3>
-        <p class="h5 pt-3 m-auto banner-content">{{ .content | markdownify }}</p>
+        <div class="banner-title mb-20">{{ .title | markdownify }}</div>
+        <p class="h5 m-auto banner-content">{{ .content | markdownify }}</p>
         {{if .form.enable }}
         {{with .form }}
-        <form action="{{.form_action}}" method="post" class="needs-validation mt-30" novalidate>
+        <form action="{{.form_action}}" method="post" class="needs-validation" novalidate>
           <div class="input-group d-block d-sm-flex">
             <input type="email" class="form-control bg-transparent" placeholder="name@email.com" required>
             <div class="input-group-append">
@@ -34,7 +34,7 @@
 
         {{ if .button.enable }}
         {{ with .button }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-primary" style="margin-top: 80px;">{{.label}}
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{.label}}
           </a>
         {{ end }}
         {{ end }}
@@ -83,10 +83,11 @@
         {{ range .funfacts }}
         <div class="text-center col-lg-3 col-sm-12 mb-3" style="padding-left: 7px;padding-right: 7px;">
           <div class="bg-white pt-4 pb-4" style="border-radius: 7px;">
-            <h1 class="has-text-color font-weight-bold" style="font-size: 42px;">
-              <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
+            <h1 class="has-text-color fw-extra-bold">
+              <span class="jsCounter fs-42" data-count="{{.count}}">0</span>
+              <span class="fs-30" style="margin-left: -5px">{{.extension}}</span>
             </h1>
-            <p class="mt-8">{{ .name | markdownify }}</p>
+            <p class="mt-8 font-weight-bold">{{ .name | markdownify }}</p>
           </div>
         </div>
         {{ end }}
@@ -106,7 +107,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h2 class="section-title fw-bold">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
       </div>
       <div class="col-lg-11">
@@ -199,8 +200,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p style="opacity: .8;">{{ .content | markdownify}}</p>
+        <h2 class="section-title fw-bold">{{ .title | markdownify }}</h2>
+        <p class="fw-medium" style="opacity: .8;">{{ .content | markdownify}}</p>
       </div>
     </div>
     <div class="has-colored-text row">
@@ -210,8 +211,8 @@
           <div class="has-text-color h2">
             <img src="{{ .icon }}" alt="" style="height: 60px; width: 60px;">
           </div>
-          <h5 class="font-weight-600 mt-20 mb-15">{{ .name | markdownify }}</h5>
-          <p style="opacity: .8;">{{ .content | markdownify }}</p>
+          <h5 class="mt-20 mb-15 fw-extra-bold fs-18">{{ .name | markdownify }}</h5>
+          <p class="fs-16" style="opacity: .6;">{{ .content | markdownify }}</p>
         </div>
       </div>
       {{ end }}
@@ -230,33 +231,33 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-12 text-left">
-        <h2 class="section-title font-weight-bold text-center text-sm-left">{{ .title | markdownify }}</h2>
-        <p style="opacity: .6; max-width: 588px;" class="text-center text-sm-left">{{ .content | markdownify }}</p>
+        <h2 class="section-title text-center text-sm-left fs-36 fw-extra-bold">{{ .title | markdownify }}</h2>
+        <p style="opacity: .6; max-width: 588px;" class="text-center text-sm-left fs-16 fw-medium">{{ .content | markdownify }}</p>
       </div>
       <div class="col-lg-4 text-right col-sm-12 mt-2"
       >
         <div class="fdo-address" style="height: 126px;padding: 5px;">
           <div
+                  class="fdo-address-block"
                   style="display: flex;flex-direction: column;justify-content: center;align-items:start;
           cursor: pointer;
           position:relative;
-          width: 220px;
           padding-left: 30px;
           height: 126px;
           border: 1px solid #F0F0F0;border-radius: 14px;">
-            <span href="{{ .link }}" class="text-primary p-0 font-weight-bold"
-               style="font-size: 2.6rem;line-height: 1.1;">
+            <span href="{{ .link }}" class="text-primary p-0 fw-extra-bold fs-42"
+               style="line-height: 1.1;">
               450860
             </span>
-            <span class="font-weight-bold" style="font-size: 1rem;">{{ .addrsText | markdownify }}</span>
-            <img src="/images/icons/more-2.png" style="height: 30px;width: 30px;position:absolute; right: -15px;cursor: pointer;" alt="">
+            <span class="fw-bold fs-16">{{ .addrsText | markdownify }}</span>
+            <img class="fdo-address-block-icon" src="/images/icons/more-2.png" style="height: 30px;width: 30px;position:absolute;cursor: pointer;" alt="">
           </div>
         </div>
       </div>
     </div>
     <div class="has-shapes">
       <picture>
-        <source media="(max-width: 520px)" srcset="{{ .smImage | absURL }}">
+        <source media="(max-width: 768px)" srcset="{{ .smImage | absURL }}">
         <img class="img-fluid py-4 my-2" src="{{ .image | absURL }}">
       </picture>
       <div class="shape-1 shape-sm bg-yellow rounded-circle"></div>
@@ -269,15 +270,15 @@
           <div class="d-flex justify-content-between">
             <h5 class="text-black-500"></h5>
           </div>
-          <h3 class="mb-2 mb-lg-4 font-weight-600">{{ .name | markdownify }}</h3>
-          <div class="accordion-panel community-first-ad" style="opacity: 0.6;font-size: 1rem;">
-            <p>{{ .content | markdownify }}</p>
+          <h3 class="mb-2 mb-lg-4 fw-semibold fs-24">{{ .name | markdownify }}</h3>
+          <div class="accordion-panel community-first-ad" style="opacity: 0.6;">
+            <p class="fs-16 fw-medium">{{ .content | markdownify }}</p>
           </div>
           <div class="mt-4">
             {{ range .button }}
             {{ if .enable }}
               <div class="mr-2 flex-row align-content-center align-items-center" style="display: inline-block;background-color: #CACCFF5C;border-radius: 4px;padding: 3px 11px;">
-                <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="line-height: 1">{{ .label}}
+                <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold fw-medium fs-16" style="line-height: 1;color: #6752F1 !important;">{{ .label}}
                   <span style="margin-left: 2px;">
                     <img src="/images/icons/more.png" alt="" style="width: 8px;height: 12px;">
                   </span>
@@ -307,29 +308,29 @@
 {{ if $data.homepage.flexibility.enable }}
 {{ with $data.homepage.flexibility }}
 <section class="section-padding"
-         style="background-image: url('images/bg/bg2.png');background-repeat: no-repeat;background-position:left top;background-size: 100% 100%;">
+         style="background-image: url('/images/bg/bg2.png');background-repeat: no-repeat;background-position:left top;background-size: 100% 100%;">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-9 text-center mb-40">
-        <h2 class="section-title font-weight-bold">{{ .title | markdownify }}</h2>
-        <p style="opacity: .6">{{ .content | markdownify }}</p>
+      <div class="col-lg-7 col-md-9 text-center mb-40">
+        <h2 class="section-title fw-extra-bold fs-36">{{ .title | markdownify }}</h2>
+        <p class="fs-16 fw-medium" style="opacity: .6">{{ .content | markdownify }}</p>
       </div>
     </div>
-    <div class="has-colored-text row justify-content-center">
+    <div class="has-colored-text row justify-content-center colored-icon-box">
       {{ range $i,$e:= .item }}
       <div class="col-md-6 col-12 mb-30">
-        <div class="bg-white rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;border-radius: 20px!important;box-shadow: 0px 4px 24px 0px rgba(16,27,82,0.08);">
+        <div class="bg-white rounded icon-box p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;border-radius: 20px!important;box-shadow: 0px 4px 24px 0px rgba(16,27,82,0.08);">
           <div style="display: flex;align-items: center;">
             <img src="{{.icon}}" alt="" style="height: 85px;margin-right: 8px;">
-            <h3 class="mb-2 mb-lg-4 font-weight-600" style="margin-top: 10px;font-size: 24px;">{{ .name | markdownify }}</h3>
+            <h3 class="mb-2 mb-lg-4 fs-24 fw-semibold" style="margin-top: 10px;">{{ .name | markdownify }}</h3>
           </div>
           <div class="accordion-panel" style="min-height: 132px;opacity: .6">
-            <p>{{ .content | markdownify }}</p>
+            <p class="fw-medium fs-16">{{ .content | markdownify }}</p>
           </div>
           <div class="mt-3">
             {{ range .button }}
             {{ if .enable }}
-            <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold mr-4">{{ .label}}<svg
+            <a href="{{ .link }}" class="btn btn-link text-primary p-0 fw-medium fs-16 mr-4">{{ .label}}<svg
                     width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -359,20 +360,20 @@
 {{ with $data.homepage.storageProvider }}
 <section class="section-padding pt-100 pb-20 horizontal-accordion bg-white has-shapes has-bg-brash bg-brash-y">
   <div class="container">
-    <div class="storage-provider-ad" style="background-image: url('/images/bg/joinus-bg.png');">
+    <div class="storage-provider-ad">
       <div class="row justify-content-center text-white">
         <div class="col-lg-10 col-md-9 col-11 text-center" style="margin-top: 50px;">
-          <span class="font-weight-bold text-white" style="font-size: 24px;">{{ .title | markdownify }}</span>
+          <span class="fw-semibold fs-24 text-white">{{ .title | markdownify }}</span>
         </div>
         <div class="col-lg-7 col-md-9 col-11 text-center" style="margin-top: 18px;margin-bottom: 29px;">
-          <p style="font-size: 16px;">{{ .content | markdownify }}</p>
+          <p class="fs-16 fw-regular">{{ .content | markdownify }}</p>
         </div>
       </div>
       <div class="has-colored-text row justify-content-center">
         {{ range .button }}
         {{ if .enable }}
-        <button type="submit" class="btn btn-primary ml-15"
-                style="padding-left: 36px;padding-right:36px;font-size: 1rem;font-weight: bold;background-color: white!important;color: #4D5994;">{{.label}}
+        <button type="submit" class="btn btn-primary ml-15 fw-extra-bold fs-16"
+                style="padding-left: 36px;padding-right:36px;background-color: white!important;color: #4D5994;">{{.label}}
         </button>
         {{ end }}
         {{ end }}

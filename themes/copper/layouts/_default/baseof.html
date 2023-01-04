@@ -3,7 +3,10 @@
 {{- partial "head.html" . -}}
 
 <body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative" style="background-color: #FAFAFA;overflow-x: hidden!important;">
-	<img src="images/bg/bg.png" alt="" class="banner-bg">
+	<picture>
+		<source media="(max-width: 768px)" srcset="/images/bg/bg-sm.png">
+		<img src="/images/bg/bg.png" alt="" class="banner-bg">
+	</picture>
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{ if not .IsHome }}

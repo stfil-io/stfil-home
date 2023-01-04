@@ -2,7 +2,7 @@
 banner:
   enable : true
   desc : "去中心化的、社区所有的、无需信任并与 Filecoin 中的质押兼容"
-  title : "**流动性质押**"
+  title : "流动性质押"
   content : "构建在Filecoin上的流动性质押协议，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
   image : "images/screenshots/banner-shot.png"
   video:
@@ -16,7 +16,7 @@ banner:
     enable : true
     icon : "images/brands/google.png"
     label : "Get Stake"
-    link : "#"
+    link : "https://stake.stfil.io"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
@@ -76,7 +76,7 @@ working:
   content : "以流动性质押为基础，通过DeFI提高资本效率。"
   item:
     - name : "质押"
-      icon : "/static/images/icons/stake.png"
+      icon : "/images/icons/stake.png"
       content : "允许 Assets 将他们的 FIL资产存入流动质押的智能合约，以实时的获得质押带来的奖励。"
 
     - name : "无需信任"
@@ -105,9 +105,9 @@ working:
 workflow:
   enable : true
   title : "一切交由社区"
-  image : "images/screenshots/05.png"
+  image : "images/screenshots/community.png"
   addrsText : "持有FDO地址数"
-  smImage: "images/screenshots/06.png"
+  smImage: "images/screenshots/community-sm.png"
   content : "STFIL DAO 是由社区主导的去中心化自治系统，用户通过持有 **FDO** 代币参与治理。"
   item:
     - name: "共建者社区"
@@ -173,7 +173,7 @@ achivement:
   funfacts:
     - name : "FIL质押量"
       count : "253642"
-      extension : "FIL"
+      extension : "fil"
 
     - name : "参与质押人数"
       count : "19265"
@@ -181,7 +181,7 @@ achivement:
 
     - name : "累计奖励收益"
       count : "8642"
-      extension : "FIL"
+      extension : "fil"
 
     - name: "存储提供商数量"
       count: "25"

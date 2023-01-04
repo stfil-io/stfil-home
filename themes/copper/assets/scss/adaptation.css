@@ -1,16 +1,28 @@
 .banner-content {
     width: 70%;
+    padding-top: 1.5rem !important;
+    margin-bottom: 80px !important;
 }
 
 @media only screen and (max-width: 1000px) {
     .banner-content {
-        width: 90%;
+        width: 100%;
+        padding-top: 1rem !important;
+        margin-bottom: 60px !important;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+    .banner-ad {
+        padding-top: 150px!important;
+        padding-bottom: 60px !important;
     }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 420px) {
     .banner-ad {
-        padding-top: 150px!important;
+        padding-top: 100px!important;
+        padding-bottom: 60px !important;
     }
 }
 
@@ -41,7 +53,7 @@
 .fdo-address{
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 992px) {
     .fdo-address{
         display: flex;
         justify-content: center;
@@ -50,10 +62,31 @@
     }
 }
 
+.fdo-address-block{
+    width: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+    .fdo-address-block{
+        width: 100%;
+    }
+}
+
+.fdo-address-block-icon{
+    right: -15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .fdo-address-block-icon{
+        right: 30px;
+    }
+}
+
 .storage-provider-ad{
     background-size: 100% 100%;
     min-height: 296px;
     border-radius: 20px;
+    background-image: url('/images/bg/joinus-bg.png')
 }
 
 @media only screen and (max-width: 765px) {
@@ -61,6 +94,7 @@
         background-size: 100% 100%;
         min-height: 350px;
         border-radius: 20px;
+        background-image: url('/images/bg/joinus-bg.png')
     }
 }
 

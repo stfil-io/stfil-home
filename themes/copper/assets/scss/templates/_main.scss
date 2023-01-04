@@ -8,7 +8,7 @@
   text-align: center;
   overflow: hidden;
   transition: 0.4s ease-out;
-  background-color: lighten($color-primary, 37);
+  background-image: url("/images/bg/loading-bg.png");
 
   .block {
     .loader-image {

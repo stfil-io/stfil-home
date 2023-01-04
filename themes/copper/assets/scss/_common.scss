@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
 
 body {
 	color: $black-300;
@@ -529,6 +529,14 @@ body {
 	font-weight: 600
 }
 
+.font-weight-700 {
+	font-weight: 700
+}
+
+.font-weight-800 {
+	font-weight: 800
+}
+
 .text-underline {
 	text-decoration: 1px dashed;
 }
@@ -992,18 +1000,21 @@ body::-webkit-scrollbar {
 	color: $primary-text-color;
 	font-size: 1rem;
 	opacity: .6;
+	font-weight: 500;
 }
 
 .input-email:-moz-placeholder {
 	color: $primary-text-color;
 	font-size: 1rem;
 	opacity: .6;
+	font-weight: 500;
 }
 
 .input-email:-ms-input-placeholder {
 	color: $primary-text-color;
 	font-size: 1rem;
 	opacity: .6;
+	font-weight: 500;
 }
 
 .language-ui{
@@ -1016,7 +1027,7 @@ body::-webkit-scrollbar {
 	appearance: none;
 	padding: 0 5px;
 	cursor: pointer;
-	font-weight: 600;
+	font-weight: 500;
 	margin-left: 20px;
 	text-align: center;
 }
@@ -1027,4 +1038,48 @@ body::-webkit-scrollbar {
 		margin-left: 12px;
 	}
 
+}
+
+.banner-title {
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 1.1;
+}
+
+@media only screen and (max-width: 768px) {
+	.banner-title {
+		font-size: 36px;
+		font-weight: 800;
+		line-height: 1.1;
+	}
+}
+
+.fs-16 {
+  font-size: 1rem !important;
+}
+
+.fs-18 {
+  font-size: 1.125rem !important;
+}
+
+.fs-24 {
+  font-size: 1.5rem !important;
+}
+
+.fs-30 {
+	font-size: 1.875rem !important;
+}
+
+.fs-36 {
+  font-size: 2.25rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.fs-36 {
+		font-size: 1.5rem !important;
+	}
+}
+
+.fs-42 {
+  font-size: 2.625rem !important;
 }

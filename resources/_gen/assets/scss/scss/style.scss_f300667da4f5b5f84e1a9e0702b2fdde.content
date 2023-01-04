@@ -7,7 +7,54 @@ VERSION:	v1.0
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+@font-face {
+  font-family: Manrope;
+  font-weight: bold;
+  src: url("/fonts/manrope-bold-2.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 800;
+  src: url("/fonts/manrope-extrabold-3.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  src: url("/fonts/manrope-light-4.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 500;
+  src: url("/fonts/manrope-medium-5.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 400;
+  src: url("/fonts/manrope-regular-6.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 600;
+  src: url("/fonts/manrope-semibold-7.otf"); }
+
+@font-face {
+  font-family: Manrope;
+  src: url("/fonts/manrope-thin-8.otf"); }
+
+.fw-extra-bold {
+  font-weight: 800 !important; }
+
+.fw-bold {
+  font-weight: bold !important; }
+
+.fw-medium {
+  font-weight: 500 !important; }
+
+.fw-semibold {
+  font-weight: 600 !important; }
+
+.fw-regular {
+  font-weight: 400 !important; }
+
 h1, .h1 {
   font-size: 46px;
   line-height: 56px; }
@@ -68,7 +115,7 @@ ul, li {
 body {
   color: #333333;
   background-color: #ffffff;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Manrope", "Source H", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.65; }
@@ -384,7 +431,7 @@ body {
  # helper classes
 -------------------------------------------------------------------*/
 .font-primary {
-  font-family: "Quicksand", sans-serif; }
+  font-family: "Manrope", "Source H", sans-serif; }
 
 .rounded {
   border-radius: 5px; }
@@ -425,6 +472,12 @@ body {
 
 .font-weight-600 {
   font-weight: 600; }
+
+.font-weight-700 {
+  font-weight: 700; }
+
+.font-weight-800 {
+  font-weight: 800; }
 
 .text-underline {
   text-decoration: 1px dashed; }
@@ -1476,17 +1529,20 @@ body::-webkit-scrollbar {
 .input-email::-webkit-input-placeholder {
   color: #101B52;
   font-size: 1rem;
-  opacity: .6; }
+  opacity: .6;
+  font-weight: 500; }
 
 .input-email:-moz-placeholder {
   color: #101B52;
   font-size: 1rem;
-  opacity: .6; }
+  opacity: .6;
+  font-weight: 500; }
 
 .input-email:-ms-input-placeholder {
   color: #101B52;
   font-size: 1rem;
-  opacity: .6; }
+  opacity: .6;
+  font-weight: 500; }
 
 .language-ui {
   background-color: transparent;
@@ -1498,13 +1554,46 @@ body::-webkit-scrollbar {
   appearance: none;
   padding: 0 5px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 20px;
   text-align: center; }
 
 @media only screen and (max-width: 1200px) {
   .language-ui {
     margin-left: 12px; } }
+
+.banner-title {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.1; }
+
+@media only screen and (max-width: 768px) {
+  .banner-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.1; } }
+
+.fs-16 {
+  font-size: 1rem !important; }
+
+.fs-18 {
+  font-size: 1.125rem !important; }
+
+.fs-24 {
+  font-size: 1.5rem !important; }
+
+.fs-30 {
+  font-size: 1.875rem !important; }
+
+.fs-36 {
+  font-size: 2.25rem !important; }
+
+@media only screen and (max-width: 768px) {
+  .fs-36 {
+    font-size: 1.5rem !important; } }
+
+.fs-42 {
+  font-size: 2.625rem !important; }
 
 .content.content-active a {
   color: #6752F0; }
@@ -1831,7 +1920,7 @@ body::-webkit-scrollbar {
   text-align: center;
   overflow: hidden;
   transition: 0.4s ease-out;
-  background-color: white; }
+  background-image: url("/images/bg/loading-bg.png"); }
   .preloader .block .loader-image {
     transition: 0.3s ease-out;
     height: 90px;
@@ -3061,15 +3150,25 @@ footer {
     .scroll-to-top-btn.show {
       bottom: 15px; } }
 .banner-content {
-  width: 70%; }
+  width: 70%;
+  padding-top: 1.5rem !important;
+  margin-bottom: 80px !important; }
 
 @media only screen and (max-width: 1000px) {
   .banner-content {
-    width: 90%; } }
+    width: 100%;
+    padding-top: 1rem !important;
+    margin-bottom: 60px !important; } }
+
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+  .banner-ad {
+    padding-top: 150px !important;
+    padding-bottom: 60px !important; } }
 
 @media only screen and (min-width: 380px) and (max-width: 420px) {
   .banner-ad {
-    padding-top: 150px !important; } }
+    padding-top: 100px !important;
+    padding-bottom: 60px !important; } }
 
 @media only screen and (min-width: 340px) and (max-width: 380px) {
   .banner-ad {
@@ -3087,23 +3186,39 @@ footer {
   .text-xs-center {
     text-align: center !important; } }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 992px) {
   .fdo-address {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
     margin-top: 1rem; } }
 
+.fdo-address-block {
+  width: 250px; }
+
+@media only screen and (max-width: 992px) {
+  .fdo-address-block {
+    width: 100%; } }
+
+.fdo-address-block-icon {
+  right: -15px; }
+
+@media only screen and (max-width: 992px) {
+  .fdo-address-block-icon {
+    right: 30px; } }
+
 .storage-provider-ad {
   background-size: 100% 100%;
   min-height: 296px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  background-image: url("/images/bg/joinus-bg.png"); }
 
 @media only screen and (max-width: 765px) {
   .storage-provider-ad {
     background-size: 100% 100%;
     min-height: 350px;
-    border-radius: 20px; } }
+    border-radius: 20px;
+    background-image: url("/images/bg/joinus-bg.png"); } }
 
 .community-first-ad {
   min-height: 140px; }
@@ -3129,8 +3244,7 @@ footer {
 
 @media only screen and (min-width: 1820px) and (max-width: 1920px) {
   .banner-bg {
-    width: 1920px;
-    left: -50px; } }
+    width: 1920px; } }
 
 @media only screen and (min-width: 1780px) and (max-width: 1820px) {
   .banner-bg {
@@ -3262,77 +3376,11 @@ footer {
     width: 1920px;
     left: -510px; } }
 
-@media only screen and (min-width: 740px) and (max-width: 780px) {
+@media only screen and (min-width: 768px) and (max-width: 780px) {
   .banner-bg {
     width: 1920px;
     left: -560px; } }
 
-@media only screen and (min-width: 700px) and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
   .banner-bg {
-    width: 1920px;
-    left: -580px; } }
-
-@media only screen and (min-width: 660px) and (max-width: 700px) {
-  .banner-bg {
-    width: 1920px;
-    left: -600px; } }
-
-@media only screen and (min-width: 620px) and (max-width: 660px) {
-  .banner-bg {
-    width: 1920px;
-    left: -620px; } }
-
-@media only screen and (min-width: 580px) and (max-width: 620px) {
-  .banner-bg {
-    width: 1920px;
-    left: -640px; } }
-
-@media only screen and (min-width: 550px) and (max-width: 580px) {
-  .banner-bg {
-    width: 1920px;
-    left: -660px; } }
-
-@media only screen and (min-width: 540px) and (max-width: 550px) {
-  .banner-bg {
-    width: 1920px;
-    left: -528px;
-    transform: scaleY(1.01); } }
-
-@media only screen and (min-width: 500px) and (max-width: 540px) {
-  .banner-bg {
-    width: 1920px;
-    left: -639px;
-    transform: scaleY(1.01); } }
-
-@media only screen and (min-width: 460px) and (max-width: 500px) {
-  .banner-bg {
-    width: 1920px;
-    left: -337px;
-    transform: scaleY(1.01); } }
-
-@media only screen and (min-width: 420px) and (max-width: 460px) {
-  .banner-bg {
-    width: 1920px;
-    left: -337px;
-    transform: scaleY(1.01); } }
-
-@media only screen and (min-width: 380px) and (max-width: 420px) {
-  .banner-bg {
-    width: 1920px;
-    left: -314px;
-    transform: scaleX(1.4); } }
-
-@media only screen and (min-width: 340px) and (max-width: 380px) {
-  .banner-bg {
-    width: 1920px;
-    left: -632px; } }
-
-@media only screen and (min-width: 300px) and (max-width: 340px) {
-  .banner-bg {
-    width: 1920px;
-    left: -632px; } }
-
-@media only screen and (min-width: 260px) and (max-width: 300px) {
-  .banner-bg {
-    width: 1920px;
-    left: -1093px; } }
+    width: 100%; } }

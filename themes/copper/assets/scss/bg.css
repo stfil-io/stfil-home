@@ -9,7 +9,6 @@
 @media only screen and (min-width: 1820px) and (max-width: 1920px) {
     .banner-bg {
         width: 1920px;
-        left: -50px;
     }
 }
 
@@ -195,105 +194,15 @@
     }
 }
 
-@media only screen and (min-width: 740px) and (max-width: 780px) {
+@media only screen and (min-width: 768px) and (max-width: 780px) {
     .banner-bg {
         width: 1920px;
         left: -560px;
     }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
     .banner-bg {
-        width: 1920px;
-        left: -580px;
-    }
-}
-
-@media only screen and (min-width: 660px) and (max-width: 700px) {
-    .banner-bg {
-        width: 1920px;
-        left: -600px;
-    }
-}
-
-@media only screen and (min-width: 620px) and (max-width: 660px) {
-    .banner-bg {
-        width: 1920px;
-        left: -620px;
-    }
-}
-
-@media only screen and (min-width: 580px) and (max-width: 620px) {
-    .banner-bg {
-        width: 1920px;
-        left: -640px;
-    }
-}
-
-@media only screen and (min-width: 550px) and (max-width: 580px) {
-    .banner-bg {
-        width: 1920px;
-        left: -660px;
-    }
-}
-
-@media only screen and (min-width: 540px) and (max-width: 550px) {
-    .banner-bg {
-        width: 1920px;
-        left: -528px;
-        transform: scaleY(1.01);
-    }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 540px) {
-    .banner-bg {
-        width: 1920px;
-        left: -639px;
-        transform: scaleY(1.01);
-    }
-}
-
-@media only screen and (min-width: 460px) and (max-width: 500px) {
-    .banner-bg {
-        width: 1920px;
-        left: -337px;
-        transform: scaleY(1.01);
-    }
-}
-
-@media only screen and (min-width: 420px) and (max-width: 460px) {
-    .banner-bg {
-        width: 1920px;
-        left: -337px;
-        transform: scaleY(1.01);
-    }
-}
-
-@media only screen and (min-width: 380px) and (max-width: 420px) {
-    .banner-bg {
-        width: 1920px;
-        left: -314px;
-        transform: scaleX(1.4);
-    }
-}
-
-@media only screen and (min-width: 340px) and (max-width: 380px) {
-    .banner-bg {
-        width: 1920px;
-        left: -632px;
-    }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 340px) {
-    .banner-bg {
-        width: 1920px;
-        left: -632px;
-    }
-}
-
-@media only screen and (min-width: 260px) and (max-width: 300px) {
-    .banner-bg {
-        width: 1920px;
-        left: -1093px;
+        width: 100%;
     }
 }

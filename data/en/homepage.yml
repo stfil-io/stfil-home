@@ -2,7 +2,7 @@
 banner:
   enable : true
   desc : "Decentralized, community owned, trust-less and compatible with staking in Filecoin"
-  title : "**Liquidity for staked assets**"
+  title : "Liquidity for staked assets"
   content : "Liquidity stake protocol, built on top of Filecoin, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
   image : "images/screenshots/banner-shot.png"
   video:
@@ -16,7 +16,7 @@ banner:
     enable : true
     icon : "images/brands/google.png"
     label : "Get Stake"
-    link : "#"
+    link : "https://stake.stfil.io"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
@@ -106,7 +106,7 @@ workflow:
   title : "Community First"
   addrsText: "FDO addresses"
   image : "images/screenshots/community.png"
-  smImage: "images/screenshots/06.png"
+  smImage: "images/screenshots/community-sm.png"
   content : "STFIL DAO is a decentralized and community-governed system where users participate in governance by holding FDO tokens."
   item:
     - name: "Build Community Together"
@@ -150,7 +150,7 @@ achivement:
   funfacts:
     - name : "**Total Staked**"
       count : "253642"
-      extension : "FIL"
+      extension : "fil"
 
     - name : "**Stakers**"
       count : "19265"
@@ -158,7 +158,7 @@ achivement:
 
     - name : "**Total rewards paid**"
       count : "8642"
-      extension : "FIL"
+      extension : "fil"
 
     - name: "**Storage Providers**"
       count: "25"
