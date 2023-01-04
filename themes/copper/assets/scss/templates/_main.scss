@@ -104,12 +104,12 @@
 
 // banner style
 .banner {
-  padding-top: 75px;
+  padding-top: 175px;
   padding-bottom: 160px;
   overflow-x: hidden;
 
   @include breakAt(md-device) {
-    padding-top: 40px;
+    padding-top: 175px;
   }
 
   .input-group {
@@ -569,19 +569,19 @@
 .has-colored-text {
   >div {
     &:nth-child(1) .has-text-color {
-      color: $color-secondary;
+      color: #3CBEE6;
     }
 
     &:nth-child(2) .has-text-color {
-      color: $color-primary;
+      color: #FF8E38;
     }
 
     &:nth-child(3) .has-text-color {
-      color: $color-tertiary;
+      color: #6752F1;
     }
 
     &:nth-child(4) .has-text-color {
-      color: $color-primary;
+      color: #FF57B0;
     }
 
     &:nth-child(5) .has-text-color {

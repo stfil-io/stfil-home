@@ -76,28 +76,28 @@ working:
   content : "以流动性质押为基础，通过DeFI提高资本效率。"
   item:
     - name : "质押"
-      icon : "ti-lock"
+      icon : "/static/images/icons/stake.png"
       content : "允许 Assets 将他们的 FIL资产存入流动质押的智能合约，以实时的获得质押带来的奖励。"
 
     - name : "无需信任"
-      icon : "ti-magnet"
+      icon: "/images/icons/trust-less.png"
       content : "完全由智能合约负责持有和转移资金。为了透明起见，它们是完全开源的供大家分析，并由行业最好的审计团队进行全面审计。"
 
     - name : "优质的存储提供商"
-      icon : "ti-link"
+      icon: "/images/icons/premium.png"
       content : "筛选具备更专业硬件设备，更专业的机房场地，更专业的运维工程师，更稳定的电力设备的存储提供商，提升整个网络的服务质量，共同打造强健、稳定、体验好的分布式存储网络。"
 
 
     - name : "stFIL"
-      icon : "ti-magnet"
+      icon: "/images/icons/stfil.png"
       content : "无论在何时，始终保持对FIL的1:1兑换，代表对质押的 FIL 的索取权。并且不用被锁定在我们这里，无论在何处获得，stFIL 都会累积质押奖励。"
 
     - name : "DeFi"
-      icon : "ti-link"
+      icon: "/images/icons/defi.png"
       content : "允许持有者赚取质押收益，同时还能够在 DeFi 上出售、交易、借贷您的质押资产，以最大化的提高资本效率。"
 
     - name : "社区"
-      icon : "ti-lock"
+      icon: "/images/icons/community.png"
       content : "STFIL DAO 是一个为 Filecoin 构建流动性质押的去中心化自治的组织，遵循提案流程，任何 STFIL 生态的参与者都有对提案的投票权，以促进多样化和自我维持的生态系统。"
 
 

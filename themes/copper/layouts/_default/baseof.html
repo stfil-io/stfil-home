@@ -2,7 +2,8 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 {{- partial "head.html" . -}}
 
-<body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative">
+<body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative" style="background-color: #FAFAFA;overflow-x: hidden!important;">
+	<img src="images/bg/bg.png" alt="" class="banner-bg">
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{ if not .IsHome }}

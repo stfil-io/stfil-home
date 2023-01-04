@@ -1,0 +1,87 @@
+.banner-content {
+    width: 70%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 420px) {
+    .banner-ad {
+        padding-top: 150px!important;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 380px) {
+    .banner-ad {
+        padding-top: 100px!important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 340px) {
+    .banner-ad {
+        padding-top: 50px!important;
+    }
+}
+
+@media only screen and (min-width: 260px) and (max-width: 300px) {
+    .banner-ad {
+        padding-top: 50px!important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .text-xs-center{
+        text-align: center!important;
+    }
+}
+
+.fdo-address{
+}
+
+@media only screen and (max-width: 500px) {
+    .fdo-address{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}
+
+.storage-provider-ad{
+    background-size: 100% 100%;
+    min-height: 296px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 765px) {
+    .storage-provider-ad{
+        background-size: 100% 100%;
+        min-height: 350px;
+        border-radius: 20px;
+    }
+}
+
+.community-first-ad{
+    min-height: 140px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .community-first-ad{
+        min-height: 170px;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .community-first-ad{
+        min-height: 220px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .community-first-ad{
+        min-height: 140px;
+    }
+}

@@ -5,35 +5,12 @@
 {{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
 <!-- start of banner -->
-<section class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
-  style="background-image: url('{{`images/brushes/banner.svg` | absURL }}')" data-aos="fade-in" data-aos-delay="150">
+<section class="banner bg-cover-bottom has-shapes has-bg-brash bg-brash-bottom banner-ad" data-aos="fade-in" data-aos-delay="150">
   <div class="container h-100">
     <div class="d-block d-lg-flex no-gutters align-items-center h-100">
-      <div class="col-12 col-xl-8 col-lg-8 order-lg-1">
-        <div class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0">
-          {{ if .video.enable }}
-          {{ with .video }}
-          <button type="button" class="video-play-btn" data-toggle="modal" data-src="{{ .video_embed_link }}"
-            data-target="#videoModal"><svg width="1.8em" height="1.8em" viewBox="0 0 16 16" fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-            </svg>
-          </button>
-          {{ end }}
-          {{ end }}
-          <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-
-          <div class="shape-lg bg-cyan rounded-circle"></div>
-          <div class="shape-md bg-orange rounded-circle"></div>
-          <div class="shape-sm bg-yellow rounded-circle"></div>
-        </div>
-      </div>
-      <div class="col-xl-5 col-lg-6 order-lg-0">
-        <h3 class="h3 mb-20">{{ .desc | markdownify }}</h3>
-        <h3 class="h2 mb-20">{{ .title | markdownify }}</h3>
-        <p>{{ .content | markdownify }}</p>
-
+      <div class="col-12 order-lg-0 text-center">
+        <h3 class="h1 mb-20">{{ .title | markdownify }}</h3>
+        <p class="h5 pt-3 m-auto banner-content">{{ .content | markdownify }}</p>
         {{if .form.enable }}
         {{with .form }}
         <form action="{{.form_action}}" method="post" class="needs-validation mt-30" novalidate>
@@ -57,12 +34,7 @@
 
         {{ if .button.enable }}
         {{ with .button }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-primary has-icon mt-4">{{.label}}
-            <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                  <path
-                          d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
-                          fill="currentColor" /></svg></span>
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary" style="margin-top: 80px;">{{.label}}
           </a>
         {{ end }}
         {{ end }}
@@ -104,16 +76,18 @@
 <!-- start of growth-rate -->
 {{ if $data.homepage.achivement.enable }}
 {{ with $data.homepage.achivement }}
-<section class="section-padding"
-         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+<section class="section-padding">
   <div class="container-xl">
     <div class="row justify-content-center">
       <div class="has-colored-text growth-rate-counter col-lg-12 row">
         {{ range .funfacts }}
-        <div class="mt-sm-5 mt-md-5 text-center col-lg-3 col-sm-12" style="margin-top: 3rem;">
-          <h1 class="has-text-color font-weight-bold">
-            <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}</h1>
-          <p class="mt-10">{{ .name | markdownify }}</p>
+        <div class="text-center col-lg-3 col-sm-12 mb-3" style="padding-left: 7px;padding-right: 7px;">
+          <div class="bg-white pt-4 pb-4" style="border-radius: 7px;">
+            <h1 class="has-text-color font-weight-bold" style="font-size: 42px;">
+              <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
+            </h1>
+            <p class="mt-8">{{ .name | markdownify }}</p>
+          </div>
         </div>
         {{ end }}
       </div>
@@ -187,8 +161,7 @@
 <!-- start of tools-use -->
 {{ if $data.homepage.tools.enable }}
 {{ with $data.homepage.tools }}
-<section class="section-padding tools-use-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
-  style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+<section class="section-padding tools-use-section has-shapes has-bg-brash bg-brash-y">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-4 mt-4 mt-lg-0">
@@ -222,13 +195,12 @@
 <!-- start of working section -->
 {{ if $data.homepage.working.enable }}
 {{ with $data.homepage.working }}
-<section class="pb-50 section-padding tools-use-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
-         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+<section class="pb-50 section-padding tools-use-section has-shapes has-bg-brash bg-brash-y position-relative">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify}}</p>
+        <p style="opacity: .8;">{{ .content | markdownify}}</p>
       </div>
     </div>
     <div class="has-colored-text row">
@@ -236,10 +208,10 @@
       <div class="col-lg-4 col-md-6">
         <div class="text-center p-0 p-md-2 mb-30" data-aos="fade-up">
           <div class="has-text-color h2">
-            <i class="{{ .icon }}"></i>
+            <img src="{{ .icon }}" alt="" style="height: 60px; width: 60px;">
           </div>
           <h5 class="font-weight-600 mt-20 mb-15">{{ .name | markdownify }}</h5>
-          <p>{{ .content | markdownify }}</p>
+          <p style="opacity: .8;">{{ .content | markdownify }}</p>
         </div>
       </div>
       {{ end }}
@@ -254,26 +226,31 @@
 <!-- start of horizontal-accordion -->
 {{ if $data.homepage.workflow.enable }}
 {{ with $data.homepage.workflow }}
-<section class="section-padding">
+<section class="section-padding ">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-12 text-left">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <h2 class="section-title font-weight-bold text-center text-sm-left">{{ .title | markdownify }}</h2>
+        <p style="opacity: .6; max-width: 588px;" class="text-center text-sm-left">{{ .content | markdownify }}</p>
       </div>
-      <div class="col-lg-4 text-right col-sm-12 row flex-row align-content-center justify-content-center align-content-center mt-2">
-        <div class="col-lg-12 col-6 p-0 row align-items-center fdo-address-text">
-          <h5 class=" ">{{ .addrsText | markdownify }}</h5>
-        </div>
-        <div class="col-lg-12 col-6 p-0 row align-items-center justify-content-end align-content-center">
-          <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="font-size: 2rem;display: flex; align-content: center;align-items: center;">450860
-            <svg
-                    style="width: 30px; height: 30px; background-color: #FF3158;color: white; margin-left: 8px;transform: rotate(90deg)"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-              <path id="Layer" fill="currentColor"
-                    d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z" />
-            </svg>
-            </a>
+      <div class="col-lg-4 text-right col-sm-12 mt-2"
+      >
+        <div class="fdo-address" style="height: 126px;padding: 5px;">
+          <div
+                  style="display: flex;flex-direction: column;justify-content: center;align-items:start;
+          cursor: pointer;
+          position:relative;
+          width: 220px;
+          padding-left: 30px;
+          height: 126px;
+          border: 1px solid #F0F0F0;border-radius: 14px;">
+            <span href="{{ .link }}" class="text-primary p-0 font-weight-bold"
+               style="font-size: 2.6rem;line-height: 1.1;">
+              450860
+            </span>
+            <span class="font-weight-bold" style="font-size: 1rem;">{{ .addrsText | markdownify }}</span>
+            <img src="/images/icons/more-2.png" style="height: 30px;width: 30px;position:absolute; right: -15px;cursor: pointer;" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -287,26 +264,25 @@
     </div>
     <div class="has-colored-text row justify-content-center colored-icon-box">
       {{ range $i,$e:= .item }}
-      <div class="col-md-6 col-sm-6 mb-30">
-        <div class="bg-white icon-box shadow rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;">
+      <div class="col-md-6 col-12 mb-30">
+        <div class="bg-white icon-box p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;border: 1px #F0F0F0 solid;border-radius: 20px;">
           <div class="d-flex justify-content-between">
             <h5 class="text-black-500"></h5>
-            <div class="has-text-color h2">
-              <i class="{{ .icon }}"></i>
-            </div>
           </div>
           <h3 class="mb-2 mb-lg-4 font-weight-600">{{ .name | markdownify }}</h3>
-          <div class="accordion-panel" style="min-height: 112px;">
+          <div class="accordion-panel community-first-ad" style="opacity: 0.6;font-size: 1rem;">
             <p>{{ .content | markdownify }}</p>
           </div>
-          <div class="mt-5">
+          <div class="mt-4">
             {{ range .button }}
             {{ if .enable }}
-              <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold mr-4">{{ .label}}<svg
-                      width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg></a>
+              <div class="mr-2 flex-row align-content-center align-items-center" style="display: inline-block;background-color: #CACCFF5C;border-radius: 4px;padding: 3px 11px;">
+                <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold" style="line-height: 1">{{ .label}}
+                  <span style="margin-left: 2px;">
+                    <img src="/images/icons/more.png" alt="" style="width: 8px;height: 12px;">
+                  </span>
+                </a>
+              </div>
             {{ end }}
             {{ end }}
           </div>
@@ -330,30 +306,27 @@
 <!-- start of horizontal-accordion -->
 {{ if $data.homepage.flexibility.enable }}
 {{ with $data.homepage.flexibility }}
-<section class="section-padding pt-0"
-         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+<section class="section-padding"
+         style="background-image: url('images/bg/bg2.png');background-repeat: no-repeat;background-position:left top;background-size: 100% 100%;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <h2 class="section-title font-weight-bold">{{ .title | markdownify }}</h2>
+        <p style="opacity: .6">{{ .content | markdownify }}</p>
       </div>
     </div>
     <div class="has-colored-text row justify-content-center">
       {{ range $i,$e:= .item }}
-      <div class="col-md-5 col-sm-6 mb-30">
-        <div class="bg-white shadow rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;">
-          <div class="d-flex justify-content-between mb-2 mb-lg-3">
-            <h5 class="text-black-500"></h5>
-            <div class="has-text-color h2">
-              <i class="{{ .icon }}"></i>
-            </div>
+      <div class="col-md-6 col-12 mb-30">
+        <div class="bg-white rounded p-30" data-aos="fade-up" data-aos-delay="50" style="height: 100%;border-radius: 20px!important;box-shadow: 0px 4px 24px 0px rgba(16,27,82,0.08);">
+          <div style="display: flex;align-items: center;">
+            <img src="{{.icon}}" alt="" style="height: 85px;margin-right: 8px;">
+            <h3 class="mb-2 mb-lg-4 font-weight-600" style="margin-top: 10px;font-size: 24px;">{{ .name | markdownify }}</h3>
           </div>
-          <h3 class="mb-2 mb-lg-4 font-weight-600">{{ .name | markdownify }}</h3>
-          <div class="accordion-panel" style="min-height: 132px;">
+          <div class="accordion-panel" style="min-height: 132px;opacity: .6">
             <p>{{ .content | markdownify }}</p>
           </div>
-          <div class="mt-5">
+          <div class="mt-3">
             {{ range .button }}
             {{ if .enable }}
             <a href="{{ .link }}" class="btn btn-link text-primary p-0 font-weight-bold mr-4">{{ .label}}<svg
@@ -384,33 +357,29 @@
 <!-- start of horizontal-accordion -->
 {{ if $data.homepage.storageProvider.enable }}
 {{ with $data.homepage.storageProvider }}
-<section class="section-padding pt-100 horizontal-accordion bg-light-gray has-shapes has-bg-brash bg-brash-y"
-         style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+<section class="section-padding pt-100 pb-20 horizontal-accordion bg-white has-shapes has-bg-brash bg-brash-y">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 col-md-9 text-center">
-        <h2 class="section-title font-weight-bold text-primary">{{ .title | markdownify }}</h2>
+    <div class="storage-provider-ad" style="background-image: url('/images/bg/joinus-bg.png');">
+      <div class="row justify-content-center text-white">
+        <div class="col-lg-10 col-md-9 col-11 text-center" style="margin-top: 50px;">
+          <span class="font-weight-bold text-white" style="font-size: 24px;">{{ .title | markdownify }}</span>
+        </div>
+        <div class="col-lg-7 col-md-9 col-11 text-center" style="margin-top: 18px;margin-bottom: 29px;">
+          <p style="font-size: 16px;">{{ .content | markdownify }}</p>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-9 text-center mb-40 mt-4">
-        <p>{{ .content | markdownify }}</p>
+      <div class="has-colored-text row justify-content-center">
+        {{ range .button }}
+        {{ if .enable }}
+        <button type="submit" class="btn btn-primary ml-15"
+                style="padding-left: 36px;padding-right:36px;font-size: 1rem;font-weight: bold;background-color: white!important;color: #4D5994;">{{.label}}
+        </button>
+        {{ end }}
+        {{ end }}
       </div>
-    </div>
-    <div class="has-colored-text row justify-content-center">
-      {{ range .button }}
-      {{ if .enable }}
-      <button type="submit" class="btn btn-primary ml-15">{{.label}}
-      </button>
-      {{ end }}
-      {{ end }}
     </div>
   </div>
 
-  <div class="shape-1 shape-sm bg-secondary rounded-circle d-none d-sm-block"></div>
-  <div class="shape-2 shape-sm bg-primary rounded-circle d-none d-sm-block"></div>
-  <div class="shape-3 shape-sm bg-tertiary rounded-circle d-none d-sm-block"></div>
-  <div class="shape-4 shape-sm bg-secondary rounded-circle d-none d-sm-block"></div>
-  <div class="shape-5 shape-xs bg-primary rounded-circle d-none d-sm-block"></div>
-  <div class="shape-6 shape-xs-2 bg-tertiary rounded-circle d-none d-sm-block"></div>
 </section>
 {{ end }}
 {{ end }}

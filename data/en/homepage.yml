@@ -76,27 +76,27 @@ working:
   content : "Improve capital efficiency through DeFI based on liquidity for stake assets."
   item:
     - name : "**Stake**"
-      icon : "ti-lock"
+      icon : "/images/icons/stake.png"
       content : "Allow assets to deposit their FIL assets into smart contracts with current stake to receive the rewards of stake in real time."
 
     - name : "**Trust-less**"
-      icon : "ti-magnet"
+      icon: "/images/icons/trust-less.png"
       content : "Smart contracts are entirely responsible for holding and transferring money. For the sake of transparency, they are completely open source for analysis and fully audited by the best audit team in the industry."
 
     - name : "**Premium**"
-      icon : "ti-link"
+      icon: "/images/icons/premium.png"
       content : "Screen high-quality storage providers, improve the service quality of the entire network, and jointly create a robust, stable, and experienced distributed storage network."
 
     - name : "**stFIL**"
-      icon : "ti-magnet"
+      icon: "/images/icons/stfil.png"
       content : "At any time, always maintain a 1:1 exchange of FIL, representing the right to claim the staked FIL. And instead of being locked into us, stFIL accumulates staking rewards wherever it is earned."
 
     - name : "**DeFi**"
-      icon : "ti-link"
+      icon: "/images/icons/defi.png"
       content : "Allow the assets to earn staked income while also being able to sell, trade, and borrow your staked assets on the DeFi to maximize capital efficiency."
 
     - name : "**Community**"
-      icon : "ti-lock"
+      icon: "/images/icons/community.png"
       content : "STFIL DAO is a decentralized, autonomous organization that builds liquidity stake for Filecoin, following a proposal process in which any participant in the STFIL ecosystem has a vote on proposals to promote a diverse and self-sustaining ecosystem."
 
 
@@ -105,7 +105,7 @@ workflow:
   enable : true
   title : "Community First"
   addrsText: "FDO addresses"
-  image : "images/screenshots/05.png"
+  image : "images/screenshots/community.png"
   smImage: "images/screenshots/06.png"
   content : "STFIL DAO is a decentralized and community-governed system where users participate in governance by holding FDO tokens."
   item:
@@ -205,7 +205,7 @@ flexibility:
   content : "The STFIL DAO contract code has passed a rigorous security audit, and we are calling for your assistance in finding bugs or vulnerabilities to further improve security, with a reward of up to $50,000."
   item:
     - name : "Audits"
-      icon: "ti-link"
+      icon: "/images/icons/audits.png"
       content : "For the sake of transparency, smart contracts are open source for analysis. In addition, smart contracts will be fully audited by the most professional audit team in the industry before they are deployed to the main network."
       button:
         - enable: true
@@ -213,7 +213,7 @@ flexibility:
           link: "#"
 
     - name : "Bug Bounty"
-      icon: "ti-money"
+      icon: "/images/icons/bug_bounty.png"
       content : "The security of the STFIL DAO system is a top priority for our team. Based on professional audits, we implemented a bounty program to identify errors and vulnerabilities in protocol infrastructure and smart contracts."
       button:
         - enable: true

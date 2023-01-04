@@ -41,6 +41,7 @@ body {
 	font-weight: 500;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+	font-size: 2.25rem;
 }
 
 .badge {
@@ -962,7 +963,7 @@ $max: 121; // maximum value (+)1
 
 .fdo-address-text {
 	justify-content: end;
-	text-align: right;
+	text-align: left;
 }
 
 @media screen and (max-width: 1000px){
@@ -972,4 +973,58 @@ $max: 121; // maximum value (+)1
 	}
 }
 
+body{
+	color: $primary-text-color !important;
+	overflow-x: hidden !important;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
 
+body::-webkit-scrollbar {
+	display: none; /* Chrome Safari */
+}
+
+.my-btn {
+
+}
+
+.input-email::-webkit-input-placeholder {
+	color: $primary-text-color;
+	font-size: 1rem;
+	opacity: .6;
+}
+
+.input-email:-moz-placeholder {
+	color: $primary-text-color;
+	font-size: 1rem;
+	opacity: .6;
+}
+
+.input-email:-ms-input-placeholder {
+	color: $primary-text-color;
+	font-size: 1rem;
+	opacity: .6;
+}
+
+.language-ui{
+	background-color: transparent;
+	border: 1px solid #5E4FCD !important;
+	color: #5E4FCD;
+	border-radius: 8px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 0 5px;
+	cursor: pointer;
+	font-weight: 600;
+	margin-left: 20px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.language-ui {
+		margin-left: 12px;
+	}
+
+}

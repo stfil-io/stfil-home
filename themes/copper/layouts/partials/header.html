@@ -1,5 +1,5 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="header-nav position-relative bg-light-gray">
+<header class="header-nav position-relative" style="border-bottom: 1px solid #6752F01A;">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
       <a class="navbar-brand p-0" href="{{ site.BaseURL }}">
@@ -43,10 +43,10 @@
           </li>
           {{ end }}
           {{ end }}
-          <li class="nav-link">
+          <li class="nav-link text-left">
             <!-- Language List -->
             {{ if .IsTranslated }}
-            <select class="border-0" id="select-language" onchange="location = this.value;">
+            <select class="border-0 language-ui" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := .Site.Languages}}
               {{ $pageLang := .Page.Lang}}
               {{ range .Page.AllTranslations }}
