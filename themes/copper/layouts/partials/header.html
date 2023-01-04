@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-xl navbar-light px-0">
       <a class="navbar-brand p-0" href="{{ site.BaseURL }}">
         {{ with site.Params.logo }}
-        <img class="img-fluid" src="{{ . | absURL }}" alt="{{ site.Title }}">
+        <img class="img-fluid logo-ad" src="{{ . | absURL }}" alt="{{ site.Title }}">
         {{ else }}{{ site.Title }}{{ end }}
       </a>
 

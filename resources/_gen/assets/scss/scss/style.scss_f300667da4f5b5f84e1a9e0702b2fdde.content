@@ -3235,6 +3235,9 @@ footer {
   .community-first-ad {
     min-height: 140px; } }
 
+.logo-ad {
+  width: 124px; }
+
 .banner-bg {
   position: absolute;
   left: 0;
