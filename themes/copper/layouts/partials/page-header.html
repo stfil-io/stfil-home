@@ -1,13 +1,13 @@
 <!-- start of page-header -->
-<section class="page-header bg-white has-shapes has-bg-brash bg-brash-bottom mb-0 pb-0">
+<section class="page-header has-shapes has-bg-brash bg-brash-bottom mb-0 pb-0">
   <div class="container h-100">
     <div class="row d-flex align-items-center h-100">
       <div class="col-md-12 text-center">
-        <h2 class="h1 font-weight-bold">{{.Title }}</h2>
+        <span class="fw-extra-bold fs-50">{{.Title }}</span>
         <nav class="mt-15" aria-label="breadcrumb">
           <ol class="breadcrumb font-weight-bold bg-transparent p-0 justify-content-center">
-            <li class="breadcrumb-item"><a href="{{ site.BaseURL | absLangURL }}" class="text-black-300">{{i18n "home"}}</a></li>
-            <li class="breadcrumb-item text-primary" aria-current="page">{{ .Title }}</li>
+            <li class="breadcrumb-item"><a href="{{ site.BaseURL | absLangURL }}" class="text-main fs-18 fw-extra-bold">{{i18n "home"}}</a></li>
+            <li class="breadcrumb-item text-primary fs-18 fw-extra-bold" aria-current="page">{{ .Title }}</li>
           </ol>
         </nav>
       </div>

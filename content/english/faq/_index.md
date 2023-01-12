@@ -6,11 +6,12 @@ draft : false
 
 ### How to start with Copper?
 
+<br>
+
 {{< collapse "How can I integrate Copper to my current tool stack?" >}}
 **Service Provided As:**
 The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
 
-<br>
 <br>
 
 **Company Liability:**
@@ -23,7 +24,6 @@ The Service is provided for free during this pilot project, and is provided "as 
 **Service Provided As:**
 The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
 
-<br>
 <br>
 
 **Company Liability:**
@@ -44,6 +44,8 @@ aesthetic synth nesciunt you probably haven't heard of them accusamus labore sus
 <br>
 
 ### How to customize Copper?
+
+<br>
 
 {{< collapse "HHow do I get back to Copper and resume my subscription?" >}}
 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf

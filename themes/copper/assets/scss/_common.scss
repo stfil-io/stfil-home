@@ -584,6 +584,10 @@ a.text-underline:hover {
 	color: $color-primary !important
 }
 
+.text-main {
+	color: $primary-text-color !important
+}
+
 a.text-primary:hover {
 	color: darken($color-primary, 10) !important
 }
@@ -996,6 +1000,16 @@ body::-webkit-scrollbar {
 
 }
 
+.input-email:focus{
+	border-color: $color-primary;
+	padding: 15px 20px !important;
+}
+
+.input-email:hover{
+	border-color: $color-primary;
+	padding: 15px 20px !important;
+}
+
 .input-email::-webkit-input-placeholder {
 	color: $primary-text-color;
 	font-size: 1rem;
@@ -1030,6 +1044,10 @@ body::-webkit-scrollbar {
 	font-weight: 500;
 	margin-left: 20px;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1082,4 +1100,27 @@ body::-webkit-scrollbar {
 
 .fs-42 {
   font-size: 2.625rem !important;
+}
+
+.fs-50 {
+	font-size: 3.125rem !important;
+}
+
+.i-md h3 {
+	font-weight: 800!important;
+	font-size: 24px!important;
+}
+
+.i-md .accordionFAQ .card-header .accordion-arrow{
+	font-size: 14px!important;
+	font-weight: 800!important;
+}
+
+.i-md .border-bottom{
+	border-bottom-color: rgba(103, 82, 240, 0.1) !important;
+}
+
+.i-md{
+	font-size: 1rem!important;
+	color: $primary-text-color !important;
 }

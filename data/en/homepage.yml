@@ -148,19 +148,19 @@ achivement:
   title : "平台数据"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:
-    - name : "**Total Staked**"
+    - name : "Total Staked"
       count : "253642"
       extension : "FIL"
 
-    - name : "**Stakers**"
+    - name : "Stakers"
       count : "19265"
       extension : ""
 
-    - name : "**Total rewards paid**"
+    - name : "Total rewards paid"
       count : "8642"
       extension : "FIL"
 
-    - name: "**Storage Providers**"
+    - name: "Storage Providers"
       count: "25"
       extension: ""
 

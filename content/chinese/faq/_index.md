@@ -10,9 +10,6 @@ draft : false
 **Service Provided As:**
 The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
 
-<br>
-<br>
-
 **Company Liability:**
 The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service.
 {{</ collapse >}}

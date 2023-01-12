@@ -515,6 +515,9 @@ a.text-underline:hover {
 .text-primary {
   color: #6752F0 !important; }
 
+.text-main {
+  color: #101B52 !important; }
+
 a.text-primary:hover {
   color: #3e23ec !important; }
 
@@ -1526,6 +1529,14 @@ body::-webkit-scrollbar {
   display: none;
   /* Chrome Safari */ }
 
+.input-email:focus {
+  border-color: #6752F0;
+  padding: 15px 20px !important; }
+
+.input-email:hover {
+  border-color: #6752F0;
+  padding: 15px 20px !important; }
+
 .input-email::-webkit-input-placeholder {
   color: #101B52;
   font-size: 1rem;
@@ -1556,7 +1567,11 @@ body::-webkit-scrollbar {
   cursor: pointer;
   font-weight: 500;
   margin-left: 20px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
 @media only screen and (max-width: 1200px) {
   .language-ui {
@@ -1594,6 +1609,24 @@ body::-webkit-scrollbar {
 
 .fs-42 {
   font-size: 2.625rem !important; }
+
+.fs-50 {
+  font-size: 3.125rem !important; }
+
+.i-md h3 {
+  font-weight: 800 !important;
+  font-size: 24px !important; }
+
+.i-md .accordionFAQ .card-header .accordion-arrow {
+  font-size: 14px !important;
+  font-weight: 800 !important; }
+
+.i-md .border-bottom {
+  border-bottom-color: rgba(103, 82, 240, 0.1) !important; }
+
+.i-md {
+  font-size: 1rem !important;
+  color: #101B52 !important; }
 
 .content.content-active a {
   color: #6752F0; }
@@ -3387,3 +3420,16 @@ footer {
 @media only screen and (max-width: 768px) {
   .banner-bg {
     width: 100%; } }
+
+.faq-banner-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  .faq-banner-bg {
+    transform: scale(3);
+    left: 300px;
+    height: 100vh; } }

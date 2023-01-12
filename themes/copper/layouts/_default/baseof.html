@@ -3,10 +3,18 @@
 {{- partial "head.html" . -}}
 
 <body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative" style="background-color: #FAFAFA;overflow-x: hidden!important;">
-	<picture>
-		<source media="(max-width: 768px)" srcset="/images/bg/bg-sm.png">
-		<img src="/images/bg/bg.png" alt="" class="banner-bg">
-	</picture>
+	{{ if .IsHome }}
+		<picture>
+			<source media="(max-width: 768px)" srcset="/images/bg/bg-sm.png">
+			<img src="/images/bg/bg.png" alt="" class="banner-bg">
+		</picture>
+	{{ end }}
+	{{ if not .IsHome }}
+		<picture>
+			<source media="(max-width: 768px)" srcset="/images/bg/faq-bg.png">
+			<img src="/images/bg/faq-bg.png" alt="" class="faq-banner-bg">
+		</picture>
+	{{ end }}
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{ if not .IsHome }}
