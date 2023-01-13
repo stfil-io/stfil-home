@@ -80,7 +80,7 @@ link = "https://forum.stfil.io/"
 [[params.social]]
 name = "Twitter"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/stfil_io"
 
 ################################### English language #####################################
 [Languages.en]
