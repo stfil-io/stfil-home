@@ -13,9 +13,6 @@ disqusShortname = "#" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
 
-[permalinks]
-launch="https://launch.stfil.io/"
-
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS"]
