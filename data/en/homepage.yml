@@ -115,7 +115,7 @@ workflow:
       button:
         - enable: true
           label: "Governance voting"
-          link: "#"
+          link: "https://vote.stfil.io"
 
     - name: "Risk Governance"
       icon: "ti-money"
@@ -123,10 +123,10 @@ workflow:
       button:
         - enable: true
           label: "Twitter"
-          link: "#"
+          link: "https://twitter.com/stfil_io"
         - enable: true
           label: "Forum"
-          link: "#"
+          link: "https://forum.stfil.io"
 
 
 ############################## Workflow ################################
