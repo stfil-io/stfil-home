@@ -115,7 +115,7 @@ workflow:
       button:
         - enable: true
           label: "Governance voting"
-          link: "#"
+          link: "https://vote.stfil.io"
 
     - name: "Risk Governance"
       icon: "ti-money"
@@ -123,10 +123,10 @@ workflow:
       button:
         - enable: true
           label: "Twitter"
-          link: "#"
+          link: "https://twitter.com/stfil_io"
         - enable: true
           label: "Forum"
-          link: "#"
+          link: "https://forum.stfil.io"
 
 
 ############################## Workflow ################################
@@ -256,18 +256,14 @@ clients_logo_slider:
   enable : true
   title: "Partners"
   logos:
-    - "images/brands/01-colored.png"
     - "images/brands/02-colored.png"
     - "images/brands/03-colored.png"
     - "images/brands/04-colored.png"
     - "images/brands/05-colored.png"
     - "images/brands/06-colored.png"
-    - "images/brands/01-colored.png"
-    - "images/brands/02-colored.png"
-    - "images/brands/03-colored.png"
-    - "images/brands/04-colored.png"
-    - "images/brands/05-colored.png"
-    - "images/brands/06-colored.png"
+    - "images/brands/07-colored.png"
+    - "images/brands/08-colored.png"
+    - "images/brands/09-colored.png"
 
 ############################# Call to action ############################
 call_to_action:

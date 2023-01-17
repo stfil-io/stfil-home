@@ -24,19 +24,23 @@ banner:
 clients_logo_slider:
   enable : true
   logos:
-  - "images/brands/01-colored.png"
   - "images/brands/02-colored.png"
   - "images/brands/03-colored.png"
   - "images/brands/04-colored.png"
   - "images/brands/05-colored.png"
   - "images/brands/06-colored.png"
-  - "images/brands/01-colored.png"
+  - "images/brands/07-colored.png"
+  - "images/brands/08-colored.png"
+  - "images/brands/09-colored.png"
   - "images/brands/02-colored.png"
   - "images/brands/03-colored.png"
   - "images/brands/04-colored.png"
   - "images/brands/05-colored.png"
   - "images/brands/06-colored.png"
-  
+  - "images/brands/07-colored.png"
+  - "images/brands/08-colored.png"
+  - "images/brands/09-colored.png"
+
 
 ########################## How it works #########################
 homepage_tab:
@@ -53,7 +57,7 @@ homepage_tab:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Built In Chat"
     title : "Built In **Chat**"
@@ -63,7 +67,7 @@ homepage_tab:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Project Analytics"
     title : "Project **Analytics**"
@@ -73,7 +77,7 @@ homepage_tab:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Task Collaboration"
     title : "Task **Collaboration**"
@@ -101,7 +105,7 @@ tools:
   - "images/tools/08.png"
   - "images/tools/05.png"
 
-  
+
 
 ############################## Achivement ##############################
 achivement:
@@ -112,11 +116,11 @@ achivement:
   - name : "Years Of <br> Experience"
     count : "24"
     extension : "+"
-    
+
   - name : "More Real <br> Active users"
     count : "10"
     extension : "M+"
-    
+
   - name : "Employees <br> Work Here"
     count : "3000"
     extension : "+"
@@ -124,13 +128,13 @@ achivement:
   services:
   - name : "Fully Secure And Hacking Free"
     icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
-    
+
   - name : "Always Having A Great Supports"
     icon : "ti-comments-smiley" # themify icon pack : https://themify.me/themify-icons
-    
+
   - name : "Build with Time Balanceing"
     icon : "ti-video-clapper" # themify icon pack : https://themify.me/themify-icons
-    
+
   - name : "Fully Prepared with Safe Condition"
     icon : "ti-shield" # themify icon pack : https://themify.me/themify-icons
 
@@ -141,7 +145,7 @@ workflow:
   title : "Create an automated **workflow by setting**"
   image : "images/screenshots/03.png"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
-  
+
 
 ############################## about us ################################
 about_us:
@@ -154,7 +158,7 @@ about_us:
     - "Get an overview of Habit Calendars admiral general."
     - "Start building habit with Habitify on platform to new"
 
-    
+
 
 ############################# Testimonial ############################
 testimonial:
@@ -171,17 +175,17 @@ testimonial:
     image : "images/users/01.jpg"
     designation : "CEO, Angular Corporation"
     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
+
   - name : "Angela Markel"
     image : "images/users/02.jpg"
     designation : "CEO, Angular Corporation"
     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
+
   - name : "Angela Markel"
     image : "images/users/03.jpg"
     designation : "CEO, Angular Corporation"
     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
+
   - name : "Angela Markel"
     image : "images/users/02.jpg"
     designation : "CEO, Angular Corporation"
