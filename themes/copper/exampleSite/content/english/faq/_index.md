@@ -21,7 +21,7 @@ When using STFIL, users receive staking rewards in real-time and they also could
 {{</ collapse >}}
 
 
-{{< collapse "What is stFIL?" >}}
+{{< collapse "What is stFIL token?" >}}
 stFIL is a token that represents staked FIL in STFIL, combining the value of initial deposit + staking rewards - penalties.  stFIL tokens are minted upon deposit and burned when redeemed.  stFIL token balances are issued 1:1 to the FIL that is staked using STFIL.  stFIL token balances are updated when the oracle reports changes in total stake every day.
 
 stFIL tokens can be used as one would use FIL, allowing you to earn FIL staking rewards whilst benefiting from, among other things, rewards across decentralised finance products.
