@@ -80,7 +80,7 @@ link = "https://forum.stfil.io/"
 [[params.social]]
 name = "Twitter"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/stfil_io"
+link = "https://twitter.com/stfil_ioj"
 
 ################################### English language #####################################
 [Languages.en]
@@ -88,7 +88,7 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
-footer_content = "STFIL is a liquidity pledge protocol built on top of Filecoin that is designed to be community-owned, decentralized, and trust-free, allowing users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
+footer_content = "STFIL is a liquidity pledge protocol built on FVM that is designed to be community-owned, decentralized, and trust-free, allowing users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
 # copyright
 copyright = "©2022 STFIL All rights reserved."
 
