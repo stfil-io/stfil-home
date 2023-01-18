@@ -1640,6 +1640,12 @@ body::-webkit-scrollbar {
   -webkit-box-pack: center;
   justify-content: center; }
 
+@media (max-width: 767px) {
+  .cookies-tips {
+    bottom: 0px;
+    left: 0px;
+    right: 0px; } }
+
 .cookies-tips-content {
   display: flex;
   -webkit-box-align: center;
@@ -1648,6 +1654,12 @@ body::-webkit-scrollbar {
   border-radius: 20px;
   background-color: white;
   box-shadow: 0px 4px 24px 0px rgba(16, 27, 82, 0.08); }
+
+@media (max-width: 767px) {
+  .cookies-tips-content {
+    flex-direction: column;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; } }
 
 .cookies-tips-content-icon {
   margin-right: 24px;
@@ -1661,6 +1673,10 @@ body::-webkit-scrollbar {
   background: #f4f6f8;
   border-radius: 8px; }
 
+@media (max-width: 767px) {
+  .cookies-tips-content-icon {
+    display: none; } }
+
 .cookies-tips-content-text {
   margin-right: 8px;
   font-size: 12px;
@@ -1668,6 +1684,13 @@ body::-webkit-scrollbar {
   color: #101B52;
   opacity: .8;
   width: 340px; }
+
+@media (max-width: 767px) {
+  .cookies-tips-content-text {
+    margin-right: 0px;
+    margin-bottom: 8px;
+    width: 100% !important;
+    text-align: center; } }
 
 .cookies-tips-content-text a {
   color: #6752F0; }
