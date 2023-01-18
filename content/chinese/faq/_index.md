@@ -6,7 +6,7 @@ draft : false
 
 ### STFIL- What you need to know
 
-{{< collapse "What is STFIL?" >}}
+{{< collapse "什么是STFIL?" >}}
 STFIL is a liquid staking solution for FIL backed by industry-leading storage providers.  STFIL lets users stake their FIL - without locking assets or maintaining infrastructure - whilst participating in on-chain activities, e.g. lending.
 
 STFIL attempts to solve the problems associated with initial FIL pledge - illiquidity, immovability and accessibility - making staked ETH liquid and allowing for participation with any amount of FIL to improve performance of the Filecoin network.

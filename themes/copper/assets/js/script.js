@@ -120,6 +120,29 @@
 			});
 		}
 
+
+		let cookies = document.cookie
+		let res = cookies.split(";").find(c => c.split("=")[0].trim() === 'cookie-allowed' )
+		if (res === undefined){
+			$("#model-cookies-tips").show()
+		}else {
+			$("#model-cookies-tips").hide()
+		}
+
+		$("#cookies-tips-btn-allow").click( () => {
+			let date = new Date()
+			date.setTime(date.getTime() + (60 * 60 * 1000 * 24 * 90))
+			document.cookie = 'cookie-allowed=yes;path="/";expires=' + date.toUTCString()+";";
+			$("#model-cookies-tips").hide()
+		})
+
+		$("#cookies-tips-btn-decline").click( () => {
+			let date = new Date()
+			date.setTime(date.getTime() + (60 * 60 * 1000 * 24 * 90))
+			document.cookie = 'cookie-allowed=no;path="/";expires=' + date.toUTCString()+";";
+			$("#model-cookies-tips").hide()
+		})
+
 		// disable accordion collapse toogle
 		$('.disable-toogle').on('hide.bs.collapse', function (e) {
 			e.preventDefault();

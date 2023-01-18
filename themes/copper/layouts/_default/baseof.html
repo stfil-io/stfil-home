@@ -22,6 +22,26 @@
 	{{ end }}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
+
+	<div class="cookies-tips" id="model-cookies-tips">
+		<div class="cookies-tips-content">
+			<div class="cookies-tips-content-icon">
+				<img src="/images/icons/cookies.png" style="width: 32px; height: 32px;" alt="">
+			</div>
+			<div class="cookies-tips-content-text">
+				We use cookies to collect anonymous site visitation data to improve the performance of our website. For more info read our <a href="/privacy">Privacy Notice</a>
+			</div>
+			<div class="cookies-tips-content-btn">
+				<div class="cookies-tips-content-btn-allow" id="cookies-tips-btn-allow">
+					Allow
+				</div>
+				<div class="cookies-tips-content-btn-decline" id="cookies-tips-btn-decline">
+					Decline
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 
 </html>
