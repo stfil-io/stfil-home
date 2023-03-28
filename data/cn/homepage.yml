@@ -15,8 +15,8 @@ banner:
   button:
     enable : true
     icon : "images/brands/google.png"
-    label : "Get Stake"
-    link : "https://stake.stfil.io"
+    label : "Launch App"
+    link : "https://earnest-vacherin-db0d4a.netlify.app/#/"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 

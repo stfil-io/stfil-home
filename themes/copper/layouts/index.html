@@ -196,7 +196,7 @@
 <!-- start of working section -->
 {{ if $data.homepage.working.enable }}
 {{ with $data.homepage.working }}
-<section class="pb-50 section-padding tools-use-section has-shapes has-bg-brash bg-brash-y position-relative">
+<section class="pb-50 section-padding tools-use-section has-shapes has-bg-brash bg-brash-y position-relative" style="margin-top: 200px;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
@@ -230,30 +230,30 @@
 <section class="section-padding ">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-12 text-left">
+      <div class="col-lg-12 col-md-12 text-left">
         <h2 class="section-title text-center text-sm-left fs-36 fw-extra-bold">{{ .title | markdownify }}</h2>
         <p style="opacity: .6; max-width: 588px;" class="text-center text-sm-left fs-16 fw-medium">{{ .content | markdownify }}</p>
       </div>
-      <div class="col-lg-4 text-right col-sm-12 mt-2"
-      >
-        <div class="fdo-address" style="height: 126px;padding: 5px;">
-          <div
-                  class="fdo-address-block"
-                  style="display: flex;flex-direction: column;justify-content: center;align-items:start;
-          cursor: pointer;
-          position:relative;
-          padding-left: 30px;
-          height: 126px;
-          border: 1px solid #F0F0F0;border-radius: 14px;">
-            <span href="{{ .link }}" class="text-primary p-0 fw-extra-bold fs-42"
-               style="line-height: 1.1;">
-              450860
-            </span>
-            <span class="fw-bold fs-16">{{ .addrsText | markdownify }}</span>
-            <img class="fdo-address-block-icon" src="/images/icons/more-2.png" style="height: 30px;width: 30px;position:absolute;cursor: pointer;" alt="">
-          </div>
-        </div>
-      </div>
+<!--      <div class="col-lg-4 text-right col-sm-12 mt-2"-->
+<!--      >-->
+<!--        <div class="fdo-address" style="height: 126px;padding: 5px;">-->
+<!--          <div-->
+<!--                  class="fdo-address-block"-->
+<!--                  style="display: flex;flex-direction: column;justify-content: center;align-items:start;-->
+<!--          cursor: pointer;-->
+<!--          position:relative;-->
+<!--          padding-left: 30px;-->
+<!--          height: 126px;-->
+<!--          border: 1px solid #F0F0F0;border-radius: 14px;">-->
+<!--            <span href="{{ .link }}" class="text-primary p-0 fw-extra-bold fs-42"-->
+<!--               style="line-height: 1.1;">-->
+<!--              450860-->
+<!--            </span>-->
+<!--            <span class="fw-bold fs-16">{{ .addrsText | markdownify }}</span>-->
+<!--            <img class="fdo-address-block-icon" src="/images/icons/more-2.png" style="height: 30px;width: 30px;position:absolute;cursor: pointer;" alt="">-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
     <div class="has-shapes">
       <picture>

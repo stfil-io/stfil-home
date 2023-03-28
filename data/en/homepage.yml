@@ -2,7 +2,7 @@
 banner:
   enable : true
   desc : "Decentralized, community owned, trust-less and compatible with staking in Filecoin"
-  title : "Liquidity for staked assets"
+  title : "Filecoin Liquid Staking"
   content : "Liquidity stake protocol, built on FVM, allows users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
   image : "images/screenshots/banner-shot.png"
   video:
@@ -15,8 +15,8 @@ banner:
   button:
     enable : true
     icon : "images/brands/google.png"
-    label : "Get Stake"
-    link : "https://stake.stfil.io"
+    label : "Launch App"
+    link : "https://earnest-vacherin-db0d4a.netlify.app/#/"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
@@ -131,7 +131,7 @@ workflow:
 
 ############################## Workflow ################################
 storageProvider:
-  enable : true
+  enable : false
   title : "Join us，Power the infrastructure of Web3"
   image : "images/screenshots/05.png"
   smImage : "images/screenshots/06.png"
@@ -144,7 +144,7 @@ storageProvider:
 
 ############################## Achivement ##############################
 achivement:
-  enable : true
+  enable : false
   title : "平台数据"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:

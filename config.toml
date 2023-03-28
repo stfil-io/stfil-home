@@ -87,9 +87,9 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
-footer_content = "STFIL is a liquidity pledge protocol built on FVM that is designed to be community-owned, decentralized, and trust-free, allowing users to earn block rewards without locking up assets or maintaining Storage Provider infrastructure."
+footer_content = "STFIL is a Liquid Staking Protocol for Filecoin network. It allows users to obtain block rewards without locking assets and maintaining Storage Provider infrastructure by allowing Storage Providers to obtain more FIL in the protocol pool for pledge."
 # copyright
-copyright = "©2022 STFIL All rights reserved."
+copyright = "©2023 STFIL All rights reserved."
 
 
 
@@ -110,10 +110,10 @@ name = "Docs"
 URL = "https://docs.stfil.io/"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "Faq"
-URL = "faq"
-weight = 4
+#[[Languages.en.menu.main]]
+#name = "Faq"
+#URL = "faq"
+#weight = 4
 
 # Footer menu
 [[Languages.en.menu.footer]]
@@ -150,7 +150,7 @@ contentDir = "content/chinese"
 weight = 1
 footer_content = "STFIL 是一个构建在Filecoin上的流动性质押协议，旨在为社区所有、去中心化、无需信任，允许用户在不锁定资产或维护 Storage Provider 基础设施的情况下获得区块奖励。"
 # copyright
-copyright = "©2022 STFIL All rights reserved."
+copyright = "©2023 STFIL All rights reserved."
 
 
 
