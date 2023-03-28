@@ -115,7 +115,7 @@ workflow:
       button:
         - enable: true
           label: "Governance voting"
-          link: "https://vote.stfil.io"
+          link: "https://docs.stfil.io/docs/governance/constitution/normal"
 
     - name: "Risk Governance"
       icon: "ti-money"
@@ -210,7 +210,7 @@ flexibility:
       button:
         - enable: true
           label: "Learn more"
-          link: "#"
+          link: "https://docs.stfil.io/docs/overview/audit"
 
     - name : "Bug Bounty"
       icon: "/images/icons/bug_bounty.png"
@@ -218,7 +218,7 @@ flexibility:
       button:
         - enable: true
           label: "Earn bonus"
-          link: "#"
+          link: "https://docs.stfil.io/docs/overview/bug_bounty_program"
 
 ############################# Testimonial ############################
 testimonial:

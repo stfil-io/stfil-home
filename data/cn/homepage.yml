@@ -116,7 +116,7 @@ workflow:
       button:
         - enable: true
           label: "投票治理"
-          link: "#"
+          link: "https://docs.stfil.io/docs/governance/constitution/normal"
 
     - name: "风险治理"
       icon: "ti-money"
@@ -155,7 +155,7 @@ flexibility:
       button:
         - enable: true
           label: "了解更多"
-          link: "#"
+          link: "https://docs.stfil.io/docs/overview/audit"
 
     - name : "Bug赏金计划"
       icon: "ti-money"
@@ -163,7 +163,7 @@ flexibility:
       button:
         - enable: true
           label: "赚取奖金"
-          link: "#"
+          link: "https://docs.stfil.io/docs/overview/bug_bounty_program"
 
 ############################## Achivement ##############################
 achivement:
