@@ -10,11 +10,10 @@ AUTHOR WEBSITE: https://themefisher.com
 <head>
   <meta charset="utf-8">
   <title>{{ i18n "title" }}</title>
-  <meta name="description" content="STFIL is a Liquid Staking Protocol for Filecoin network. It allows users to obtain block rewards without locking assets and maintaining Storage Provider infrastructure by allowing Storage Providers to obtain more FIL in the protocol pool for pledge.">
   <meta name="author" content="STFIL">
-
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "STFIL - Filecoin 质押资产的流动性"
+title = "STFIL - Filecoin Liquid Staking"
 theme = "copper"
 # post pagination
 paginate = "6"
@@ -50,8 +50,8 @@ link = "plugins/aos/aos.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "STFIL is a Liquid Staking Protocol for Filecoin network. It allows users to obtain block rewards without locking assets and maintaining Storage Provider infrastructure by allowing Storage Providers to obtain more FIL in the protocol pool for pledge."
+author = "STFIL"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -100,10 +100,10 @@ name = "Protocol"
 URL = "/"
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "Governance"
-URL = "about"
-weight = 2
+#[[Languages.en.menu.main]]
+#name = "Governance"
+#URL = "about"
+#weight = 2
 
 [[Languages.en.menu.main]]
 name = "Docs"
