@@ -161,20 +161,20 @@ name = "协议"
 URL = "/"
 weight = 1
 
-[[Languages.cn.menu.main]]
-name = "治理"
-URL = "about"
-weight = 2
+#[[Languages.cn.menu.main]]
+#name = "治理"
+#URL = "about"
+#weight = 2
 
 [[Languages.cn.menu.main]]
 name = "文档"
 URL = "https://docs.stfil.io/"
 weight = 3
 
-[[Languages.cn.menu.main]]
-name = "常见问题"
-URL = "faq"
-weight = 4
+#[[Languages.cn.menu.main]]
+#name = "常见问题"
+#URL = "faq"
+#weight = 4
 
 # Footer menu
 [[Languages.cn.menu.footer]]

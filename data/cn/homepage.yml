@@ -132,7 +132,7 @@ workflow:
 
 ############################## Workflow ################################
 storageProvider:
-  enable : true
+  enable : false
   title : "成为存储提供商"
   image : "images/screenshots/05.png"
   smImage: "images/screenshots/06.png"
@@ -167,7 +167,7 @@ flexibility:
 
 ############################## Achivement ##############################
 achivement:
-  enable : true
+  enable : false
   title : "平台数据"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   funfacts:
