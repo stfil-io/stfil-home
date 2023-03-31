@@ -16,7 +16,7 @@ banner:
     enable : true
     icon : "images/brands/google.png"
     label : "Launch App"
-    link : "https://earnest-vacherin-db0d4a.netlify.app/#/"
+    link : "https://hyperspace-app.stfil.io/"
     content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
