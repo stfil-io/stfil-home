@@ -55,7 +55,7 @@
           <h5 class="font-weight-600 mb-20">{{i18n "social_links"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Params.social }}
-            <li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+            <li><a target="_blank" href="{{ .link | safeURL }}">{{ .name }}</a></li>
             {{end }}
           </ul>
         </div>
@@ -65,7 +65,7 @@
           <h5 class="font-weight-600 mb-20">{{ i18n "quick_learn"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Menus.footer_learn }}
-            <li><a href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
+            <li><a target="_blank" href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -75,7 +75,7 @@
           <h5 class="font-weight-600 mb-20">{{ i18n "quick_links"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
+            <li><a target="_blank" href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
             {{ end }}
           </ul>
         </div>
