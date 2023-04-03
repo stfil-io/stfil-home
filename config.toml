@@ -129,17 +129,17 @@ weight = 2
 # Footer menu
 [[Languages.en.menu.footer_learn]]
 name = "Introduction"
-URL = "terms-conditions"
+URL = "https://docs.stfil.io/docs/development/introduction"
 weight = 1
 
 [[Languages.en.menu.footer_learn]]
 name = "Guides"
-URL = "privacy-policy"
+URL = "https://docs.stfil.io/docs/guides/user/staking"
 weight = 2
 
 [[Languages.en.menu.footer_learn]]
 name = "Developers"
-URL = "privacy-policy"
+URL = "https://docs.stfil.io/docs/development/smart_contract/staking_pool"
 weight = 3
 
 ################################### Chinese language #####################################
