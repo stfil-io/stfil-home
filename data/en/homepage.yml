@@ -254,7 +254,7 @@ testimonial:
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
   enable : true
-  title: "Partners"
+  title: "Ecosystem"
   logos:
     - "images/brands/02-colored.png"
     - "images/brands/03-colored.png"
