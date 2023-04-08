@@ -124,10 +124,10 @@ workflow:
       button:
         - enable: true
           label: "Twitter"
-          link: "#"
+          link: "https://twitter.com/stfil_io"
         - enable: true
-          label: "Forum"
-          link: "#"
+          label: "Slack"
+          link: "https://stfil.io/slack"
 
 
 ############################## Workflow ################################
@@ -155,7 +155,7 @@ flexibility:
       button:
         - enable: true
           label: "了解更多"
-          link: "https://docs.stfil.io/docs/overview/audit"
+          link: "https://docs.stfil.io/docs/development/security_and_audits#audits"
 
     - name : "Bug赏金计划"
       icon: "ti-money"
@@ -163,7 +163,7 @@ flexibility:
       button:
         - enable: true
           label: "赚取奖金"
-          link: "https://docs.stfil.io/docs/overview/bug_bounty_program"
+          link: "https://docs.stfil.io/docs/category/-bug-bounty-program"
 
 ############################## Achivement ##############################
 achivement:

@@ -72,9 +72,9 @@ icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/stfil-io/"
 
 [[params.social]]
-name = "Forum"
+name = "Slack"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://forum.stfil.io/"
+link = "https://stfil.io/slack"
 
 [[params.social]]
 name = "Twitter"

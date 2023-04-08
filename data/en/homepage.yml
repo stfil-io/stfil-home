@@ -125,8 +125,8 @@ workflow:
           label: "Twitter"
           link: "https://twitter.com/stfil_io"
         - enable: true
-          label: "Forum"
-          link: "https://forum.stfil.io"
+          label: "Slack"
+          link: "https://stfil.io/slack"
 
 
 ############################## Workflow ################################
@@ -210,7 +210,7 @@ flexibility:
       button:
         - enable: true
           label: "Learn more"
-          link: "https://docs.stfil.io/docs/overview/audit"
+          link: "https://docs.stfil.io/docs/development/security_and_audits#audits"
 
     - name : "Bug Bounty"
       icon: "/images/icons/bug_bounty.png"
@@ -218,7 +218,7 @@ flexibility:
       button:
         - enable: true
           label: "Earn bonus"
-          link: "https://docs.stfil.io/docs/overview/bug_bounty_program"
+          link: "https://docs.stfil.io/docs/category/-bug-bounty-program"
 
 ############################# Testimonial ############################
 testimonial:
