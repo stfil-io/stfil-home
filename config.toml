@@ -86,6 +86,11 @@ name = "Medium"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 link = "https://medium.com/@STFIL_Protocol"
 
+[[params.social]]
+name = "Telegram"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://t.me/stfil_io"
+
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
