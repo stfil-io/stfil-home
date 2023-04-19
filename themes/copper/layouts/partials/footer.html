@@ -12,19 +12,34 @@
           {{ with .content}}<p>{{. | markdownify}}</p>{{end}}
           {{if .button.enable }}
           {{with .button }}
-          <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank" class="needs-validation" style="margin-top: 45px;">
+          <form id="subEmailForm" onsubmit="return false;" name="mc-embedded-subscribe-form" target="_parent" class="needs-validation" style="margin-top: 45px;">
             <div class="input-group">
-              <input type="email" class="form-control bg-gray input-email" placeholder="{{ i18n "you_email_addr" }}" required>
+              <input id="emailInput" type="email" class="form-control bg-gray input-email" placeholder="{{ i18n "you_email_addr" }}" >
               <div class="input-group-append ml-0">
-                <button type="submit" class="btn btn-primary" style="width: 82px;" name="subscribe"><svg width="22" height="16" viewBox="0 0 31 16"
-                                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                          d="M30.7071 8.70808C31.0976 8.31756 31.0976 7.68439 30.7071 7.29387L24.3431 0.929909C23.9526 0.539384 23.3195 0.539384 22.9289 0.929909C22.5384 1.32043 22.5384 1.9536 22.9289 2.34412L28.5858 8.00098L22.9289 13.6578C22.5384 14.0484 22.5384 14.6815 22.9289 15.072C23.3195 15.4626 23.9526 15.4626 24.3431 15.072L30.7071 8.70808ZM0 9.00098H30V7.00098H0V9.00098Z"
-                          fill="white" /></svg></button>
+                <button id="subEmail" type="submit" class="btn btn-primary" style="width: 82px;" name="subscribe">
+                  <span id="subEmailOkSvg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                  </svg>
+                  </span>
+                  <span id="subEmailSubSvg" >
+                    <svg width="22" height="16" viewBox="0 0 31 16"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M30.7071 8.70808C31.0976 8.31756 31.0976 7.68439 30.7071 7.29387L24.3431 0.929909C23.9526 0.539384 23.3195 0.539384 22.9289 0.929909C22.5384 1.32043 22.5384 1.9536 22.9289 2.34412L28.5858 8.00098L22.9289 13.6578C22.5384 14.0484 22.5384 14.6815 22.9289 15.072C23.3195 15.4626 23.9526 15.4626 24.3431 15.072L30.7071 8.70808ZM0 9.00098H30V7.00098H0V9.00098Z"
+                            fill="white" /></svg>
+                  </span>
+                </button>
               </div>
             </div>
             <div style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
+            </div>
+            <div id="subOkMessage" class="alert alert-success" role="alert">
+              {{ .subOK }}
+            </div>
+            <div id="subFailMessage" class="alert alert-danger" role="alert">
+
             </div>
           </form>
           {{ end }}
@@ -85,7 +100,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="pl-0 pl-lg-4 mt-5 mt-lg-0">
           <h5 class="font-weight-600">{{ i18n "subscribe"}}</h5>
-          <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank" class="needs-validation mt-30">
+          <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" class="needs-validation mt-30">
             <div class="input-group">
               <input type="email" class="form-control bg-gray" placeholder="Your email address" required>
               <div class="input-group-append ml-0">

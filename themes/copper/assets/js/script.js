@@ -148,6 +148,57 @@
 			e.preventDefault();
 		});
 
+		$('#subEmailOkSvg').hide()
+		$('#subOkMessage').hide()
+		$('#subFailMessage').hide()
+
+		$('#subEmail').click( () => {
+			let email = $('#emailInput').val()
+			fetch('https://dash.froghub.io/api/from/contactUs',
+				{
+					method: 'post',
+					headers: {
+						'Content-Type': 'application/json;charset=UTF-8'
+					},
+					body: JSON.stringify({
+						email: email
+					})
+				}).then(res => {
+					if (res.status === 200){
+						console.log(res)
+						$('#subEmailSubSvg').hide()
+						$('#subEmailOkSvg').show(200)
+						$('#subOkMessage').show(200)
+						$('#subFailMessage').hide()
+
+						$('#subEmail').css({
+							"cssText": "background-color: #28a745!important",
+						})
+
+						setTimeout(() => {
+							$('#subEmailOkSvg').hide()
+							$('#subOkMessage').hide(200)
+							$('#subEmailSubSvg').show(200)
+
+							$('#subEmailForm').get(0).reset()
+
+							$('#subEmail').css({
+								"cssText": "background-color: #523bee!important",
+							})
+						},2000)
+					}else {
+						$('#subFailMessage').show(200)
+						$('#subOkMessage').hide()
+
+						res.json().then(e=>{
+							$('#subFailMessage').show()
+							$('#subFailMessage').html(e.msg)
+						})
+					}
+
+			})
+		})
+
 		// popupFix init
 		function popupFix() {
 			var vScrollWidth = window.innerWidth - $(document).width();
