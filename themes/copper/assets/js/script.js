@@ -148,6 +148,7 @@
 			e.preventDefault();
 		});
 
+		console.log($('#subEmailOkSvg'))
 		$('#subEmailOkSvg').hide()
 		$('#subOkMessage').hide()
 		$('#subFailMessage').hide()
