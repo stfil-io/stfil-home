@@ -119,7 +119,6 @@
 			});
 		}
 
-
 		let cookies = document.cookie
 		let res = cookies.split(";").find(c => c.split("=")[0].trim() === 'cookie-allowed' )
 		if (res === undefined){
