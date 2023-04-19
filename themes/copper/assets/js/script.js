@@ -111,7 +111,7 @@
 	}, 1700);
 
 	$(document).ready(function () {
-		console.log('subEmailOkSvg')
+		alert('subEmailOkSvg')
 
 		if ($(window).width() < 1199) {
 			$('.navbar .dropdown-toggle').on('click', function (e) {
