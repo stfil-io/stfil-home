@@ -111,8 +111,6 @@
 	}, 1700);
 
 	$(document).ready(function () {
-		alert('subEmailOkSvg')
-
 		if ($(window).width() < 1199) {
 			$('.navbar .dropdown-toggle').on('click', function (e) {
 				$(this).siblings('.dropdown-menu, .dropdown-submenu').animate({
