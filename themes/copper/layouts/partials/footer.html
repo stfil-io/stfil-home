@@ -157,3 +157,36 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
+
+<script>
+  VANTA.FOG({
+    el: "#bg-pan",
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    minHeight: 900.00,
+    minWidth: 200.00,
+    highlightColor: 0xffffc6,
+    midtoneColor: 0xff88e6,
+    lowlightColor: 0x48c1dc,
+    baseColor: 0xd5f7ff,
+    blurFactor: 0.77,
+    speed: 2,
+    zoom: 0.7
+  })
+  VANTA.FOG({
+    el: "#bg-pan-phone",
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    minHeight: 750.00,
+    minWidth: 200.00,
+    highlightColor: 0xffffc6,
+    midtoneColor: 0xff88e6,
+    lowlightColor: 0x48c1dc,
+    baseColor: 0xd5f7ff,
+    blurFactor: 0.77,
+    speed: 2,
+    zoom: 0.5
+  })
+</script>

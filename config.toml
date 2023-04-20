@@ -36,6 +36,10 @@ link = "plugins/aos/aos.css"
 
 # JS Plugins
 [[params.plugins.js]]
+link = "plugins/vanta/three.min.js"
+[[params.plugins.js]]
+link = "plugins/vanta/vanta.fog.min.js"
+[[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"

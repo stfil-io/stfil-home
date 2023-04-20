@@ -8,6 +8,8 @@
 			<source media="(max-width: 768px)" srcset="/images/bg/bg-sm.png">
 			<img src="/images/bg/bg.png" alt="" class="banner-bg">
 		</picture>
+		<div class="d-sm-block d-none" id="bg-pan" style="height: 750px;position: absolute;width: 100%;z-index: 0;"></div>
+		<div class="d-sm-none d-block" id="bg-pan-phone" style="height: 750px;position: absolute;width: 100%;z-index: 0;"></div>
 	{{ end }}
 	{{ if not .IsHome }}
 		<picture>
