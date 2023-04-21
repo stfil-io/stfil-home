@@ -160,6 +160,10 @@
 
 <script>
   let screenHeight = window.innerHeight
+  const rate = 3200
+  let innerWidth = window.innerWidth
+  let defaultZoom = innerWidth / rate
+  let defaultPhoneZoom = innerWidth / rate
 
   let bgPanVanta = VANTA.FOG({
     el: "#bg-pan",
@@ -174,7 +178,7 @@
     baseColor: 0xd5f7ff,
     blurFactor: 0.77,
     speed: 2,
-    zoom: 0.7
+    zoom: defaultZoom
   })
   let bgPanVantaPhone = VANTA.FOG({
     el: "#bg-pan-phone",
@@ -189,7 +193,7 @@
     baseColor: 0xd5f7ff,
     blurFactor: 0.77,
     speed: 2,
-    zoom: 0.5
+    zoom: defaultPhoneZoom
   })
 
 
@@ -229,11 +233,27 @@
     let bgPanPhone = document.getElementById('bg-pan-phone')
     bgPanPhone.style.height = `${screenHeight}px`
 
+
+    innerWidth = window.innerWidth
+    let _defaultZoom = defaultZoom * 2 - innerWidth / rate
+    let _defaultPhoneZoom = defaultPhoneZoom  *2- innerWidth / rate
+
+    if (_defaultPhoneZoom > 1.5){
+      _defaultPhoneZoom = 1.5
+    }
+    if (_defaultZoom > 1.5){
+      _defaultZoom = 1.5
+    }
+    console.log('_defaultZoom',_defaultZoom)
+    console.log('defaultZoom',defaultZoom)
+
     bgPanVanta.setOptions({
-      minHeight: screenHeight
+      minHeight: screenHeight,
+      zoom: _defaultZoom
     })
     bgPanVantaPhone.setOptions({
-      minHeight: screenHeight
+      minHeight: screenHeight,
+      zoom: _defaultPhoneZoom
     })
   }
 
