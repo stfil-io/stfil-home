@@ -11,6 +11,14 @@ AUTHOR WEBSITE: https://themefisher.com
   <meta charset="utf-8">
   <title>{{ i18n "title" }}</title>
   <meta name="author" content="STFIL">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="STFIL - Filecoin Liquid Staking">
+  <meta name="twitter:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="twitter:image" content="https://www.stfil.io/images/logo/twitter-logo.png">
+  <meta name="twitter:site" content="@stfil_io">
+  <meta name="twitter:creator" content="@stfil_io">
+
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
