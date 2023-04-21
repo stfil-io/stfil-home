@@ -194,6 +194,9 @@
 
 
   window.addEventListener("wheel", function(event) {
+    if (window.innerWidth <800){
+      return;
+    }
     let pageYOffset = window.pageYOffset || document.documentElement.scrollTop;
     if (pageYOffset > 180){
       return;
