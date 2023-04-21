@@ -5,12 +5,12 @@
 {{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
 <!-- start of banner -->
-<section class="banner bg-cover-bottom has-shapes has-bg-brash bg-brash-bottom banner-ad" data-aos="fade-in" data-aos-delay="150">
+<section id="banner-section" class="banner bg-cover-bottom has-shapes has-bg-brash bg-brash-bottom banner-ad" data-aos="fade-in" data-aos-delay="150">
   <div class="container h-100">
-    <div class="d-block d-lg-flex no-gutters align-items-center h-100">
-      <div class="col-12 order-lg-0 text-center">
+    <div class="d-block d-flex no-gutters align-items-center h-100">
+      <div id="banner-center-content" class="col-12 order-lg-0 text-center" style="margin-bottom: 100px;">
         <div class="banner-title mb-20">{{ .title | markdownify }}</div>
-        <p class="h5 m-auto banner-content">{{ .content | markdownify }}</p>
+        <p class="h3 m-auto banner-content">{{ .content | markdownify }}</p>
         {{if .form.enable }}
         {{with .form }}
         <form action="{{.form_action}}" method="post" class="needs-validation" novalidate>
@@ -196,7 +196,7 @@
 <!-- start of working section -->
 {{ if $data.homepage.working.enable }}
 {{ with $data.homepage.working }}
-<section class="pb-50 section-padding tools-use-section has-shapes has-bg-brash bg-brash-y position-relative" style="margin-top: 200px;">
+<section id="workingId" class="pb-50 section-padding tools-use-section has-shapes has-bg-brash bg-brash-y position-relative" style="margin-top: 120px;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">

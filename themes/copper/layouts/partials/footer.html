@@ -159,12 +159,14 @@
 <script src="{{ $script.Permalink }}"></script>
 
 <script>
-  VANTA.FOG({
+  let screenHeight = window.innerHeight
+
+  let bgPanVanta = VANTA.FOG({
     el: "#bg-pan",
     mouseControls: false,
     touchControls: false,
     gyroControls: false,
-    minHeight: 900.00,
+    minHeight: screenHeight,
     minWidth: 200.00,
     highlightColor: 0xffffc6,
     midtoneColor: 0xff88e6,
@@ -174,12 +176,12 @@
     speed: 2,
     zoom: 0.7
   })
-  VANTA.FOG({
+  let bgPanVantaPhone = VANTA.FOG({
     el: "#bg-pan-phone",
     mouseControls: false,
     touchControls: false,
     gyroControls: false,
-    minHeight: 750.00,
+    minHeight: screenHeight,
     minWidth: 200.00,
     highlightColor: 0xffffc6,
     midtoneColor: 0xff88e6,
@@ -189,4 +191,54 @@
     speed: 2,
     zoom: 0.5
   })
+
+
+  window.addEventListener("wheel", function(event) {
+    let pageYOffset = window.pageYOffset || document.documentElement.scrollTop;
+    if (pageYOffset > 180){
+      return;
+    }
+
+    let delta = event.deltaY || event.detail || event.wheelDelta;
+    let direction = delta > 0 ? 1 : -1; // 判断滚动方向
+    if (direction < 0){
+      return
+    }
+
+    event.preventDefault(); // 阻止默认滚动行为
+
+    window.scrollBy({
+      top: direction * screenHeight, // 每次滚动一屏高度
+      left: 0,
+      behavior: 'smooth' // 平滑滚动
+    });
+  }, { passive: false });
+
+  function initBanner(){
+    console.log('initBanner')
+     screenHeight = window.innerHeight
+    let firstSection = document.getElementById('banner-section')
+    firstSection.style.paddingBottom = '0px'
+    firstSection.style.paddingTop = '0px'
+    firstSection.style.height = `${screenHeight - 88}px`
+    let bgPan = document.getElementById('bg-pan')
+    bgPan.style.height = `${screenHeight}px`
+    let bgPanPhone = document.getElementById('bg-pan-phone')
+    bgPanPhone.style.height = `${screenHeight}px`
+
+    bgPanVanta.setOptions({
+      minHeight: screenHeight
+    })
+    bgPanVantaPhone.setOptions({
+      minHeight: screenHeight
+    })
+  }
+
+  window.addEventListener("resize", function() {
+    initBanner()
+  });
+
+  initBanner()
+
+
 </script>
