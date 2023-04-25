@@ -105,7 +105,7 @@ draft : false
 您必须以个人身份向我们提起任何及所有争议，而不是作为任何所谓的集体诉讼、集体诉讼、私人总检察长诉讼或其他代表诉讼的原告或成员。本规定适用于集体仲裁。你和我们都同意放弃要求陪审团审判的权利。
 #### 15. 适用法律
 
-You agree that the laws of the Cayman Islands, without regard to principles of conflict of laws, govern the Terms and any Dispute between you and us.
+您同意开曼群岛法律，不考虑法律冲突原则，来管理本条款和您与我们之间的任何争议。
 
 #### 16. 全部协议
 

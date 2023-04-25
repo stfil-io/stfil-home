@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
@@ -1578,15 +1579,19 @@ body::-webkit-scrollbar {
     margin-left: 12px; } }
 
 .banner-title {
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 800;
-  line-height: 1.1; }
+  line-height: 1.3;
+  background-image: linear-gradient(to right, #7cc2e5, #686aad, #b562bd);
+  -webkit-background-clip: text;
+  /* 兼容 WebKit 内核浏览器 */
+  color: transparent; }
 
 @media only screen and (max-width: 768px) {
   .banner-title {
     font-size: 36px;
     font-weight: 800;
-    line-height: 1.1; } }
+    line-height: 1.3; } }
 
 .fs-16 {
   font-size: 1rem !important; }
@@ -3296,7 +3301,7 @@ footer {
     .scroll-to-top-btn.show {
       bottom: 15px; } }
 .banner-content {
-  width: 70%;
+  width: 85%;
   padding-top: 1.5rem !important;
   margin-bottom: 80px !important; }
 

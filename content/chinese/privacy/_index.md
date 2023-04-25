@@ -34,7 +34,7 @@ Cookies和自动收集的数据
 
 当您浏览我们的网站和“服务”并与之互动时，我们可能会征得您的同意，使用cookie(放置在您的计算机或移动设备硬盘驱动器上的小文件)和web信标(位于网站页面上的小电子文件)来收集有关您的设备、浏览行为和模式的某些信息。
 
-The data automatically collected from cookies and web beacons may include information from your web browser (such as browser type and browser language) and details of your visits to our website, including traffic data, location data and logs, page views, length of visit and website navigation paths as well as information about your device and internet connection, including your IP address and how you interact with the Services. We collect this data in order to help us improve our website and the Services.
+从cookie和网络信标自动收集的数据可能包括来自您的网络浏览器（例如浏览器类型和浏览器语言）以及您访问我们网站的详细信息，包括流量数据、位置数据和日志、页面浏览次数、访问时间长度和网站导航路径，以及有关您的设备和互联网连接的信息，包括IP地址和您如何与服务交互。我们收集这些数据以帮助我们改进我们的网站和服务。
 
 从cookies和网页信标自动收集的数据可能包括来自您的网页浏览器的信息(如浏览器类型和浏览器语言)和您访问我们网站的详细信息，包括流量数据、位置数据和日志、页面浏览量、访问时长和网站导航路径，以及有关您的设备和互联网连接的信息，包括您的IP地址和您与“服务”的交互方式。我们收集这些数据是为了帮助我们改进我们的网站和服务。
 
